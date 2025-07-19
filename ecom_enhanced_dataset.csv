@@ -1,0 +1,1001 @@
+OrderID,CustomerID,OrderDate,ShipDate,ProductID,Quantity,Sales,Discount,ShippingCost,Region,Profit,ShippingMethod,PaymentType,OrderMonth,OrderYear,CustomerName,Segment,Country,ProductName,Category,SubCategory,ReturnStatus
+ORD-00001,CUST-030,2023-12-28,2024-01-02,PROD-032,5,433.59,0.14,32.2,East,351.51739938516863,Standard Class,Cash on Delivery,12,2023,Customer 30,Home Office,India,Product 32,Technology,Chairs,Returned
+ORD-00002,CUST-097,2023-11-23,2023-11-27,PROD-010,9,309.14,0.35,39.37,South,150.80718812597942,Same Day,Debit Card,11,2023,Customer 97,Consumer,UK,Product 10,Technology,Chairs,Not Returned
+ORD-00003,CUST-028,2023-03-26,2023-03-27,PROD-010,5,496.28,0.13,28.55,Central,396.47569894340523,Same Day,Debit Card,3,2023,Customer 28,Home Office,Canada,Product 10,Technology,Chairs,Returned
+ORD-00004,CUST-064,2023-02-27,2023-03-04,PROD-019,2,585.66,0.47,15.2,South,304.77517163279765,Second Class,Cash on Delivery,2,2023,Customer 64,Corporate,USA,Product 19,Technology,Chairs,Returned
+ORD-00005,CUST-097,2023-09-25,2023-09-28,PROD-046,5,62.86,0.32,34.99,West,-19.371325638104384,Same Day,Debit Card,9,2023,Customer 97,Consumer,UK,Product 46,Office Supplies,Phones,Returned
+ORD-00006,CUST-069,2023-09-29,2023-10-04,PROD-034,4,140.54,0.16,8.6,East,107.95904306835011,Standard Class,Cash on Delivery,9,2023,Customer 69,Corporate,Germany,Product 34,Furniture,Chairs,Not Returned
+ORD-00007,CUST-061,2023-08-13,2023-08-18,PROD-033,7,567.47,0.13,24.88,West,454.51058798375334,Standard Class,Credit Card,8,2023,Customer 61,Corporate,UK,Product 33,Technology,Binders,Not Returned
+ORD-00008,CUST-048,2023-02-26,2023-02-27,PROD-023,6,356.3,0.1,12.35,West,303.5544619856648,Second Class,Net Banking,2,2023,Customer 48,Consumer,India,Product 23,Technology,Chairs,Not Returned
+ORD-00009,CUST-019,2023-04-05,2023-04-09,PROD-028,2,734.59,0.35,13.3,East,461.195299109708,Standard Class,Net Banking,4,2023,Customer 19,Corporate,India,Product 28,Technology,Tables,Not Returned
+ORD-00010,CUST-004,2023-12-26,2023-12-28,PROD-032,5,659.25,0.11,14.1,Central,569.0500562209248,First Class,UPI,12,2023,Customer 4,Home Office,USA,Product 32,Technology,Chairs,Not Returned
+ORD-00011,CUST-035,2023-11-17,2023-11-18,PROD-050,7,848.69,0.3,22.4,South,566.1603874788739,Standard Class,Debit Card,11,2023,Customer 35,Home Office,Canada,Product 50,Furniture,Storage,Not Returned
+ORD-00012,CUST-064,2023-12-11,2023-12-14,PROD-007,7,698.64,0.13,7.3,West,589.5453635037119,Second Class,UPI,12,2023,Customer 64,Corporate,USA,Product 7,Office Supplies,Storage,Not Returned
+ORD-00013,CUST-049,2023-04-05,2023-04-07,PROD-029,5,441.33,0.33,22.9,East,295.71021266818684,First Class,Credit Card,4,2023,Customer 49,Corporate,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00014,CUST-017,2023-02-12,2023-02-17,PROD-008,9,679.51,0.41,28.03,West,391.5555200416135,First Class,Net Banking,2,2023,Customer 17,Corporate,USA,Product 8,Technology,Storage,Returned
+ORD-00015,CUST-044,2023-10-25,2023-10-29,PROD-001,4,289.87,0.39,26.75,South,138.45004179743717,Same Day,Credit Card,10,2023,Customer 44,Consumer,Canada,Product 1,Furniture,Binders,Not Returned
+ORD-00016,CUST-092,2023-02-11,2023-02-16,PROD-003,3,320.19,0.38,22.23,Central,192.10896751303568,Standard Class,Credit Card,2,2023,Customer 92,Consumer,USA,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00017,CUST-030,2023-11-10,2023-11-12,PROD-024,4,793.21,0.09,42.76,Central,675.0664450952714,Second Class,Debit Card,11,2023,Customer 30,Home Office,India,Product 24,Office Supplies,Phones,Not Returned
+ORD-00018,CUST-093,2023-02-25,2023-03-02,PROD-023,5,457.49,0.04,11.54,Central,428.9422747333171,Same Day,Credit Card,2,2023,Customer 93,Consumer,USA,Product 23,Technology,Chairs,Not Returned
+ORD-00019,CUST-046,2023-03-07,2023-03-10,PROD-008,6,802.41,0.35,27.76,East,493.17376040103085,Same Day,Net Banking,3,2023,Customer 46,Home Office,Canada,Product 8,Technology,Storage,Not Returned
+ORD-00020,CUST-006,2023-10-27,2023-11-01,PROD-047,3,825.97,0.18,7.79,East,662.9079135874605,Standard Class,UPI,10,2023,Customer 6,Consumer,India,Product 47,Technology,Phones,Not Returned
+ORD-00021,CUST-099,2023-07-04,2023-07-05,PROD-037,2,860.41,0.22,8.2,Central,672.7583234360615,Standard Class,Net Banking,7,2023,Customer 99,Consumer,Canada,Product 37,Office Supplies,Storage,Not Returned
+ORD-00022,CUST-037,2023-01-29,2023-02-03,PROD-003,4,918.3,0.02,30.82,South,870.3728653057665,Second Class,Debit Card,1,2023,Customer 37,Home Office,USA,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00023,CUST-024,2023-01-16,2023-01-21,PROD-033,5,442.37,0.13,30.47,South,349.62638576780756,Same Day,Net Banking,1,2023,Customer 24,Corporate,India,Product 33,Technology,Binders,Not Returned
+ORD-00024,CUST-093,2023-05-08,2023-05-10,PROD-028,4,332.49,0.02,44.51,East,268.28430556199527,Second Class,Cash on Delivery,5,2023,Customer 93,Consumer,USA,Product 28,Technology,Tables,Not Returned
+ORD-00025,CUST-046,2023-04-20,2023-04-24,PROD-047,3,590.55,0.44,30.1,Central,291.6720498628088,Same Day,UPI,4,2023,Customer 46,Home Office,Canada,Product 47,Technology,Phones,Not Returned
+ORD-00026,CUST-053,2023-06-01,2023-06-04,PROD-008,8,383.75,0.12,48.19,South,273.09619884397904,Same Day,Cash on Delivery,6,2023,Customer 53,Corporate,USA,Product 8,Technology,Storage,Not Returned
+ORD-00027,CUST-095,2023-02-26,2023-03-01,PROD-034,4,609.05,0.28,7.19,South,431.44823548415167,Same Day,Cash on Delivery,2,2023,Customer 95,Consumer,USA,Product 34,Furniture,Chairs,Not Returned
+ORD-00028,CUST-099,2023-07-05,2023-07-06,PROD-035,2,711.47,0.02,9.41,South,675.863944077156,Standard Class,Debit Card,7,2023,Customer 99,Consumer,Canada,Product 35,Furniture,Binders,Returned
+ORD-00029,CUST-060,2023-09-01,2023-09-05,PROD-032,2,694.64,0.33,6.98,East,455.7731948748145,Same Day,Credit Card,9,2023,Customer 60,Home Office,India,Product 32,Technology,Chairs,Not Returned
+ORD-00030,CUST-097,2023-11-13,2023-11-16,PROD-024,1,387.06,0.16,13.34,Central,325.49141853610377,Same Day,Cash on Delivery,11,2023,Customer 97,Consumer,UK,Product 24,Office Supplies,Phones,Returned
+ORD-00031,CUST-063,2023-08-28,2023-09-02,PROD-014,4,183.52,0.45,29.36,West,83.56899572921586,Same Day,Net Banking,8,2023,Customer 63,Corporate,USA,Product 14,Office Supplies,Phones,Not Returned
+ORD-00032,CUST-085,2023-09-17,2023-09-19,PROD-032,9,441.92,0.44,34.05,Central,213.10243105897385,First Class,Credit Card,9,2023,Customer 85,Consumer,UK,Product 32,Technology,Chairs,Returned
+ORD-00033,CUST-032,2023-07-26,2023-07-29,PROD-046,7,159.74,0.16,7.05,Central,126.26075273856851,Standard Class,Net Banking,7,2023,Customer 32,Home Office,UK,Product 46,Office Supplies,Phones,Not Returned
+ORD-00034,CUST-087,2023-12-07,2023-12-09,PROD-043,7,892.3,0.45,47.57,East,461.9937454942101,First Class,Net Banking,12,2023,Customer 87,Home Office,Germany,Product 43,Technology,Phones,Not Returned
+ORD-00035,CUST-033,2023-09-30,2023-10-05,PROD-016,7,358.96,0.5,42.9,South,141.7875612035871,Standard Class,Credit Card,9,2023,Customer 33,Corporate,UK,Product 16,Office Supplies,Chairs,Returned
+ORD-00036,CUST-067,2023-09-24,2023-09-27,PROD-004,8,171.37,0.41,18.35,South,79.4802354012348,Second Class,Credit Card,9,2023,Customer 67,Corporate,India,Product 4,Office Supplies,Tables,Returned
+ORD-00037,CUST-018,2023-12-15,2023-12-16,PROD-037,1,44.94,0.42,8.47,East,3.3350188287954783,First Class,Net Banking,12,2023,Customer 18,Corporate,Canada,Product 37,Office Supplies,Storage,Not Returned
+ORD-00038,CUST-025,2023-02-25,2023-02-26,PROD-021,8,652.91,0.12,12.64,East,565.8595321816474,Second Class,Debit Card,2,2023,Customer 25,Consumer,Canada,Product 21,Furniture,Binders,Not Returned
+ORD-00039,CUST-095,2023-03-12,2023-03-15,PROD-014,4,644.16,0.29,10.71,East,454.93683772582864,Same Day,UPI,3,2023,Customer 95,Consumer,USA,Product 14,Office Supplies,Phones,Not Returned
+ORD-00040,CUST-054,2023-03-29,2023-03-31,PROD-031,4,353.79,0.03,10.55,East,326.3097847548636,Second Class,UPI,3,2023,Customer 54,Consumer,Canada,Product 31,Technology,Storage,Not Returned
+ORD-00041,CUST-058,2023-08-21,2023-08-25,PROD-048,4,90.28,0.05,28.34,East,60.338027551380314,Second Class,Debit Card,8,2023,Customer 58,Consumer,Germany,Product 48,Technology,Phones,Not Returned
+ORD-00042,CUST-067,2023-10-25,2023-10-28,PROD-018,6,421.44,0.5,16.06,West,191.02426705084972,Second Class,Credit Card,10,2023,Customer 67,Corporate,India,Product 18,Office Supplies,Phones,Not Returned
+ORD-00043,CUST-046,2023-11-26,2023-12-01,PROD-007,7,324.99,0.16,21.12,Central,250.03127600800997,Second Class,Net Banking,11,2023,Customer 46,Home Office,Canada,Product 7,Office Supplies,Storage,Not Returned
+ORD-00044,CUST-024,2023-01-03,2023-01-06,PROD-010,6,683.58,0.37,49.53,Central,356.2471794243767,Standard Class,UPI,1,2023,Customer 24,Corporate,India,Product 10,Technology,Chairs,Not Returned
+ORD-00045,CUST-032,2023-06-24,2023-06-26,PROD-007,1,613.66,0.4,35.79,Central,330.1881859628386,First Class,Net Banking,6,2023,Customer 32,Home Office,UK,Product 7,Office Supplies,Storage,Not Returned
+ORD-00046,CUST-047,2023-10-19,2023-10-24,PROD-033,8,377.3,0.43,47.7,South,177.0546930240806,Standard Class,Debit Card,10,2023,Customer 47,Corporate,India,Product 33,Technology,Binders,Not Returned
+ORD-00047,CUST-086,2023-07-09,2023-07-12,PROD-023,7,233.53,0.5,11.42,West,99.03097444433442,Standard Class,Net Banking,7,2023,Customer 86,Corporate,Germany,Product 23,Technology,Chairs,Not Returned
+ORD-00048,CUST-023,2023-05-23,2023-05-26,PROD-021,6,988.28,0.12,22.2,Central,848.0116636821531,Standard Class,Debit Card,5,2023,Customer 23,Corporate,USA,Product 21,Furniture,Binders,Not Returned
+ORD-00049,CUST-066,2023-08-07,2023-08-12,PROD-019,6,464.92,0.02,29.96,South,418.1020929330808,Second Class,Credit Card,8,2023,Customer 66,Corporate,USA,Product 19,Technology,Chairs,Not Returned
+ORD-00050,CUST-027,2023-09-29,2023-10-02,PROD-048,5,694.51,0.21,8.45,West,543.8173167629277,Standard Class,Debit Card,9,2023,Customer 27,Consumer,USA,Product 48,Technology,Phones,Not Returned
+ORD-00051,CUST-002,2023-08-29,2023-09-02,PROD-019,6,157.74,0.07,5.19,West,139.34296802463825,First Class,Debit Card,8,2023,Customer 2,Consumer,India,Product 19,Technology,Chairs,Not Returned
+ORD-00052,CUST-090,2023-11-01,2023-11-02,PROD-036,9,495.88,0.01,35.17,South,446.3587845931799,Standard Class,UPI,11,2023,Customer 90,Consumer,USA,Product 36,Technology,Chairs,Not Returned
+ORD-00053,CUST-017,2023-06-30,2023-07-02,PROD-029,9,46.99,0.18,33.88,West,17.97731467665128,Same Day,Net Banking,6,2023,Customer 17,Corporate,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00054,CUST-033,2023-02-26,2023-02-27,PROD-018,8,515.35,0.39,23.49,South,300.16282013532214,Second Class,UPI,2,2023,Customer 33,Corporate,UK,Product 18,Office Supplies,Phones,Not Returned
+ORD-00055,CUST-009,2023-04-18,2023-04-21,PROD-002,9,964.74,0.28,27.03,Central,661.5337323607183,Same Day,Cash on Delivery,4,2023,Customer 9,Home Office,Canada,Product 2,Technology,Binders,Not Returned
+ORD-00056,CUST-043,2023-01-25,2023-01-28,PROD-001,8,396.52,0.16,23.69,South,314.3646830941778,First Class,Debit Card,1,2023,Customer 43,Home Office,India,Product 1,Furniture,Binders,Not Returned
+ORD-00057,CUST-048,2023-09-12,2023-09-16,PROD-047,8,58.22,0.33,6.08,West,38.301520028203804,First Class,Cash on Delivery,9,2023,Customer 48,Consumer,India,Product 47,Technology,Phones,Not Returned
+ORD-00058,CUST-039,2023-10-19,2023-10-21,PROD-005,1,50.34,0.12,20.09,Central,30.632212350111764,First Class,UPI,10,2023,Customer 39,Consumer,Canada,Product 5,Furniture,Chairs,Not Returned
+ORD-00059,CUST-093,2023-12-21,2023-12-24,PROD-020,5,400.23,0.01,12.97,Central,366.31514104004924,First Class,Net Banking,12,2023,Customer 93,Consumer,USA,Product 20,Technology,Binders,Not Returned
+ORD-00060,CUST-042,2023-12-24,2023-12-27,PROD-011,4,176.82,0.38,9.43,East,110.26446541032627,Standard Class,UPI,12,2023,Customer 42,Home Office,Canada,Product 11,Technology,Chairs,Not Returned
+ORD-00061,CUST-026,2023-06-14,2023-06-15,PROD-042,2,42.89,0.31,48.05,East,-24.152889629257313,Second Class,Net Banking,6,2023,Customer 26,Consumer,India,Product 42,Office Supplies,Binders,Returned
+ORD-00062,CUST-099,2023-01-02,2023-01-04,PROD-002,8,761.09,0.38,31.97,West,436.3275206655873,First Class,Net Banking,1,2023,Customer 99,Consumer,Canada,Product 2,Technology,Binders,Not Returned
+ORD-00063,CUST-050,2023-11-10,2023-11-11,PROD-003,3,469.35,0.02,37.79,South,448.551817522602,Same Day,Credit Card,11,2023,Customer 50,Corporate,UK,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00064,CUST-025,2023-01-08,2023-01-10,PROD-023,4,303.46,0.42,19.19,South,159.8355338072101,First Class,Debit Card,1,2023,Customer 25,Consumer,Canada,Product 23,Technology,Chairs,Not Returned
+ORD-00065,CUST-024,2023-07-31,2023-08-02,PROD-012,7,902.08,0.31,22.69,West,595.8819752455282,Second Class,UPI,7,2023,Customer 24,Corporate,India,Product 12,Furniture,Phones,Not Returned
+ORD-00066,CUST-013,2023-03-08,2023-03-11,PROD-020,9,133.82,0.28,15.66,Central,58.637456272440936,Same Day,Net Banking,3,2023,Customer 13,Consumer,Germany,Product 20,Technology,Binders,Not Returned
+ORD-00067,CUST-060,2023-10-31,2023-11-05,PROD-005,2,956.8,0.31,9.36,West,664.7296413394635,Same Day,UPI,10,2023,Customer 60,Home Office,India,Product 5,Furniture,Chairs,Not Returned
+ORD-00068,CUST-007,2023-06-16,2023-06-19,PROD-037,3,327.69,0.43,13.06,West,160.271203291914,Same Day,UPI,6,2023,Customer 7,Home Office,USA,Product 37,Office Supplies,Storage,Returned
+ORD-00069,CUST-057,2023-01-28,2023-02-01,PROD-038,4,890.64,0.29,40.89,Central,581.430010965005,Standard Class,Net Banking,1,2023,Customer 57,Home Office,Germany,Product 38,Furniture,Binders,Not Returned
+ORD-00070,CUST-036,2023-04-02,2023-04-03,PROD-030,1,610.88,0.29,35.49,South,394.92127700912147,First Class,Cash on Delivery,4,2023,Customer 36,Corporate,India,Product 30,Technology,Phones,Not Returned
+ORD-00071,CUST-045,2023-07-31,2023-08-03,PROD-009,7,830.17,0.5,29.61,West,399.63911791700286,Standard Class,Debit Card,7,2023,Customer 45,Consumer,Germany,Product 9,Technology,Phones,Not Returned
+ORD-00072,CUST-020,2023-10-31,2023-11-02,PROD-034,2,984.33,0.38,26.38,South,591.6369998666577,Same Day,Debit Card,10,2023,Customer 20,Corporate,Germany,Product 34,Furniture,Chairs,Not Returned
+ORD-00073,CUST-065,2023-01-15,2023-01-19,PROD-044,5,302.64,0.22,46.51,West,187.9708249015974,Standard Class,Credit Card,1,2023,Customer 65,Corporate,USA,Product 44,Technology,Phones,Not Returned
+ORD-00074,CUST-008,2023-01-03,2023-01-06,PROD-035,1,961.91,0.35,8.27,Central,620.0544206363882,Standard Class,Credit Card,1,2023,Customer 8,Corporate,India,Product 35,Furniture,Binders,Not Returned
+ORD-00075,CUST-016,2023-01-06,2023-01-11,PROD-022,3,401.69,0.19,17.63,Central,301.73504307128894,Standard Class,Credit Card,1,2023,Customer 16,Consumer,UK,Product 22,Furniture,Phones,Not Returned
+ORD-00076,CUST-014,2023-08-02,2023-08-07,PROD-044,2,397.8,0.11,20.75,East,334.68853689565356,First Class,Debit Card,8,2023,Customer 14,Home Office,USA,Product 44,Technology,Phones,Not Returned
+ORD-00077,CUST-076,2023-05-04,2023-05-09,PROD-024,1,353.58,0.3,40.21,Central,208.02936744778134,Same Day,Cash on Delivery,5,2023,Customer 76,Corporate,USA,Product 24,Office Supplies,Phones,Returned
+ORD-00078,CUST-087,2023-03-15,2023-03-19,PROD-017,7,550.58,0.46,49.66,East,257.3408989568136,Same Day,Debit Card,3,2023,Customer 87,Home Office,Germany,Product 17,Office Supplies,Binders,Not Returned
+ORD-00079,CUST-015,2023-07-11,2023-07-13,PROD-010,5,171.06,0.46,15.83,West,86.2141812243895,First Class,Debit Card,7,2023,Customer 15,Corporate,Germany,Product 10,Technology,Chairs,Not Returned
+ORD-00080,CUST-092,2023-04-17,2023-04-18,PROD-030,1,562.64,0.17,44.34,South,427.59097382205647,Standard Class,Debit Card,4,2023,Customer 92,Consumer,USA,Product 30,Technology,Phones,Not Returned
+ORD-00081,CUST-098,2023-09-01,2023-09-06,PROD-046,6,550.87,0.26,42.38,Central,361.64032442453896,Standard Class,Debit Card,9,2023,Customer 98,Home Office,Germany,Product 46,Office Supplies,Phones,Not Returned
+ORD-00082,CUST-066,2023-08-12,2023-08-16,PROD-023,5,766.66,0.11,15.11,Central,674.6356229439012,Second Class,Cash on Delivery,8,2023,Customer 66,Corporate,USA,Product 23,Technology,Chairs,Not Returned
+ORD-00083,CUST-032,2023-12-09,2023-12-10,PROD-032,3,836.98,0.5,22.97,Central,394.6003153379695,Second Class,Credit Card,12,2023,Customer 32,Home Office,UK,Product 32,Technology,Chairs,Not Returned
+ORD-00084,CUST-087,2023-09-03,2023-09-07,PROD-017,7,451.63,0.49,23.44,West,196.07215631286869,Second Class,UPI,9,2023,Customer 87,Home Office,Germany,Product 17,Office Supplies,Binders,Not Returned
+ORD-00085,CUST-063,2023-05-25,2023-05-26,PROD-050,9,316.29,0.32,49.02,East,162.0243220808906,First Class,Credit Card,5,2023,Customer 63,Corporate,USA,Product 50,Furniture,Storage,Not Returned
+ORD-00086,CUST-086,2023-03-23,2023-03-28,PROD-017,9,274.15,0.4,13.14,West,152.1952698378432,Same Day,Credit Card,3,2023,Customer 86,Corporate,Germany,Product 17,Office Supplies,Binders,Not Returned
+ORD-00087,CUST-051,2023-04-30,2023-05-05,PROD-014,9,210.73,0.36,40.96,South,103.00935783664744,Second Class,UPI,4,2023,Customer 51,Corporate,UK,Product 14,Office Supplies,Phones,Not Returned
+ORD-00088,CUST-025,2023-03-04,2023-03-08,PROD-009,2,76.49,0.3,20.04,West,31.667718278428463,Same Day,Debit Card,3,2023,Customer 25,Consumer,Canada,Product 9,Technology,Phones,Returned
+ORD-00089,CUST-058,2023-01-05,2023-01-06,PROD-040,3,355.6,0.03,37.89,South,294.950012887604,Same Day,Cash on Delivery,1,2023,Customer 58,Consumer,Germany,Product 40,Furniture,Chairs,Not Returned
+ORD-00090,CUST-063,2023-03-10,2023-03-13,PROD-002,7,284.84,0.23,23.9,Central,195.9942168329682,Same Day,Cash on Delivery,3,2023,Customer 63,Corporate,USA,Product 2,Technology,Binders,Not Returned
+ORD-00091,CUST-062,2023-06-01,2023-06-05,PROD-045,5,967.09,0.34,31.03,South,608.3839604005655,First Class,Credit Card,6,2023,Customer 62,Consumer,Germany,Product 45,Office Supplies,Storage,Not Returned
+ORD-00092,CUST-022,2023-10-18,2023-10-19,PROD-025,2,566.55,0.34,42.47,South,333.3113762890275,First Class,UPI,10,2023,Customer 22,Consumer,India,Product 25,Furniture,Chairs,Not Returned
+ORD-00093,CUST-058,2023-05-19,2023-05-22,PROD-039,3,360.33,0.19,41.19,East,259.8760151595443,First Class,Net Banking,5,2023,Customer 58,Consumer,Germany,Product 39,Technology,Phones,Not Returned
+ORD-00094,CUST-058,2023-09-11,2023-09-16,PROD-009,6,588.86,0.47,43.99,South,278.29503240089895,First Class,Debit Card,9,2023,Customer 58,Consumer,Germany,Product 9,Technology,Phones,Returned
+ORD-00095,CUST-086,2023-05-17,2023-05-22,PROD-022,7,156.41,0.08,7.68,South,130.27509127618333,Second Class,Credit Card,5,2023,Customer 86,Corporate,Germany,Product 22,Furniture,Phones,Not Returned
+ORD-00096,CUST-049,2023-04-14,2023-04-17,PROD-043,9,455.16,0.25,36.14,West,299.0685654195106,Standard Class,Cash on Delivery,4,2023,Customer 49,Corporate,Germany,Product 43,Technology,Phones,Not Returned
+ORD-00097,CUST-052,2023-10-28,2023-11-01,PROD-046,1,633.71,0.35,11.3,Central,390.2095128904453,Standard Class,UPI,10,2023,Customer 52,Consumer,Canada,Product 46,Office Supplies,Phones,Returned
+ORD-00098,CUST-042,2023-06-18,2023-06-19,PROD-004,7,499.12,0.35,23.71,West,307.7061567028048,Standard Class,UPI,6,2023,Customer 42,Home Office,Canada,Product 4,Office Supplies,Tables,Not Returned
+ORD-00099,CUST-070,2023-06-26,2023-06-28,PROD-026,8,413.74,0.32,29.69,West,266.1414010833771,Second Class,Credit Card,6,2023,Customer 70,Consumer,Canada,Product 26,Technology,Storage,Not Returned
+ORD-00100,CUST-015,2023-06-26,2023-06-28,PROD-029,3,993.97,0.14,23.12,Central,828.5433807209108,Standard Class,Net Banking,6,2023,Customer 15,Corporate,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00101,CUST-054,2023-07-15,2023-07-19,PROD-045,4,882.71,0.08,28.38,Central,781.2988943527502,Second Class,Cash on Delivery,7,2023,Customer 54,Consumer,Canada,Product 45,Office Supplies,Storage,Not Returned
+ORD-00102,CUST-060,2023-03-11,2023-03-13,PROD-034,6,630.94,0.32,49.84,South,393.8670255689898,Second Class,Credit Card,3,2023,Customer 60,Home Office,India,Product 34,Furniture,Chairs,Not Returned
+ORD-00103,CUST-097,2023-10-14,2023-10-16,PROD-023,7,577.99,0.3,11.08,South,398.56857853215007,Second Class,Net Banking,10,2023,Customer 97,Consumer,UK,Product 23,Technology,Chairs,Not Returned
+ORD-00104,CUST-008,2023-12-17,2023-12-22,PROD-037,4,628.25,0.09,35.4,East,540.6698570480105,Standard Class,UPI,12,2023,Customer 8,Corporate,India,Product 37,Office Supplies,Storage,Not Returned
+ORD-00105,CUST-053,2023-04-26,2023-04-28,PROD-011,8,217.29,0.35,22.82,West,106.50933494026273,Same Day,Debit Card,4,2023,Customer 53,Corporate,USA,Product 11,Technology,Chairs,Not Returned
+ORD-00106,CUST-060,2023-10-07,2023-10-10,PROD-006,5,407.23,0.23,10.99,Central,309.3643806927942,Standard Class,Cash on Delivery,10,2023,Customer 60,Home Office,India,Product 6,Office Supplies,Binders,Not Returned
+ORD-00107,CUST-005,2023-03-05,2023-03-07,PROD-018,1,58.67,0.33,12.14,South,17.87753659490241,Standard Class,Cash on Delivery,3,2023,Customer 5,Consumer,India,Product 18,Office Supplies,Phones,Not Returned
+ORD-00108,CUST-068,2023-03-03,2023-03-04,PROD-021,4,486.04,0.42,47.72,Central,222.84299814065045,First Class,Net Banking,3,2023,Customer 68,Corporate,USA,Product 21,Furniture,Binders,Not Returned
+ORD-00109,CUST-006,2023-10-08,2023-10-10,PROD-042,3,552.16,0.08,44.58,South,459.93948423233286,Second Class,Credit Card,10,2023,Customer 6,Consumer,India,Product 42,Office Supplies,Binders,Not Returned
+ORD-00110,CUST-096,2023-11-29,2023-12-03,PROD-036,9,243.19,0.01,45.82,East,189.08017276551308,Same Day,UPI,11,2023,Customer 96,Consumer,UK,Product 36,Technology,Chairs,Returned
+ORD-00111,CUST-094,2023-06-28,2023-07-03,PROD-041,8,964.75,0.39,49.62,East,536.6615030561495,First Class,Net Banking,6,2023,Customer 94,Home Office,India,Product 41,Furniture,Chairs,Not Returned
+ORD-00112,CUST-047,2023-05-14,2023-05-17,PROD-038,1,911.27,0.3,14.37,Central,609.1091836547507,Same Day,Debit Card,5,2023,Customer 47,Corporate,India,Product 38,Furniture,Binders,Not Returned
+ORD-00113,CUST-099,2023-08-22,2023-08-23,PROD-034,6,727.7,0.35,20.99,East,461.6031630646768,Same Day,Debit Card,8,2023,Customer 99,Consumer,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00114,CUST-055,2023-06-29,2023-07-04,PROD-017,9,542.72,0.42,35.11,Central,290.94446294516433,Second Class,Debit Card,6,2023,Customer 55,Corporate,Germany,Product 17,Office Supplies,Binders,Not Returned
+ORD-00115,CUST-040,2023-04-14,2023-04-16,PROD-037,7,872.57,0.4,26.77,South,477.2985752585919,Standard Class,Net Banking,4,2023,Customer 40,Home Office,Germany,Product 37,Office Supplies,Storage,Not Returned
+ORD-00116,CUST-052,2023-12-19,2023-12-23,PROD-025,4,148.04,0.48,23.83,West,62.935378056665506,Second Class,UPI,12,2023,Customer 52,Consumer,Canada,Product 25,Furniture,Chairs,Not Returned
+ORD-00117,CUST-016,2023-04-22,2023-04-26,PROD-038,1,794.7,0.27,21.1,East,550.9257137017837,Second Class,Cash on Delivery,4,2023,Customer 16,Consumer,UK,Product 38,Furniture,Binders,Not Returned
+ORD-00118,CUST-013,2023-09-07,2023-09-09,PROD-012,2,142.32,0.24,31.72,South,85.01295536982785,First Class,Credit Card,9,2023,Customer 13,Consumer,Germany,Product 12,Furniture,Phones,Not Returned
+ORD-00119,CUST-030,2023-03-11,2023-03-14,PROD-023,5,798.33,0.2,30.9,West,607.0795350733359,Second Class,Cash on Delivery,3,2023,Customer 30,Home Office,India,Product 23,Technology,Chairs,Not Returned
+ORD-00120,CUST-019,2023-03-22,2023-03-26,PROD-042,5,290.25,0.08,12.27,West,255.04775564081,Standard Class,UPI,3,2023,Customer 19,Corporate,India,Product 42,Office Supplies,Binders,Not Returned
+ORD-00121,CUST-017,2023-06-15,2023-06-18,PROD-022,8,879.55,0.29,26.23,West,596.3995235057877,Same Day,Cash on Delivery,6,2023,Customer 17,Corporate,USA,Product 22,Furniture,Phones,Not Returned
+ORD-00122,CUST-063,2023-02-20,2023-02-21,PROD-021,6,945.16,0.14,29.91,South,795.0488920423348,Second Class,Net Banking,2,2023,Customer 63,Corporate,USA,Product 21,Furniture,Binders,Not Returned
+ORD-00123,CUST-019,2023-05-25,2023-05-29,PROD-027,8,165.82,0.46,30.66,South,46.48691987474972,Same Day,Debit Card,5,2023,Customer 19,Corporate,India,Product 27,Technology,Tables,Not Returned
+ORD-00124,CUST-092,2023-01-08,2023-01-13,PROD-031,2,473.42,0.29,14.45,Central,327.7566033873501,Second Class,UPI,1,2023,Customer 92,Consumer,USA,Product 31,Technology,Storage,Returned
+ORD-00125,CUST-058,2023-06-12,2023-06-13,PROD-006,3,981.37,0.3,38.4,West,659.5723016488955,Same Day,UPI,6,2023,Customer 58,Consumer,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-00126,CUST-055,2023-04-27,2023-05-01,PROD-027,6,493.74,0.18,6.13,West,405.9002008054041,Second Class,Cash on Delivery,4,2023,Customer 55,Corporate,Germany,Product 27,Technology,Tables,Not Returned
+ORD-00127,CUST-090,2023-11-23,2023-11-26,PROD-040,3,866.28,0.03,20.97,West,842.568589143234,First Class,Net Banking,11,2023,Customer 90,Consumer,USA,Product 40,Furniture,Chairs,Not Returned
+ORD-00128,CUST-090,2023-01-04,2023-01-06,PROD-034,6,596.96,0.02,40.11,Central,539.621332372753,Same Day,Cash on Delivery,1,2023,Customer 90,Consumer,USA,Product 34,Furniture,Chairs,Not Returned
+ORD-00129,CUST-062,2023-11-08,2023-11-10,PROD-012,6,387.82,0.21,30.38,West,285.5708482259354,Second Class,Cash on Delivery,11,2023,Customer 62,Consumer,Germany,Product 12,Furniture,Phones,Not Returned
+ORD-00130,CUST-023,2023-08-23,2023-08-24,PROD-045,2,300.07,0.04,16.75,South,270.25629364658573,Second Class,UPI,8,2023,Customer 23,Corporate,USA,Product 45,Office Supplies,Storage,Not Returned
+ORD-00131,CUST-009,2023-12-20,2023-12-22,PROD-007,7,219.16,0.3,36.27,West,129.47606076352668,First Class,Cash on Delivery,12,2023,Customer 9,Home Office,Canada,Product 7,Office Supplies,Storage,Not Returned
+ORD-00132,CUST-012,2023-01-31,2023-02-04,PROD-010,2,766.56,0.44,30.53,East,398.6667100427863,First Class,Debit Card,1,2023,Customer 12,Home Office,USA,Product 10,Technology,Chairs,Not Returned
+ORD-00133,CUST-001,2023-04-15,2023-04-17,PROD-045,6,398.81,0.44,40.83,South,178.6248421813753,First Class,Cash on Delivery,4,2023,Customer 1,Home Office,Germany,Product 45,Office Supplies,Storage,Not Returned
+ORD-00134,CUST-058,2023-11-18,2023-11-20,PROD-017,1,521.05,0.33,38.08,Central,324.08422203871623,Same Day,Debit Card,11,2023,Customer 58,Consumer,Germany,Product 17,Office Supplies,Binders,Not Returned
+ORD-00135,CUST-001,2023-01-18,2023-01-20,PROD-026,3,502.48,0.11,32.45,West,409.8415806098107,Same Day,UPI,1,2023,Customer 1,Home Office,Germany,Product 26,Technology,Storage,Not Returned
+ORD-00136,CUST-034,2023-07-30,2023-07-31,PROD-021,2,585.73,0.43,26.97,East,292.76884241099447,First Class,Net Banking,7,2023,Customer 34,Corporate,Germany,Product 21,Furniture,Binders,Not Returned
+ORD-00137,CUST-096,2023-06-10,2023-06-13,PROD-028,7,868.27,0.44,10.99,Central,470.0727311682618,Standard Class,Debit Card,6,2023,Customer 96,Consumer,UK,Product 28,Technology,Tables,Not Returned
+ORD-00138,CUST-048,2023-12-23,2023-12-25,PROD-046,4,981.12,0.1,16.76,Central,872.4383294658853,Standard Class,Net Banking,12,2023,Customer 48,Consumer,India,Product 46,Office Supplies,Phones,Not Returned
+ORD-00139,CUST-089,2023-01-29,2023-01-31,PROD-002,8,419.43,0.37,23.86,South,254.3012875158709,Second Class,Net Banking,1,2023,Customer 89,Corporate,India,Product 2,Technology,Binders,Not Returned
+ORD-00140,CUST-001,2023-09-12,2023-09-16,PROD-043,6,830.97,0.14,31.97,Central,683.7754937529651,Standard Class,Debit Card,9,2023,Customer 1,Home Office,Germany,Product 43,Technology,Phones,Not Returned
+ORD-00141,CUST-016,2023-12-09,2023-12-14,PROD-001,4,769.24,0.4,28.12,Central,446.6059706723402,Second Class,UPI,12,2023,Customer 16,Consumer,UK,Product 1,Furniture,Binders,Not Returned
+ORD-00142,CUST-061,2023-04-12,2023-04-14,PROD-036,5,582.06,0.5,17.97,Central,259.478250785224,Same Day,Credit Card,4,2023,Customer 61,Corporate,UK,Product 36,Technology,Chairs,Not Returned
+ORD-00143,CUST-064,2023-02-15,2023-02-16,PROD-026,9,956.93,0.02,5.29,Central,928.068765351821,Same Day,Net Banking,2,2023,Customer 64,Corporate,USA,Product 26,Technology,Storage,Not Returned
+ORD-00144,CUST-063,2023-01-18,2023-01-23,PROD-029,7,216.47,0.45,27.33,West,88.842748828459,Standard Class,Net Banking,1,2023,Customer 63,Corporate,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00145,CUST-069,2023-07-12,2023-07-16,PROD-021,9,127.08,0.31,17.85,West,68.68960572527479,Same Day,UPI,7,2023,Customer 69,Corporate,Germany,Product 21,Furniture,Binders,Not Returned
+ORD-00146,CUST-022,2023-01-29,2023-02-03,PROD-011,7,856.88,0.49,38.06,West,399.78974388250197,First Class,UPI,1,2023,Customer 22,Consumer,India,Product 11,Technology,Chairs,Not Returned
+ORD-00147,CUST-093,2023-03-10,2023-03-12,PROD-040,1,450.37,0.23,6.08,West,347.6140095739219,First Class,Cash on Delivery,3,2023,Customer 93,Consumer,USA,Product 40,Furniture,Chairs,Not Returned
+ORD-00148,CUST-067,2023-07-16,2023-07-21,PROD-011,8,850.03,0.42,31.32,East,457.2493316182952,Standard Class,UPI,7,2023,Customer 67,Corporate,India,Product 11,Technology,Chairs,Not Returned
+ORD-00149,CUST-076,2023-07-21,2023-07-26,PROD-036,4,895.23,0.03,47.37,West,822.3933868695312,Standard Class,Net Banking,7,2023,Customer 76,Corporate,USA,Product 36,Technology,Chairs,Not Returned
+ORD-00150,CUST-026,2023-08-15,2023-08-16,PROD-049,3,81.21,0.17,12.85,Central,54.10307109675947,Second Class,Debit Card,8,2023,Customer 26,Consumer,India,Product 49,Office Supplies,Tables,Not Returned
+ORD-00151,CUST-016,2023-05-03,2023-05-05,PROD-039,7,885.8,0.03,26.22,West,823.7471009610883,Same Day,Credit Card,5,2023,Customer 16,Consumer,UK,Product 39,Technology,Phones,Not Returned
+ORD-00152,CUST-051,2023-02-10,2023-02-14,PROD-040,3,459.35,0.49,9.11,West,224.02183310918565,Second Class,Cash on Delivery,2,2023,Customer 51,Corporate,UK,Product 40,Furniture,Chairs,Not Returned
+ORD-00153,CUST-086,2023-11-08,2023-11-12,PROD-035,8,520.22,0.41,33.16,South,272.3332047010289,Second Class,Debit Card,11,2023,Customer 86,Corporate,Germany,Product 35,Furniture,Binders,Not Returned
+ORD-00154,CUST-057,2023-11-16,2023-11-19,PROD-034,6,634.06,0.43,29.77,Central,329.99339434996955,First Class,Credit Card,11,2023,Customer 57,Home Office,Germany,Product 34,Furniture,Chairs,Not Returned
+ORD-00155,CUST-029,2023-05-02,2023-05-03,PROD-047,5,927.85,0.47,23.33,West,468.74809456581454,First Class,Credit Card,5,2023,Customer 29,Home Office,UK,Product 47,Technology,Phones,Not Returned
+ORD-00156,CUST-078,2023-10-04,2023-10-05,PROD-024,4,38.73,0.04,28.46,West,9.477535406133859,First Class,Credit Card,10,2023,Customer 78,Home Office,UK,Product 24,Office Supplies,Phones,Not Returned
+ORD-00157,CUST-092,2023-12-04,2023-12-09,PROD-022,8,487.31,0.19,45.35,West,345.0481482089267,First Class,Debit Card,12,2023,Customer 92,Consumer,USA,Product 22,Furniture,Phones,Not Returned
+ORD-00158,CUST-069,2023-06-25,2023-06-29,PROD-005,8,693.97,0.04,13.83,East,665.1083473397126,Second Class,Cash on Delivery,6,2023,Customer 69,Corporate,Germany,Product 5,Furniture,Chairs,Not Returned
+ORD-00159,CUST-047,2023-06-11,2023-06-12,PROD-033,1,728.25,0.11,6.02,West,630.4276937079699,First Class,Cash on Delivery,6,2023,Customer 47,Corporate,India,Product 33,Technology,Binders,Not Returned
+ORD-00160,CUST-094,2023-08-26,2023-08-27,PROD-036,9,698.68,0.11,43.77,South,570.845498915301,Same Day,Credit Card,8,2023,Customer 94,Home Office,India,Product 36,Technology,Chairs,Returned
+ORD-00161,CUST-062,2023-10-22,2023-10-27,PROD-047,5,151.75,0.23,30.97,Central,113.67713624223555,First Class,Debit Card,10,2023,Customer 62,Consumer,Germany,Product 47,Technology,Phones,Not Returned
+ORD-00162,CUST-069,2023-03-10,2023-03-13,PROD-020,4,313.41,0.13,45.08,Central,217.20678645010776,First Class,Credit Card,3,2023,Customer 69,Corporate,Germany,Product 20,Technology,Binders,Not Returned
+ORD-00163,CUST-076,2023-06-19,2023-06-22,PROD-019,6,371.54,0.05,31.86,West,307.56545325290244,First Class,UPI,6,2023,Customer 76,Corporate,USA,Product 19,Technology,Chairs,Not Returned
+ORD-00164,CUST-016,2023-03-19,2023-03-23,PROD-035,6,808.35,0.08,41.46,West,709.5667674500122,Standard Class,Cash on Delivery,3,2023,Customer 16,Consumer,UK,Product 35,Furniture,Binders,Not Returned
+ORD-00165,CUST-090,2023-11-13,2023-11-15,PROD-043,2,293.18,0.07,24.34,West,227.54620146226125,Same Day,Net Banking,11,2023,Customer 90,Consumer,USA,Product 43,Technology,Phones,Not Returned
+ORD-00166,CUST-090,2023-12-20,2023-12-24,PROD-017,8,226.49,0.49,38.74,Central,74.41716090027562,Same Day,Credit Card,12,2023,Customer 90,Consumer,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00167,CUST-048,2023-12-06,2023-12-11,PROD-045,7,958.3,0.38,46.09,Central,569.5142492507648,Second Class,UPI,12,2023,Customer 48,Consumer,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00168,CUST-085,2023-05-27,2023-06-01,PROD-043,1,28.69,0.48,30.75,East,-31.280559221534006,Second Class,Cash on Delivery,5,2023,Customer 85,Consumer,UK,Product 43,Technology,Phones,Returned
+ORD-00169,CUST-039,2023-08-04,2023-08-09,PROD-034,5,997.86,0.22,13.14,South,745.3711551426129,First Class,Debit Card,8,2023,Customer 39,Consumer,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00170,CUST-100,2023-08-18,2023-08-19,PROD-009,6,683.28,0.14,17.1,East,555.5289879804229,Standard Class,Cash on Delivery,8,2023,Customer 100,Consumer,USA,Product 9,Technology,Phones,Not Returned
+ORD-00171,CUST-033,2023-01-20,2023-01-24,PROD-026,4,831.9,0.4,13.94,South,494.18359568346983,Second Class,Debit Card,1,2023,Customer 33,Corporate,UK,Product 26,Technology,Storage,Not Returned
+ORD-00172,CUST-094,2023-01-20,2023-01-23,PROD-002,2,308.73,0.16,16.11,East,254.47096719985814,Second Class,Debit Card,1,2023,Customer 94,Home Office,India,Product 2,Technology,Binders,Not Returned
+ORD-00173,CUST-023,2023-12-31,2024-01-02,PROD-009,4,34.03,0.15,18.79,Central,5.009612030214912,First Class,Credit Card,12,2023,Customer 23,Corporate,USA,Product 9,Technology,Phones,Not Returned
+ORD-00174,CUST-010,2023-12-16,2023-12-17,PROD-009,1,743.11,0.12,29.98,East,630.7889240400108,First Class,Credit Card,12,2023,Customer 10,Home Office,UK,Product 9,Technology,Phones,Not Returned
+ORD-00175,CUST-069,2023-11-26,2023-11-28,PROD-040,7,837.46,0.06,31.46,South,769.6549532751199,Second Class,Cash on Delivery,11,2023,Customer 69,Corporate,Germany,Product 40,Furniture,Chairs,Not Returned
+ORD-00176,CUST-100,2023-03-15,2023-03-19,PROD-017,2,745.67,0.13,24.19,West,642.4163641442982,Second Class,UPI,3,2023,Customer 100,Consumer,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00177,CUST-034,2023-06-07,2023-06-08,PROD-001,2,159.99,0.18,32.69,South,96.03844718820154,Same Day,Cash on Delivery,6,2023,Customer 34,Corporate,Germany,Product 1,Furniture,Binders,Not Returned
+ORD-00178,CUST-052,2023-05-25,2023-05-30,PROD-025,9,758.36,0.34,8.67,West,468.83288282330005,Standard Class,Net Banking,5,2023,Customer 52,Consumer,Canada,Product 25,Furniture,Chairs,Returned
+ORD-00179,CUST-095,2023-08-30,2023-09-04,PROD-043,5,773.54,0.03,8.95,Central,733.175010775903,Same Day,Debit Card,8,2023,Customer 95,Consumer,USA,Product 43,Technology,Phones,Not Returned
+ORD-00180,CUST-010,2023-07-13,2023-07-14,PROD-040,2,665.37,0.11,12.73,South,575.1812580506474,Second Class,Debit Card,7,2023,Customer 10,Home Office,UK,Product 40,Furniture,Chairs,Not Returned
+ORD-00181,CUST-019,2023-03-31,2023-04-04,PROD-042,9,770.79,0.4,28.31,East,431.57461203421605,Same Day,Credit Card,3,2023,Customer 19,Corporate,India,Product 42,Office Supplies,Binders,Not Returned
+ORD-00182,CUST-058,2023-06-13,2023-06-14,PROD-025,9,849.0,0.07,14.63,South,773.0614059899127,Same Day,UPI,6,2023,Customer 58,Consumer,Germany,Product 25,Furniture,Chairs,Not Returned
+ORD-00183,CUST-096,2023-12-06,2023-12-08,PROD-039,1,621.33,0.17,17.75,West,509.1428459793067,Second Class,Credit Card,12,2023,Customer 96,Consumer,UK,Product 39,Technology,Phones,Not Returned
+ORD-00184,CUST-001,2023-04-12,2023-04-17,PROD-035,3,106.83,0.43,23.01,Central,50.627384266875815,First Class,Net Banking,4,2023,Customer 1,Home Office,Germany,Product 35,Furniture,Binders,Not Returned
+ORD-00185,CUST-069,2023-07-11,2023-07-12,PROD-003,4,497.88,0.08,41.53,East,414.8028634607521,Second Class,Cash on Delivery,7,2023,Customer 69,Corporate,Germany,Product 3,Office Supplies,Chairs,Returned
+ORD-00186,CUST-004,2023-07-25,2023-07-29,PROD-050,7,96.1,0.04,5.62,South,97.62084876051817,First Class,Cash on Delivery,7,2023,Customer 4,Home Office,USA,Product 50,Furniture,Storage,Not Returned
+ORD-00187,CUST-016,2023-05-26,2023-05-27,PROD-037,4,419.39,0.24,34.22,West,288.09301366631087,Second Class,UPI,5,2023,Customer 16,Consumer,UK,Product 37,Office Supplies,Storage,Not Returned
+ORD-00188,CUST-024,2023-07-08,2023-07-12,PROD-044,2,418.96,0.15,35.1,East,321.6610597286257,Second Class,Credit Card,7,2023,Customer 24,Corporate,India,Product 44,Technology,Phones,Not Returned
+ORD-00189,CUST-080,2023-06-22,2023-06-23,PROD-044,7,84.69,0.28,40.94,Central,29.10224157109964,Second Class,Credit Card,6,2023,Customer 80,Corporate,India,Product 44,Technology,Phones,Not Returned
+ORD-00190,CUST-002,2023-04-28,2023-05-01,PROD-030,6,361.84,0.4,46.97,East,170.85652048237915,Standard Class,Net Banking,4,2023,Customer 2,Consumer,India,Product 30,Technology,Phones,Not Returned
+ORD-00191,CUST-092,2024-01-01,2024-01-02,PROD-038,3,128.78,0.07,5.91,Central,134.43351177097762,First Class,Cash on Delivery,1,2024,Customer 92,Consumer,USA,Product 38,Furniture,Binders,Not Returned
+ORD-00192,CUST-032,2023-06-26,2023-07-01,PROD-034,6,812.07,0.29,11.92,East,550.2655883320544,Standard Class,Credit Card,6,2023,Customer 32,Home Office,UK,Product 34,Furniture,Chairs,Not Returned
+ORD-00193,CUST-091,2023-09-20,2023-09-24,PROD-012,6,948.73,0.25,44.88,South,661.5157910090799,Second Class,UPI,9,2023,Customer 91,Consumer,Canada,Product 12,Furniture,Phones,Returned
+ORD-00194,CUST-084,2023-06-07,2023-06-08,PROD-019,5,90.87,0.07,25.63,West,57.61391103046051,Same Day,Cash on Delivery,6,2023,Customer 84,Consumer,USA,Product 19,Technology,Chairs,Not Returned
+ORD-00195,CUST-024,2023-01-21,2023-01-26,PROD-037,4,956.01,0.31,30.41,South,633.6314269045799,Standard Class,Net Banking,1,2023,Customer 24,Corporate,India,Product 37,Office Supplies,Storage,Not Returned
+ORD-00196,CUST-012,2023-09-26,2023-10-01,PROD-044,1,532.13,0.14,34.84,South,435.47140487103087,First Class,UPI,9,2023,Customer 12,Home Office,USA,Product 44,Technology,Phones,Not Returned
+ORD-00197,CUST-050,2023-08-09,2023-08-10,PROD-049,6,313.57,0.24,35.56,Central,202.50921432763843,Second Class,Debit Card,8,2023,Customer 50,Corporate,UK,Product 49,Office Supplies,Tables,Not Returned
+ORD-00198,CUST-035,2023-10-15,2023-10-18,PROD-017,2,95.32,0.04,46.93,Central,30.354903504937912,Standard Class,Net Banking,10,2023,Customer 35,Home Office,Canada,Product 17,Office Supplies,Binders,Not Returned
+ORD-00199,CUST-033,2023-07-23,2023-07-26,PROD-010,3,510.61,0.23,49.86,Central,351.7348389645501,Same Day,UPI,7,2023,Customer 33,Corporate,UK,Product 10,Technology,Chairs,Not Returned
+ORD-00200,CUST-033,2023-10-09,2023-10-14,PROD-049,8,798.63,0.15,37.41,South,648.9750876614197,Standard Class,Credit Card,10,2023,Customer 33,Corporate,UK,Product 49,Office Supplies,Tables,Not Returned
+ORD-00201,CUST-061,2023-08-21,2023-08-25,PROD-047,6,712.94,0.41,17.92,East,383.29601340620604,First Class,Debit Card,8,2023,Customer 61,Corporate,UK,Product 47,Technology,Phones,Not Returned
+ORD-00202,CUST-051,2023-06-26,2023-06-27,PROD-012,3,69.22,0.03,44.59,East,22.515358663292,Standard Class,Net Banking,6,2023,Customer 51,Corporate,UK,Product 12,Furniture,Phones,Not Returned
+ORD-00203,CUST-043,2023-09-22,2023-09-27,PROD-016,7,91.44,0.21,7.21,South,49.126181693197026,Same Day,Credit Card,9,2023,Customer 43,Home Office,India,Product 16,Office Supplies,Chairs,Returned
+ORD-00204,CUST-012,2023-12-24,2023-12-28,PROD-024,4,414.82,0.23,15.4,South,297.3648890249794,Same Day,Debit Card,12,2023,Customer 12,Home Office,USA,Product 24,Office Supplies,Phones,Not Returned
+ORD-00205,CUST-067,2023-07-20,2023-07-21,PROD-019,9,309.38,0.36,45.38,West,143.595110730372,First Class,Cash on Delivery,7,2023,Customer 67,Corporate,India,Product 19,Technology,Chairs,Not Returned
+ORD-00206,CUST-065,2023-10-20,2023-10-21,PROD-008,5,247.74,0.29,16.53,Central,167.45804698241986,Same Day,Credit Card,10,2023,Customer 65,Corporate,USA,Product 8,Technology,Storage,Not Returned
+ORD-00207,CUST-033,2023-01-09,2023-01-12,PROD-031,3,295.38,0.33,14.93,Central,184.14290174172183,Second Class,UPI,1,2023,Customer 33,Corporate,UK,Product 31,Technology,Storage,Returned
+ORD-00208,CUST-040,2023-06-14,2023-06-16,PROD-021,2,807.41,0.39,11.22,South,468.44418999243965,Same Day,Net Banking,6,2023,Customer 40,Home Office,Germany,Product 21,Furniture,Binders,Not Returned
+ORD-00209,CUST-074,2023-12-23,2023-12-24,PROD-017,2,930.64,0.43,43.66,South,495.60545962957355,Second Class,Debit Card,12,2023,Customer 74,Corporate,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00210,CUST-043,2023-05-04,2023-05-05,PROD-023,3,417.0,0.16,27.5,East,308.44194176071585,Standard Class,Credit Card,5,2023,Customer 43,Home Office,India,Product 23,Technology,Chairs,Not Returned
+ORD-00211,CUST-044,2023-11-27,2023-12-02,PROD-037,2,907.99,0.27,35.37,South,630.7638379047095,Second Class,Cash on Delivery,11,2023,Customer 44,Consumer,Canada,Product 37,Office Supplies,Storage,Not Returned
+ORD-00212,CUST-029,2023-01-24,2023-01-27,PROD-016,4,335.07,0.42,15.76,East,170.44049330708447,Second Class,Net Banking,1,2023,Customer 29,Home Office,UK,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00213,CUST-013,2023-01-12,2023-01-17,PROD-006,2,486.91,0.49,39.11,South,205.55732917469484,Standard Class,Net Banking,1,2023,Customer 13,Consumer,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-00214,CUST-012,2023-05-06,2023-05-07,PROD-008,9,241.51,0.44,39.2,West,101.08830748038383,Same Day,Credit Card,5,2023,Customer 12,Home Office,USA,Product 8,Technology,Storage,Not Returned
+ORD-00215,CUST-095,2023-01-26,2023-01-31,PROD-025,2,647.67,0.19,19.07,West,510.75719399059534,Second Class,Cash on Delivery,1,2023,Customer 95,Consumer,USA,Product 25,Furniture,Chairs,Not Returned
+ORD-00216,CUST-046,2023-02-03,2023-02-08,PROD-018,9,979.4,0.1,23.48,East,871.3496907355596,Same Day,Debit Card,2,2023,Customer 46,Home Office,Canada,Product 18,Office Supplies,Phones,Not Returned
+ORD-00217,CUST-002,2023-06-12,2023-06-14,PROD-025,6,611.42,0.24,14.44,Central,449.41666300328546,Standard Class,Credit Card,6,2023,Customer 2,Consumer,India,Product 25,Furniture,Chairs,Not Returned
+ORD-00218,CUST-035,2023-06-05,2023-06-09,PROD-012,1,370.66,0.37,48.95,West,187.63030862963342,First Class,Debit Card,6,2023,Customer 35,Home Office,Canada,Product 12,Furniture,Phones,Not Returned
+ORD-00219,CUST-087,2023-08-27,2023-08-29,PROD-015,4,654.86,0.25,34.05,East,452.7176267759567,Same Day,Net Banking,8,2023,Customer 87,Home Office,Germany,Product 15,Furniture,Binders,Not Returned
+ORD-00220,CUST-081,2023-10-06,2023-10-10,PROD-026,1,140.46,0.24,47.05,South,61.51949882622798,Same Day,Debit Card,10,2023,Customer 81,Home Office,USA,Product 26,Technology,Storage,Not Returned
+ORD-00221,CUST-090,2023-05-17,2023-05-22,PROD-041,6,890.89,0.42,18.65,South,502.4610604800852,First Class,Cash on Delivery,5,2023,Customer 90,Consumer,USA,Product 41,Furniture,Chairs,Not Returned
+ORD-00222,CUST-008,2023-11-12,2023-11-17,PROD-045,4,513.02,0.18,40.19,East,379.50330152545627,First Class,UPI,11,2023,Customer 8,Corporate,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00223,CUST-093,2023-08-22,2023-08-23,PROD-026,3,460.36,0.43,39.46,Central,204.90769515907508,Standard Class,Cash on Delivery,8,2023,Customer 93,Consumer,USA,Product 26,Technology,Storage,Not Returned
+ORD-00224,CUST-026,2023-01-29,2023-01-30,PROD-047,3,594.15,0.2,36.12,East,442.5147089633089,Same Day,Debit Card,1,2023,Customer 26,Consumer,India,Product 47,Technology,Phones,Not Returned
+ORD-00225,CUST-074,2023-01-14,2023-01-17,PROD-032,9,632.29,0.16,48.45,East,486.3192147735545,Same Day,Credit Card,1,2023,Customer 74,Corporate,USA,Product 32,Technology,Chairs,Not Returned
+ORD-00226,CUST-090,2023-07-17,2023-07-18,PROD-010,6,90.34,0.23,22.71,West,40.050065236520496,Standard Class,Net Banking,7,2023,Customer 90,Consumer,USA,Product 10,Technology,Chairs,Not Returned
+ORD-00227,CUST-034,2023-11-07,2023-11-08,PROD-016,9,688.96,0.38,10.88,East,403.4313296392749,Same Day,UPI,11,2023,Customer 34,Corporate,Germany,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00228,CUST-007,2023-07-04,2023-07-07,PROD-007,5,257.09,0.06,35.23,East,221.1933915050396,Second Class,Credit Card,7,2023,Customer 7,Home Office,USA,Product 7,Office Supplies,Storage,Not Returned
+ORD-00229,CUST-068,2023-07-21,2023-07-25,PROD-017,2,719.67,0.1,37.82,South,614.797455108944,Second Class,Credit Card,7,2023,Customer 68,Corporate,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00230,CUST-058,2023-05-23,2023-05-24,PROD-023,8,826.08,0.48,30.88,West,396.390789690783,Second Class,Cash on Delivery,5,2023,Customer 58,Consumer,Germany,Product 23,Technology,Chairs,Not Returned
+ORD-00231,CUST-075,2023-05-31,2023-06-05,PROD-026,5,807.88,0.09,14.31,South,709.4904711685251,Same Day,Debit Card,5,2023,Customer 75,Corporate,Canada,Product 26,Technology,Storage,Not Returned
+ORD-00232,CUST-029,2023-11-20,2023-11-24,PROD-021,2,561.45,0.28,27.7,South,368.3258517157866,Second Class,Cash on Delivery,11,2023,Customer 29,Home Office,UK,Product 21,Furniture,Binders,Not Returned
+ORD-00233,CUST-036,2023-04-25,2023-04-27,PROD-022,4,529.77,0.29,19.05,Central,370.11260396786224,Second Class,Debit Card,4,2023,Customer 36,Corporate,India,Product 22,Furniture,Phones,Not Returned
+ORD-00234,CUST-089,2023-09-03,2023-09-04,PROD-007,9,160.02,0.24,24.24,Central,98.75181940868048,Standard Class,Cash on Delivery,9,2023,Customer 89,Corporate,India,Product 7,Office Supplies,Storage,Not Returned
+ORD-00235,CUST-021,2023-08-06,2023-08-09,PROD-014,4,779.84,0.32,34.03,West,490.75532932999295,Standard Class,Credit Card,8,2023,Customer 21,Consumer,India,Product 14,Office Supplies,Phones,Not Returned
+ORD-00236,CUST-036,2023-09-20,2023-09-24,PROD-015,4,285.98,0.11,38.53,West,221.08909231224658,First Class,Net Banking,9,2023,Customer 36,Corporate,India,Product 15,Furniture,Binders,Not Returned
+ORD-00237,CUST-010,2023-07-22,2023-07-24,PROD-007,2,506.76,0.28,15.45,Central,341.27321812553674,First Class,Debit Card,7,2023,Customer 10,Home Office,UK,Product 7,Office Supplies,Storage,Not Returned
+ORD-00238,CUST-073,2023-01-28,2023-02-02,PROD-009,6,298.59,0.19,23.24,Central,233.62633030280378,First Class,UPI,1,2023,Customer 73,Corporate,India,Product 9,Technology,Phones,Not Returned
+ORD-00239,CUST-024,2023-10-17,2023-10-21,PROD-048,2,151.15,0.33,17.11,Central,97.68850534896725,First Class,UPI,10,2023,Customer 24,Corporate,India,Product 48,Technology,Phones,Not Returned
+ORD-00240,CUST-064,2023-10-17,2023-10-21,PROD-008,7,636.97,0.07,13.94,Central,573.7763592879722,Standard Class,Credit Card,10,2023,Customer 64,Corporate,USA,Product 8,Technology,Storage,Not Returned
+ORD-00241,CUST-099,2023-06-04,2023-06-05,PROD-050,3,73.25,0.29,40.25,Central,5.470797529691397,Standard Class,Cash on Delivery,6,2023,Customer 99,Consumer,Canada,Product 50,Furniture,Storage,Not Returned
+ORD-00242,CUST-049,2023-08-05,2023-08-06,PROD-023,3,753.67,0.09,45.92,South,613.7383680130772,Standard Class,Cash on Delivery,8,2023,Customer 49,Corporate,Germany,Product 23,Technology,Chairs,Not Returned
+ORD-00243,CUST-099,2023-09-15,2023-09-18,PROD-029,5,331.24,0.14,21.66,West,248.3905922844863,Second Class,Credit Card,9,2023,Customer 99,Consumer,Canada,Product 29,Office Supplies,Tables,Not Returned
+ORD-00244,CUST-036,2023-05-12,2023-05-13,PROD-018,3,20.13,0.11,38.81,South,-34.28899774957756,Second Class,UPI,5,2023,Customer 36,Corporate,India,Product 18,Office Supplies,Phones,Not Returned
+ORD-00245,CUST-082,2023-01-23,2023-01-24,PROD-031,2,520.91,0.09,45.36,South,430.0200034098738,First Class,UPI,1,2023,Customer 82,Consumer,Germany,Product 31,Technology,Storage,Returned
+ORD-00246,CUST-096,2023-12-07,2023-12-08,PROD-030,9,65.91,0.41,43.08,East,-7.45543704441359,Second Class,Cash on Delivery,12,2023,Customer 96,Consumer,UK,Product 30,Technology,Phones,Not Returned
+ORD-00247,CUST-024,2023-01-03,2023-01-04,PROD-039,2,290.65,0.14,13.23,South,223.27564512584757,Same Day,Debit Card,1,2023,Customer 24,Corporate,India,Product 39,Technology,Phones,Not Returned
+ORD-00248,CUST-023,2023-06-11,2023-06-14,PROD-035,2,712.84,0.46,48.03,Central,334.0919595753545,Standard Class,Net Banking,6,2023,Customer 23,Corporate,USA,Product 35,Furniture,Binders,Not Returned
+ORD-00249,CUST-062,2023-07-07,2023-07-08,PROD-018,8,81.44,0.48,21.95,Central,25.45217147647348,First Class,Debit Card,7,2023,Customer 62,Consumer,Germany,Product 18,Office Supplies,Phones,Not Returned
+ORD-00250,CUST-096,2023-12-13,2023-12-15,PROD-042,9,842.55,0.29,20.27,East,583.2188934991558,First Class,UPI,12,2023,Customer 96,Consumer,UK,Product 42,Office Supplies,Binders,Not Returned
+ORD-00251,CUST-037,2023-07-05,2023-07-06,PROD-039,7,23.74,0.07,7.81,East,-4.728502808588814,Same Day,Debit Card,7,2023,Customer 37,Home Office,USA,Product 39,Technology,Phones,Not Returned
+ORD-00252,CUST-012,2023-10-23,2023-10-27,PROD-017,3,261.89,0.19,26.88,East,183.9682651951617,Second Class,Net Banking,10,2023,Customer 12,Home Office,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00253,CUST-055,2023-02-24,2023-02-26,PROD-014,9,746.09,0.4,9.91,East,423.9105922302839,First Class,Debit Card,2,2023,Customer 55,Corporate,Germany,Product 14,Office Supplies,Phones,Not Returned
+ORD-00254,CUST-013,2023-12-01,2023-12-03,PROD-031,3,329.94,0.18,16.18,East,263.3880869714028,Second Class,Debit Card,12,2023,Customer 13,Consumer,Germany,Product 31,Technology,Storage,Not Returned
+ORD-00255,CUST-023,2023-08-24,2023-08-27,PROD-024,5,119.85,0.04,19.26,South,103.63746416353497,Second Class,Debit Card,8,2023,Customer 23,Corporate,USA,Product 24,Office Supplies,Phones,Not Returned
+ORD-00256,CUST-089,2023-12-26,2023-12-28,PROD-035,9,373.03,0.28,41.4,East,218.2013277367554,Same Day,Debit Card,12,2023,Customer 89,Corporate,India,Product 35,Furniture,Binders,Not Returned
+ORD-00257,CUST-099,2023-07-23,2023-07-28,PROD-044,3,284.99,0.42,44.4,South,113.23374797599601,First Class,Credit Card,7,2023,Customer 99,Consumer,Canada,Product 44,Technology,Phones,Not Returned
+ORD-00258,CUST-030,2023-03-08,2023-03-13,PROD-045,7,845.86,0.4,18.61,West,484.29332949501685,Second Class,UPI,3,2023,Customer 30,Home Office,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00259,CUST-017,2023-08-22,2023-08-24,PROD-034,1,327.08,0.09,43.64,East,231.47486605268665,Second Class,Net Banking,8,2023,Customer 17,Corporate,USA,Product 34,Furniture,Chairs,Not Returned
+ORD-00260,CUST-062,2023-01-22,2023-01-24,PROD-003,4,793.15,0.34,43.58,East,483.2586817344057,Same Day,UPI,1,2023,Customer 62,Consumer,Germany,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00261,CUST-084,2023-04-03,2023-04-06,PROD-037,4,894.03,0.11,39.41,South,753.5482545365987,Same Day,Credit Card,4,2023,Customer 84,Consumer,USA,Product 37,Office Supplies,Storage,Not Returned
+ORD-00262,CUST-089,2023-03-11,2023-03-15,PROD-043,7,445.14,0.11,11.6,West,394.27635082567855,Second Class,Credit Card,3,2023,Customer 89,Corporate,India,Product 43,Technology,Phones,Not Returned
+ORD-00263,CUST-086,2023-10-04,2023-10-05,PROD-040,8,911.74,0.44,36.06,South,463.5303078203745,Same Day,Credit Card,10,2023,Customer 86,Corporate,Germany,Product 40,Furniture,Chairs,Not Returned
+ORD-00264,CUST-013,2023-10-02,2023-10-04,PROD-026,1,389.77,0.12,47.53,South,289.27637051750065,Second Class,Credit Card,10,2023,Customer 13,Consumer,Germany,Product 26,Technology,Storage,Not Returned
+ORD-00265,CUST-059,2023-01-20,2023-01-21,PROD-023,5,964.8,0.13,35.71,East,788.6007474196088,First Class,Debit Card,1,2023,Customer 59,Home Office,Germany,Product 23,Technology,Chairs,Not Returned
+ORD-00266,CUST-019,2023-03-12,2023-03-17,PROD-044,7,107.5,0.0,19.92,Central,77.53709436505747,Standard Class,UPI,3,2023,Customer 19,Corporate,India,Product 44,Technology,Phones,Not Returned
+ORD-00267,CUST-049,2023-04-12,2023-04-15,PROD-039,4,693.28,0.44,27.53,Central,348.88698003931785,Same Day,Cash on Delivery,4,2023,Customer 49,Corporate,Germany,Product 39,Technology,Phones,Not Returned
+ORD-00268,CUST-100,2023-02-07,2023-02-12,PROD-015,4,503.94,0.4,34.06,South,278.2637367884644,Standard Class,Net Banking,2,2023,Customer 100,Consumer,USA,Product 15,Furniture,Binders,Not Returned
+ORD-00269,CUST-012,2023-08-17,2023-08-21,PROD-049,4,399.9,0.31,27.98,East,240.96838151248608,Second Class,Credit Card,8,2023,Customer 12,Home Office,USA,Product 49,Office Supplies,Tables,Not Returned
+ORD-00270,CUST-061,2023-06-03,2023-06-05,PROD-004,6,640.06,0.38,10.4,West,387.6789568474461,Second Class,UPI,6,2023,Customer 61,Corporate,UK,Product 4,Office Supplies,Tables,Not Returned
+ORD-00271,CUST-019,2023-09-25,2023-09-26,PROD-029,7,709.78,0.08,19.04,Central,630.149965961382,Second Class,Credit Card,9,2023,Customer 19,Corporate,India,Product 29,Office Supplies,Tables,Not Returned
+ORD-00272,CUST-076,2023-07-07,2023-07-10,PROD-022,2,24.28,0.23,41.11,West,-35.10905266012813,Standard Class,Credit Card,7,2023,Customer 76,Corporate,USA,Product 22,Furniture,Phones,Not Returned
+ORD-00273,CUST-009,2023-07-31,2023-08-05,PROD-025,5,183.61,0.18,43.76,Central,105.1171957682836,Second Class,Credit Card,7,2023,Customer 9,Home Office,Canada,Product 25,Furniture,Chairs,Not Returned
+ORD-00274,CUST-071,2023-12-05,2023-12-06,PROD-013,4,718.79,0.05,11.18,East,677.6615333186359,Same Day,Credit Card,12,2023,Customer 71,Home Office,USA,Product 13,Technology,Phones,Not Returned
+ORD-00275,CUST-028,2023-04-07,2023-04-12,PROD-018,3,673.06,0.24,47.86,South,451.5880060745664,First Class,Credit Card,4,2023,Customer 28,Home Office,Canada,Product 18,Office Supplies,Phones,Not Returned
+ORD-00276,CUST-078,2023-02-25,2023-02-27,PROD-033,7,966.73,0.46,19.8,West,510.3253279073138,First Class,Net Banking,2,2023,Customer 78,Home Office,UK,Product 33,Technology,Binders,Not Returned
+ORD-00277,CUST-095,2023-12-11,2023-12-14,PROD-016,6,765.82,0.02,34.8,West,707.2063907852231,Same Day,UPI,12,2023,Customer 95,Consumer,USA,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00278,CUST-052,2023-05-09,2023-05-12,PROD-045,7,951.76,0.15,38.83,South,765.3361607392716,First Class,Credit Card,5,2023,Customer 52,Consumer,Canada,Product 45,Office Supplies,Storage,Not Returned
+ORD-00279,CUST-083,2023-02-04,2023-02-09,PROD-042,5,708.49,0.1,41.54,West,601.4078312301006,Standard Class,Credit Card,2,2023,Customer 83,Corporate,USA,Product 42,Office Supplies,Binders,Not Returned
+ORD-00280,CUST-016,2023-01-06,2023-01-08,PROD-044,6,312.09,0.12,47.56,Central,220.44483842780508,Second Class,Credit Card,1,2023,Customer 16,Consumer,UK,Product 44,Technology,Phones,Not Returned
+ORD-00281,CUST-069,2023-07-22,2023-07-23,PROD-002,5,123.26,0.45,19.08,South,49.088748593358666,Second Class,Credit Card,7,2023,Customer 69,Corporate,Germany,Product 2,Technology,Binders,Not Returned
+ORD-00282,CUST-099,2023-02-12,2023-02-15,PROD-035,7,786.19,0.23,43.63,Central,558.5893917121191,Second Class,Debit Card,2,2023,Customer 99,Consumer,Canada,Product 35,Furniture,Binders,Not Returned
+ORD-00283,CUST-012,2023-03-18,2023-03-19,PROD-042,2,651.27,0.23,10.93,Central,491.84158006703814,Standard Class,Debit Card,3,2023,Customer 12,Home Office,USA,Product 42,Office Supplies,Binders,Not Returned
+ORD-00284,CUST-025,2023-03-04,2023-03-05,PROD-034,5,67.22,0.38,36.73,East,-18.86099105523497,Standard Class,Cash on Delivery,3,2023,Customer 25,Consumer,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00285,CUST-052,2023-09-29,2023-09-30,PROD-030,6,372.85,0.08,38.39,Central,286.3351818479192,Standard Class,Credit Card,9,2023,Customer 52,Consumer,Canada,Product 30,Technology,Phones,Not Returned
+ORD-00286,CUST-085,2023-05-25,2023-05-27,PROD-013,6,957.66,0.24,35.5,East,698.4812700604683,Same Day,Cash on Delivery,5,2023,Customer 85,Consumer,UK,Product 13,Technology,Phones,Not Returned
+ORD-00287,CUST-100,2023-12-24,2023-12-29,PROD-013,5,510.39,0.21,16.35,West,397.2299140564905,Standard Class,Net Banking,12,2023,Customer 100,Consumer,USA,Product 13,Technology,Phones,Not Returned
+ORD-00288,CUST-053,2023-04-18,2023-04-20,PROD-018,7,444.07,0.3,44.29,West,257.45413296468473,First Class,Cash on Delivery,4,2023,Customer 53,Corporate,USA,Product 18,Office Supplies,Phones,Not Returned
+ORD-00289,CUST-023,2023-12-30,2024-01-02,PROD-032,8,468.55,0.5,12.6,East,219.23471647828868,Same Day,UPI,12,2023,Customer 23,Corporate,USA,Product 32,Technology,Chairs,Not Returned
+ORD-00290,CUST-016,2023-02-20,2023-02-24,PROD-032,7,224.71,0.38,7.41,Central,134.85739252902303,Same Day,Debit Card,2,2023,Customer 16,Consumer,UK,Product 32,Technology,Chairs,Not Returned
+ORD-00291,CUST-057,2023-05-23,2023-05-24,PROD-035,5,381.33,0.2,37.29,South,274.70617601658705,Same Day,Debit Card,5,2023,Customer 57,Home Office,Germany,Product 35,Furniture,Binders,Not Returned
+ORD-00292,CUST-039,2023-06-05,2023-06-09,PROD-039,1,382.42,0.41,26.4,South,178.95102728329155,Standard Class,Credit Card,6,2023,Customer 39,Consumer,Canada,Product 39,Technology,Phones,Returned
+ORD-00293,CUST-053,2023-05-17,2023-05-18,PROD-046,5,71.31,0.09,43.21,East,12.821697530216227,Same Day,Credit Card,5,2023,Customer 53,Corporate,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00294,CUST-042,2023-10-05,2023-10-08,PROD-029,2,772.22,0.02,22.25,West,731.1998062015014,Standard Class,Net Banking,10,2023,Customer 42,Home Office,Canada,Product 29,Office Supplies,Tables,Not Returned
+ORD-00295,CUST-058,2023-07-31,2023-08-04,PROD-049,5,428.17,0.1,12.57,West,379.8144019723605,Standard Class,Net Banking,7,2023,Customer 58,Consumer,Germany,Product 49,Office Supplies,Tables,Not Returned
+ORD-00296,CUST-039,2023-07-30,2023-08-02,PROD-029,5,825.74,0.17,42.64,South,667.708504837215,Same Day,UPI,7,2023,Customer 39,Consumer,Canada,Product 29,Office Supplies,Tables,Not Returned
+ORD-00297,CUST-014,2023-09-17,2023-09-22,PROD-044,2,853.34,0.26,29.7,East,599.4915427319028,Second Class,Credit Card,9,2023,Customer 14,Home Office,USA,Product 44,Technology,Phones,Not Returned
+ORD-00298,CUST-095,2023-01-26,2023-01-28,PROD-016,5,227.75,0.31,13.51,South,129.5677253789601,Second Class,Credit Card,1,2023,Customer 95,Consumer,USA,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00299,CUST-005,2023-08-05,2023-08-08,PROD-044,4,664.21,0.46,37.42,Central,325.27608077201296,Same Day,Net Banking,8,2023,Customer 5,Consumer,India,Product 44,Technology,Phones,Not Returned
+ORD-00300,CUST-035,2023-12-04,2023-12-09,PROD-047,1,482.84,0.25,28.0,Central,347.3399578954071,Second Class,Net Banking,12,2023,Customer 35,Home Office,Canada,Product 47,Technology,Phones,Returned
+ORD-00301,CUST-087,2023-09-21,2023-09-23,PROD-010,3,882.55,0.25,32.19,East,630.8026412097948,First Class,Net Banking,9,2023,Customer 87,Home Office,Germany,Product 10,Technology,Chairs,Returned
+ORD-00302,CUST-093,2023-01-07,2023-01-08,PROD-030,1,231.43,0.03,25.74,East,189.68061454845707,First Class,Debit Card,1,2023,Customer 93,Consumer,USA,Product 30,Technology,Phones,Not Returned
+ORD-00303,CUST-075,2023-05-12,2023-05-17,PROD-025,5,684.26,0.02,42.29,Central,637.8647394148002,Standard Class,Cash on Delivery,5,2023,Customer 75,Corporate,Canada,Product 25,Furniture,Chairs,Returned
+ORD-00304,CUST-018,2023-06-26,2023-06-28,PROD-039,4,615.6,0.28,42.33,West,407.5374561849844,Second Class,Cash on Delivery,6,2023,Customer 18,Corporate,Canada,Product 39,Technology,Phones,Not Returned
+ORD-00305,CUST-076,2023-10-10,2023-10-12,PROD-020,7,309.4,0.22,36.92,East,194.15119155804373,First Class,Credit Card,10,2023,Customer 76,Corporate,USA,Product 20,Technology,Binders,Not Returned
+ORD-00306,CUST-009,2023-08-27,2023-08-29,PROD-005,5,153.87,0.42,9.74,Central,83.31885617534344,Same Day,Debit Card,8,2023,Customer 9,Home Office,Canada,Product 5,Furniture,Chairs,Not Returned
+ORD-00307,CUST-074,2023-03-08,2023-03-12,PROD-001,4,658.61,0.08,42.75,Central,573.1438556765887,Second Class,Net Banking,3,2023,Customer 74,Corporate,USA,Product 1,Furniture,Binders,Returned
+ORD-00308,CUST-058,2023-08-27,2023-08-30,PROD-030,2,743.83,0.01,35.2,West,713.0106004255889,First Class,Credit Card,8,2023,Customer 58,Consumer,Germany,Product 30,Technology,Phones,Not Returned
+ORD-00309,CUST-017,2023-08-02,2023-08-06,PROD-049,4,329.31,0.22,36.37,West,219.82731024690545,First Class,Debit Card,8,2023,Customer 17,Corporate,USA,Product 49,Office Supplies,Tables,Not Returned
+ORD-00310,CUST-007,2023-08-30,2023-09-02,PROD-003,2,651.94,0.12,21.33,West,548.7964055382068,Same Day,UPI,8,2023,Customer 7,Home Office,USA,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00311,CUST-046,2023-09-29,2023-10-03,PROD-045,8,407.23,0.02,44.57,West,366.78813822081264,Standard Class,Debit Card,9,2023,Customer 46,Home Office,Canada,Product 45,Office Supplies,Storage,Not Returned
+ORD-00312,CUST-013,2023-01-12,2023-01-13,PROD-014,3,718.94,0.36,37.64,South,410.3799949701912,Same Day,Credit Card,1,2023,Customer 13,Consumer,Germany,Product 14,Office Supplies,Phones,Not Returned
+ORD-00313,CUST-040,2023-06-12,2023-06-17,PROD-030,9,215.23,0.06,10.07,West,196.63199290921006,Standard Class,Cash on Delivery,6,2023,Customer 40,Home Office,Germany,Product 30,Technology,Phones,Not Returned
+ORD-00314,CUST-042,2023-08-05,2023-08-09,PROD-050,4,892.41,0.3,23.35,South,587.6367337263556,First Class,Net Banking,8,2023,Customer 42,Home Office,Canada,Product 50,Furniture,Storage,Returned
+ORD-00315,CUST-009,2023-06-01,2023-06-06,PROD-004,6,301.66,0.14,44.89,East,225.19136272259607,Standard Class,UPI,6,2023,Customer 9,Home Office,Canada,Product 4,Office Supplies,Tables,Not Returned
+ORD-00316,CUST-050,2023-12-27,2023-12-28,PROD-018,5,380.43,0.09,7.12,Central,336.4908448438884,First Class,Debit Card,12,2023,Customer 50,Corporate,UK,Product 18,Office Supplies,Phones,Not Returned
+ORD-00317,CUST-027,2023-08-20,2023-08-24,PROD-037,1,76.93,0.19,48.26,South,26.739132356474705,First Class,Credit Card,8,2023,Customer 27,Consumer,USA,Product 37,Office Supplies,Storage,Not Returned
+ORD-00318,CUST-066,2023-10-14,2023-10-16,PROD-025,9,129.28,0.4,35.56,East,46.922127563555264,Second Class,Credit Card,10,2023,Customer 66,Corporate,USA,Product 25,Furniture,Chairs,Returned
+ORD-00319,CUST-005,2023-11-28,2023-12-02,PROD-048,1,525.54,0.2,33.41,East,374.78979769938076,Standard Class,Net Banking,11,2023,Customer 5,Consumer,India,Product 48,Technology,Phones,Not Returned
+ORD-00320,CUST-029,2023-12-18,2023-12-21,PROD-001,8,282.24,0.38,17.18,South,172.05507732077243,Standard Class,Credit Card,12,2023,Customer 29,Home Office,UK,Product 1,Furniture,Binders,Not Returned
+ORD-00321,CUST-037,2023-06-27,2023-07-02,PROD-046,9,838.77,0.06,16.2,East,787.7562526642771,Standard Class,Credit Card,6,2023,Customer 37,Home Office,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00322,CUST-038,2023-08-18,2023-08-23,PROD-015,9,34.4,0.39,47.39,East,-17.583135074007846,Same Day,Net Banking,8,2023,Customer 38,Home Office,Germany,Product 15,Furniture,Binders,Not Returned
+ORD-00323,CUST-083,2023-08-02,2023-08-06,PROD-009,1,391.51,0.12,18.42,South,318.49292134963775,Second Class,UPI,8,2023,Customer 83,Corporate,USA,Product 9,Technology,Phones,Not Returned
+ORD-00324,CUST-008,2023-11-26,2023-11-29,PROD-015,2,350.6,0.34,39.9,East,188.4358604564259,Second Class,Cash on Delivery,11,2023,Customer 8,Corporate,India,Product 15,Furniture,Binders,Not Returned
+ORD-00325,CUST-065,2023-11-09,2023-11-13,PROD-049,1,38.94,0.28,22.69,West,6.801072174057588,Second Class,Cash on Delivery,11,2023,Customer 65,Corporate,USA,Product 49,Office Supplies,Tables,Not Returned
+ORD-00326,CUST-086,2023-07-30,2023-08-02,PROD-024,2,141.88,0.46,11.27,West,58.30809600668567,Same Day,Debit Card,7,2023,Customer 86,Corporate,Germany,Product 24,Office Supplies,Phones,Not Returned
+ORD-00327,CUST-017,2023-12-11,2023-12-16,PROD-004,8,425.37,0.19,5.48,Central,355.99316572463204,Standard Class,UPI,12,2023,Customer 17,Corporate,USA,Product 4,Office Supplies,Tables,Not Returned
+ORD-00328,CUST-071,2023-05-18,2023-05-19,PROD-012,5,503.01,0.03,29.49,East,459.87296471726034,Standard Class,Debit Card,5,2023,Customer 71,Home Office,USA,Product 12,Furniture,Phones,Not Returned
+ORD-00329,CUST-089,2023-10-02,2023-10-07,PROD-037,7,416.2,0.01,48.91,Central,336.09451952892647,Standard Class,Cash on Delivery,10,2023,Customer 89,Corporate,India,Product 37,Office Supplies,Storage,Not Returned
+ORD-00330,CUST-045,2023-06-08,2023-06-09,PROD-037,2,540.32,0.41,21.61,West,300.57235812756227,Second Class,Net Banking,6,2023,Customer 45,Consumer,Germany,Product 37,Office Supplies,Storage,Not Returned
+ORD-00331,CUST-004,2023-03-22,2023-03-25,PROD-043,8,603.23,0.26,21.07,West,421.8386260318269,Second Class,Credit Card,3,2023,Customer 4,Home Office,USA,Product 43,Technology,Phones,Not Returned
+ORD-00332,CUST-036,2023-03-20,2023-03-22,PROD-006,6,29.73,0.39,20.48,West,-3.0939655611844783,First Class,Cash on Delivery,3,2023,Customer 36,Corporate,India,Product 6,Office Supplies,Binders,Not Returned
+ORD-00333,CUST-070,2023-12-19,2023-12-20,PROD-039,8,474.81,0.12,28.42,East,385.726606342143,Same Day,UPI,12,2023,Customer 70,Consumer,Canada,Product 39,Technology,Phones,Not Returned
+ORD-00334,CUST-031,2023-03-30,2023-04-04,PROD-046,1,964.23,0.17,24.83,East,783.5513641660668,Same Day,Cash on Delivery,3,2023,Customer 31,Corporate,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00335,CUST-019,2023-02-10,2023-02-11,PROD-024,1,528.65,0.02,44.6,West,484.67387778553376,Second Class,UPI,2,2023,Customer 19,Corporate,India,Product 24,Office Supplies,Phones,Not Returned
+ORD-00336,CUST-061,2023-07-19,2023-07-22,PROD-011,7,683.99,0.48,27.75,Central,330.75533162258654,First Class,UPI,7,2023,Customer 61,Corporate,UK,Product 11,Technology,Chairs,Not Returned
+ORD-00337,CUST-054,2023-09-20,2023-09-22,PROD-013,8,325.63,0.33,27.85,Central,186.92898812861839,Standard Class,UPI,9,2023,Customer 54,Consumer,Canada,Product 13,Technology,Phones,Not Returned
+ORD-00338,CUST-039,2023-03-21,2023-03-25,PROD-034,3,778.51,0.47,11.23,South,400.96692795190825,Second Class,Debit Card,3,2023,Customer 39,Consumer,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00339,CUST-091,2023-05-11,2023-05-15,PROD-025,5,777.46,0.13,49.22,West,627.3661961657763,Same Day,Net Banking,5,2023,Customer 91,Consumer,Canada,Product 25,Furniture,Chairs,Not Returned
+ORD-00340,CUST-074,2023-07-07,2023-07-12,PROD-007,1,530.87,0.31,16.25,Central,342.0259996013516,Same Day,Cash on Delivery,7,2023,Customer 74,Corporate,USA,Product 7,Office Supplies,Storage,Returned
+ORD-00341,CUST-090,2023-03-19,2023-03-23,PROD-004,7,976.49,0.34,8.3,West,641.9726864857123,Same Day,Net Banking,3,2023,Customer 90,Consumer,USA,Product 4,Office Supplies,Tables,Not Returned
+ORD-00342,CUST-019,2023-10-21,2023-10-26,PROD-008,5,143.04,0.16,34.84,Central,89.91402323860464,Standard Class,Credit Card,10,2023,Customer 19,Corporate,India,Product 8,Technology,Storage,Not Returned
+ORD-00343,CUST-039,2023-06-08,2023-06-13,PROD-020,8,36.61,0.42,31.79,South,4.848212397766737,Same Day,Cash on Delivery,6,2023,Customer 39,Consumer,Canada,Product 20,Technology,Binders,Not Returned
+ORD-00344,CUST-067,2023-10-30,2023-11-01,PROD-029,8,774.76,0.47,23.68,South,399.4962978028848,Standard Class,Net Banking,10,2023,Customer 67,Corporate,India,Product 29,Office Supplies,Tables,Not Returned
+ORD-00345,CUST-045,2023-04-09,2023-04-12,PROD-045,9,811.01,0.44,24.0,West,423.3088508240987,Standard Class,Net Banking,4,2023,Customer 45,Consumer,Germany,Product 45,Office Supplies,Storage,Not Returned
+ORD-00346,CUST-013,2023-04-19,2023-04-21,PROD-046,7,137.8,0.37,40.33,Central,54.686983745089655,Standard Class,Credit Card,4,2023,Customer 13,Consumer,Germany,Product 46,Office Supplies,Phones,Not Returned
+ORD-00347,CUST-092,2023-09-26,2023-09-27,PROD-010,1,280.27,0.14,13.81,East,217.71266616905527,Second Class,UPI,9,2023,Customer 92,Consumer,USA,Product 10,Technology,Chairs,Not Returned
+ORD-00348,CUST-058,2023-06-07,2023-06-12,PROD-043,3,37.2,0.14,41.91,South,-2.9586789905914994,Standard Class,Cash on Delivery,6,2023,Customer 58,Consumer,Germany,Product 43,Technology,Phones,Not Returned
+ORD-00349,CUST-020,2023-06-19,2023-06-21,PROD-034,8,307.44,0.48,34.19,West,120.51265801239892,First Class,Cash on Delivery,6,2023,Customer 20,Corporate,Germany,Product 34,Furniture,Chairs,Not Returned
+ORD-00350,CUST-092,2023-04-19,2023-04-24,PROD-026,3,777.68,0.01,23.85,West,735.8206677662441,Same Day,Credit Card,4,2023,Customer 92,Consumer,USA,Product 26,Technology,Storage,Not Returned
+ORD-00351,CUST-072,2023-09-18,2023-09-20,PROD-041,8,527.6,0.36,25.61,Central,314.8544534269741,Second Class,UPI,9,2023,Customer 72,Corporate,India,Product 41,Furniture,Chairs,Not Returned
+ORD-00352,CUST-061,2023-10-04,2023-10-06,PROD-049,1,361.13,0.35,16.55,West,191.43882871845858,Same Day,Cash on Delivery,10,2023,Customer 61,Corporate,UK,Product 49,Office Supplies,Tables,Not Returned
+ORD-00353,CUST-039,2023-05-03,2023-05-05,PROD-003,5,384.3,0.31,38.85,South,208.8072442559477,Standard Class,Cash on Delivery,5,2023,Customer 39,Consumer,Canada,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00354,CUST-001,2023-01-27,2023-01-28,PROD-006,4,21.33,0.5,28.08,West,-19.18991883774283,Second Class,Cash on Delivery,1,2023,Customer 1,Home Office,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-00355,CUST-003,2023-09-25,2023-09-28,PROD-005,5,313.8,0.16,19.44,West,244.97641766634842,First Class,UPI,9,2023,Customer 3,Home Office,India,Product 5,Furniture,Chairs,Not Returned
+ORD-00356,CUST-077,2023-04-12,2023-04-14,PROD-005,8,653.53,0.17,31.82,East,506.9167122984181,Standard Class,Credit Card,4,2023,Customer 77,Corporate,India,Product 5,Furniture,Chairs,Not Returned
+ORD-00357,CUST-092,2023-04-15,2023-04-20,PROD-047,4,974.71,0.04,49.81,East,870.1172370128239,Same Day,Cash on Delivery,4,2023,Customer 92,Consumer,USA,Product 47,Technology,Phones,Not Returned
+ORD-00358,CUST-062,2023-05-08,2023-05-12,PROD-023,4,850.12,0.22,24.59,South,630.3246815786149,First Class,Net Banking,5,2023,Customer 62,Consumer,Germany,Product 23,Technology,Chairs,Not Returned
+ORD-00359,CUST-063,2023-12-03,2023-12-04,PROD-049,3,43.12,0.13,46.43,Central,-5.003506727626066,Standard Class,UPI,12,2023,Customer 63,Corporate,USA,Product 49,Office Supplies,Tables,Not Returned
+ORD-00360,CUST-025,2023-02-13,2023-02-15,PROD-009,7,900.59,0.17,20.53,East,732.7775177062837,First Class,Debit Card,2,2023,Customer 25,Consumer,Canada,Product 9,Technology,Phones,Not Returned
+ORD-00361,CUST-056,2023-09-24,2023-09-29,PROD-035,3,787.53,0.42,7.46,Central,449.1451688240407,Standard Class,Credit Card,9,2023,Customer 56,Home Office,Germany,Product 35,Furniture,Binders,Not Returned
+ORD-00362,CUST-033,2023-11-03,2023-11-06,PROD-020,3,784.77,0.47,14.19,South,413.3064378103699,Second Class,Net Banking,11,2023,Customer 33,Corporate,UK,Product 20,Technology,Binders,Not Returned
+ORD-00363,CUST-038,2023-01-30,2023-02-03,PROD-049,5,468.84,0.09,23.84,East,406.7783702345924,Standard Class,Cash on Delivery,1,2023,Customer 38,Home Office,Germany,Product 49,Office Supplies,Tables,Not Returned
+ORD-00364,CUST-006,2023-07-21,2023-07-22,PROD-042,5,410.05,0.19,14.88,Central,309.7859434604179,Second Class,Debit Card,7,2023,Customer 6,Consumer,India,Product 42,Office Supplies,Binders,Not Returned
+ORD-00365,CUST-058,2023-12-11,2023-12-15,PROD-035,6,316.86,0.46,5.01,East,163.28937946588385,Standard Class,Credit Card,12,2023,Customer 58,Consumer,Germany,Product 35,Furniture,Binders,Not Returned
+ORD-00366,CUST-044,2023-10-10,2023-10-14,PROD-050,8,84.38,0.03,46.18,South,21.639938427921443,Standard Class,UPI,10,2023,Customer 44,Consumer,Canada,Product 50,Furniture,Storage,Not Returned
+ORD-00367,CUST-045,2023-01-03,2023-01-04,PROD-018,6,243.67,0.05,42.97,South,187.43511009608582,Same Day,Debit Card,1,2023,Customer 45,Consumer,Germany,Product 18,Office Supplies,Phones,Not Returned
+ORD-00368,CUST-032,2023-03-03,2023-03-04,PROD-017,1,261.67,0.08,38.4,East,213.4574061922134,First Class,Debit Card,3,2023,Customer 32,Home Office,UK,Product 17,Office Supplies,Binders,Not Returned
+ORD-00369,CUST-045,2023-10-21,2023-10-23,PROD-024,8,494.4,0.3,12.55,Central,340.3829008471096,First Class,Net Banking,10,2023,Customer 45,Consumer,Germany,Product 24,Office Supplies,Phones,Not Returned
+ORD-00370,CUST-061,2023-07-24,2023-07-29,PROD-003,8,752.5,0.08,10.42,West,695.9000932591913,First Class,Credit Card,7,2023,Customer 61,Corporate,UK,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00371,CUST-047,2023-01-14,2023-01-17,PROD-032,9,484.33,0.48,8.04,West,240.78274756201006,Standard Class,Net Banking,1,2023,Customer 47,Corporate,India,Product 32,Technology,Chairs,Not Returned
+ORD-00372,CUST-021,2023-08-17,2023-08-20,PROD-035,9,76.69,0.22,37.58,East,35.69919794514257,Standard Class,Net Banking,8,2023,Customer 21,Consumer,India,Product 35,Furniture,Binders,Not Returned
+ORD-00373,CUST-080,2023-12-27,2023-12-29,PROD-038,2,958.63,0.25,46.8,Central,670.2394577355203,Standard Class,Cash on Delivery,12,2023,Customer 80,Corporate,India,Product 38,Furniture,Binders,Returned
+ORD-00374,CUST-085,2023-12-20,2023-12-24,PROD-013,2,943.87,0.12,24.37,West,820.9514508256989,Second Class,UPI,12,2023,Customer 85,Consumer,UK,Product 13,Technology,Phones,Not Returned
+ORD-00375,CUST-075,2023-07-17,2023-07-22,PROD-047,3,789.49,0.24,10.36,South,589.4338325255789,Second Class,Debit Card,7,2023,Customer 75,Corporate,Canada,Product 47,Technology,Phones,Returned
+ORD-00376,CUST-036,2023-01-31,2023-02-05,PROD-025,1,991.5,0.33,28.06,Central,643.3173137380428,Same Day,Credit Card,1,2023,Customer 36,Corporate,India,Product 25,Furniture,Chairs,Not Returned
+ORD-00377,CUST-099,2023-02-16,2023-02-17,PROD-009,4,553.59,0.38,20.7,West,337.27692364309854,Standard Class,UPI,2,2023,Customer 99,Consumer,Canada,Product 9,Technology,Phones,Not Returned
+ORD-00378,CUST-019,2023-03-15,2023-03-19,PROD-004,4,963.51,0.38,21.87,Central,573.571923714188,First Class,UPI,3,2023,Customer 19,Corporate,India,Product 4,Office Supplies,Tables,Returned
+ORD-00379,CUST-020,2023-03-09,2023-03-10,PROD-014,9,94.09,0.29,32.96,East,36.02778987544174,First Class,Credit Card,3,2023,Customer 20,Corporate,Germany,Product 14,Office Supplies,Phones,Not Returned
+ORD-00380,CUST-057,2023-09-05,2023-09-10,PROD-037,9,378.37,0.45,37.34,Central,183.65213425206304,Same Day,UPI,9,2023,Customer 57,Home Office,Germany,Product 37,Office Supplies,Storage,Not Returned
+ORD-00381,CUST-018,2023-12-31,2024-01-03,PROD-034,9,240.87,0.41,9.98,West,130.80326836069938,First Class,Cash on Delivery,12,2023,Customer 18,Corporate,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00382,CUST-047,2023-02-19,2023-02-24,PROD-011,7,211.92,0.38,6.6,East,111.5814771749384,Same Day,UPI,2,2023,Customer 47,Corporate,India,Product 11,Technology,Chairs,Not Returned
+ORD-00383,CUST-049,2023-04-28,2023-05-03,PROD-041,2,157.99,0.03,49.74,Central,124.9403705458491,Standard Class,Cash on Delivery,4,2023,Customer 49,Corporate,Germany,Product 41,Furniture,Chairs,Not Returned
+ORD-00384,CUST-014,2023-01-29,2023-02-03,PROD-003,5,629.97,0.0,15.47,South,609.8023553566286,First Class,Debit Card,1,2023,Customer 14,Home Office,USA,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00385,CUST-015,2023-12-31,2024-01-03,PROD-028,4,785.7,0.11,7.42,West,693.4405605093755,Standard Class,Debit Card,12,2023,Customer 15,Corporate,Germany,Product 28,Technology,Tables,Not Returned
+ORD-00386,CUST-031,2023-08-02,2023-08-04,PROD-029,8,586.73,0.33,13.54,East,391.1291666945112,Second Class,Net Banking,8,2023,Customer 31,Corporate,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00387,CUST-001,2023-03-17,2023-03-22,PROD-009,2,164.02,0.21,6.75,Central,116.740860962688,First Class,Cash on Delivery,3,2023,Customer 1,Home Office,Germany,Product 9,Technology,Phones,Not Returned
+ORD-00388,CUST-054,2023-06-24,2023-06-26,PROD-003,6,814.9,0.2,22.63,South,619.2113208677788,Second Class,Debit Card,6,2023,Customer 54,Consumer,Canada,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00389,CUST-003,2023-09-07,2023-09-09,PROD-025,5,643.24,0.44,41.11,West,321.64177296774835,First Class,UPI,9,2023,Customer 3,Home Office,India,Product 25,Furniture,Chairs,Not Returned
+ORD-00390,CUST-016,2023-09-12,2023-09-17,PROD-034,2,400.4,0.45,20.36,South,181.92923602087612,Standard Class,Credit Card,9,2023,Customer 16,Consumer,UK,Product 34,Furniture,Chairs,Not Returned
+ORD-00391,CUST-087,2023-02-09,2023-02-11,PROD-012,1,680.65,0.45,24.99,Central,346.4884392313208,Same Day,Credit Card,2,2023,Customer 87,Home Office,Germany,Product 12,Furniture,Phones,Not Returned
+ORD-00392,CUST-057,2023-09-07,2023-09-10,PROD-042,8,274.71,0.16,35.4,Central,197.80678664315403,Standard Class,Cash on Delivery,9,2023,Customer 57,Home Office,Germany,Product 42,Office Supplies,Binders,Not Returned
+ORD-00393,CUST-075,2023-11-03,2023-11-08,PROD-009,2,358.29,0.35,27.9,East,202.28898103174836,Standard Class,Net Banking,11,2023,Customer 75,Corporate,Canada,Product 9,Technology,Phones,Not Returned
+ORD-00394,CUST-012,2023-09-03,2023-09-05,PROD-015,7,919.14,0.14,43.77,South,731.2558905681425,Standard Class,UPI,9,2023,Customer 12,Home Office,USA,Product 15,Furniture,Binders,Not Returned
+ORD-00395,CUST-074,2023-05-01,2023-05-05,PROD-040,9,304.69,0.1,43.97,East,246.19277956204013,First Class,Cash on Delivery,5,2023,Customer 74,Corporate,USA,Product 40,Furniture,Chairs,Not Returned
+ORD-00396,CUST-096,2023-08-14,2023-08-16,PROD-025,9,480.59,0.09,5.45,West,432.9222815394918,Same Day,Credit Card,8,2023,Customer 96,Consumer,UK,Product 25,Furniture,Chairs,Not Returned
+ORD-00397,CUST-016,2023-12-25,2023-12-28,PROD-005,8,892.34,0.17,40.01,East,714.9437211776175,Second Class,Cash on Delivery,12,2023,Customer 16,Consumer,UK,Product 5,Furniture,Chairs,Returned
+ORD-00398,CUST-072,2023-01-12,2023-01-17,PROD-011,9,713.57,0.21,25.73,West,535.3899374981956,Standard Class,UPI,1,2023,Customer 72,Corporate,India,Product 11,Technology,Chairs,Not Returned
+ORD-00399,CUST-076,2023-04-27,2023-04-29,PROD-034,2,80.96,0.42,49.5,Central,-11.343319816907638,First Class,Debit Card,4,2023,Customer 76,Corporate,USA,Product 34,Furniture,Chairs,Not Returned
+ORD-00400,CUST-024,2023-04-29,2023-05-01,PROD-024,6,164.36,0.06,26.75,Central,130.4402092025516,Second Class,UPI,4,2023,Customer 24,Corporate,India,Product 24,Office Supplies,Phones,Not Returned
+ORD-00401,CUST-028,2023-09-24,2023-09-27,PROD-015,4,27.68,0.37,49.41,South,-34.12947126328219,Standard Class,Debit Card,9,2023,Customer 28,Home Office,Canada,Product 15,Furniture,Binders,Not Returned
+ORD-00402,CUST-008,2023-09-09,2023-09-12,PROD-038,4,638.3,0.27,38.96,West,415.2213854200864,Second Class,Debit Card,9,2023,Customer 8,Corporate,India,Product 38,Furniture,Binders,Not Returned
+ORD-00403,CUST-092,2023-06-04,2023-06-08,PROD-008,5,458.72,0.14,16.19,Central,393.007042587875,Standard Class,Debit Card,6,2023,Customer 92,Consumer,USA,Product 8,Technology,Storage,Not Returned
+ORD-00404,CUST-036,2023-10-21,2023-10-26,PROD-005,3,151.59,0.25,29.23,South,78.23979777106003,Second Class,Cash on Delivery,10,2023,Customer 36,Corporate,India,Product 5,Furniture,Chairs,Not Returned
+ORD-00405,CUST-090,2023-10-21,2023-10-25,PROD-048,1,958.78,0.15,49.65,South,746.9103361520444,Second Class,Credit Card,10,2023,Customer 90,Consumer,USA,Product 48,Technology,Phones,Not Returned
+ORD-00406,CUST-008,2023-12-24,2023-12-28,PROD-026,8,539.07,0.3,43.59,East,347.04066053957337,Same Day,Cash on Delivery,12,2023,Customer 8,Corporate,India,Product 26,Technology,Storage,Not Returned
+ORD-00407,CUST-058,2023-04-02,2023-04-03,PROD-018,5,257.06,0.22,9.38,South,186.08381984187378,Same Day,Credit Card,4,2023,Customer 58,Consumer,Germany,Product 18,Office Supplies,Phones,Not Returned
+ORD-00408,CUST-060,2023-06-26,2023-07-01,PROD-006,3,510.59,0.08,36.79,Central,426.8745610738437,Standard Class,UPI,6,2023,Customer 60,Home Office,India,Product 6,Office Supplies,Binders,Not Returned
+ORD-00409,CUST-050,2023-12-05,2023-12-09,PROD-037,7,686.03,0.06,20.55,East,606.6643241297002,First Class,Net Banking,12,2023,Customer 50,Corporate,UK,Product 37,Office Supplies,Storage,Not Returned
+ORD-00410,CUST-028,2023-03-22,2023-03-24,PROD-048,7,94.71,0.27,5.31,West,81.23771486596989,Same Day,UPI,3,2023,Customer 28,Home Office,Canada,Product 48,Technology,Phones,Returned
+ORD-00411,CUST-092,2023-10-26,2023-10-29,PROD-013,1,289.21,0.45,23.16,West,123.01069412790315,Second Class,Cash on Delivery,10,2023,Customer 92,Consumer,USA,Product 13,Technology,Phones,Not Returned
+ORD-00412,CUST-041,2023-01-09,2023-01-14,PROD-028,9,810.83,0.17,15.56,Central,658.0133948070566,Same Day,Cash on Delivery,1,2023,Customer 41,Consumer,Canada,Product 28,Technology,Tables,Not Returned
+ORD-00413,CUST-100,2023-09-06,2023-09-09,PROD-005,2,470.47,0.37,41.85,Central,263.67230322540445,Same Day,Credit Card,9,2023,Customer 100,Consumer,USA,Product 5,Furniture,Chairs,Not Returned
+ORD-00414,CUST-064,2023-04-18,2023-04-20,PROD-013,5,555.65,0.33,20.18,East,356.3226693300309,Standard Class,Cash on Delivery,4,2023,Customer 64,Corporate,USA,Product 13,Technology,Phones,Returned
+ORD-00415,CUST-027,2023-07-16,2023-07-18,PROD-017,5,444.16,0.47,42.24,East,192.5682568800781,Same Day,Debit Card,7,2023,Customer 27,Consumer,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00416,CUST-063,2023-02-20,2023-02-24,PROD-050,8,63.02,0.41,5.03,Central,15.135141417125848,Same Day,Cash on Delivery,2,2023,Customer 63,Corporate,USA,Product 50,Furniture,Storage,Not Returned
+ORD-00417,CUST-017,2023-05-07,2023-05-08,PROD-040,8,182.43,0.28,18.85,Central,104.40235164232718,Second Class,Credit Card,5,2023,Customer 17,Corporate,USA,Product 40,Furniture,Chairs,Not Returned
+ORD-00418,CUST-073,2023-01-30,2023-01-31,PROD-045,7,456.63,0.33,15.85,West,291.9701033804252,Same Day,Credit Card,1,2023,Customer 73,Corporate,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00419,CUST-033,2023-05-07,2023-05-12,PROD-032,7,225.0,0.45,15.51,West,100.36825930013005,Second Class,Debit Card,5,2023,Customer 33,Corporate,UK,Product 32,Technology,Chairs,Not Returned
+ORD-00420,CUST-084,2023-05-03,2023-05-06,PROD-029,6,68.98,0.2,8.07,West,49.147594599987684,Same Day,Credit Card,5,2023,Customer 84,Consumer,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00421,CUST-077,2023-03-18,2023-03-22,PROD-003,6,846.78,0.16,13.42,Central,704.6926340881514,Same Day,Net Banking,3,2023,Customer 77,Corporate,India,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00422,CUST-092,2023-09-28,2023-10-02,PROD-040,9,981.57,0.01,30.0,South,951.379328858001,First Class,UPI,9,2023,Customer 92,Consumer,USA,Product 40,Furniture,Chairs,Not Returned
+ORD-00423,CUST-029,2023-11-05,2023-11-10,PROD-034,6,797.28,0.41,18.11,Central,440.0234064218732,Same Day,Cash on Delivery,11,2023,Customer 29,Home Office,UK,Product 34,Furniture,Chairs,Not Returned
+ORD-00424,CUST-013,2023-05-30,2023-06-03,PROD-040,2,856.71,0.4,23.78,Central,512.2124605497895,Second Class,Net Banking,5,2023,Customer 13,Consumer,Germany,Product 40,Furniture,Chairs,Not Returned
+ORD-00425,CUST-046,2023-11-21,2023-11-24,PROD-027,2,257.14,0.05,21.96,West,229.99779344554128,Second Class,Cash on Delivery,11,2023,Customer 46,Home Office,Canada,Product 27,Technology,Tables,Not Returned
+ORD-00426,CUST-035,2023-04-06,2023-04-10,PROD-013,5,961.41,0.29,44.42,Central,638.1639584633094,Standard Class,Net Banking,4,2023,Customer 35,Home Office,Canada,Product 13,Technology,Phones,Not Returned
+ORD-00427,CUST-006,2023-09-03,2023-09-05,PROD-045,4,212.99,0.23,45.74,East,129.1576658307664,Standard Class,Cash on Delivery,9,2023,Customer 6,Consumer,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00428,CUST-082,2023-09-19,2023-09-20,PROD-033,2,952.4,0.06,27.18,Central,891.7300777199997,First Class,Debit Card,9,2023,Customer 82,Consumer,Germany,Product 33,Technology,Binders,Not Returned
+ORD-00429,CUST-069,2023-01-01,2023-01-04,PROD-006,3,994.92,0.49,19.86,Central,473.1619989894313,Second Class,Credit Card,1,2023,Customer 69,Corporate,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-00430,CUST-047,2023-12-08,2023-12-09,PROD-024,7,717.49,0.11,9.81,Central,626.5034735750866,Second Class,Credit Card,12,2023,Customer 47,Corporate,India,Product 24,Office Supplies,Phones,Not Returned
+ORD-00431,CUST-025,2023-02-17,2023-02-18,PROD-019,8,981.52,0.03,47.9,Central,880.3900834012667,Second Class,Debit Card,2,2023,Customer 25,Consumer,Canada,Product 19,Technology,Chairs,Returned
+ORD-00432,CUST-066,2023-10-21,2023-10-25,PROD-016,6,578.15,0.3,7.71,South,398.92151532648023,First Class,Net Banking,10,2023,Customer 66,Corporate,USA,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00433,CUST-010,2023-04-21,2023-04-25,PROD-040,5,274.35,0.37,18.39,Central,158.10444241925143,Second Class,UPI,4,2023,Customer 10,Home Office,UK,Product 40,Furniture,Chairs,Not Returned
+ORD-00434,CUST-056,2023-03-10,2023-03-11,PROD-028,1,448.26,0.02,18.41,East,420.4931788455724,Standard Class,Net Banking,3,2023,Customer 56,Home Office,Germany,Product 28,Technology,Tables,Returned
+ORD-00435,CUST-030,2023-03-14,2023-03-15,PROD-033,8,601.69,0.33,19.42,East,377.1669642900169,First Class,Credit Card,3,2023,Customer 30,Home Office,India,Product 33,Technology,Binders,Not Returned
+ORD-00436,CUST-005,2023-07-10,2023-07-12,PROD-048,3,91.62,0.27,12.39,Central,33.997454838116745,Standard Class,UPI,7,2023,Customer 5,Consumer,India,Product 48,Technology,Phones,Returned
+ORD-00437,CUST-033,2023-07-17,2023-07-19,PROD-041,6,629.9,0.05,40.24,West,561.9003368341176,Standard Class,Cash on Delivery,7,2023,Customer 33,Corporate,UK,Product 41,Furniture,Chairs,Not Returned
+ORD-00438,CUST-065,2023-04-17,2023-04-19,PROD-013,3,981.55,0.09,10.51,South,897.2548448391533,First Class,UPI,4,2023,Customer 65,Corporate,USA,Product 13,Technology,Phones,Returned
+ORD-00439,CUST-018,2023-12-09,2023-12-12,PROD-043,7,206.31,0.28,33.57,Central,109.06301544266567,Same Day,Net Banking,12,2023,Customer 18,Corporate,Canada,Product 43,Technology,Phones,Not Returned
+ORD-00440,CUST-096,2023-09-10,2023-09-13,PROD-045,7,796.74,0.15,10.57,Central,671.0595992902314,Same Day,Debit Card,9,2023,Customer 96,Consumer,UK,Product 45,Office Supplies,Storage,Not Returned
+ORD-00441,CUST-049,2023-09-11,2023-09-13,PROD-025,9,909.74,0.47,8.17,Central,458.31075686579953,Standard Class,Cash on Delivery,9,2023,Customer 49,Corporate,Germany,Product 25,Furniture,Chairs,Not Returned
+ORD-00442,CUST-011,2023-06-19,2023-06-23,PROD-042,5,944.83,0.41,45.92,West,516.1018306369252,Same Day,Net Banking,6,2023,Customer 11,Home Office,UK,Product 42,Office Supplies,Binders,Not Returned
+ORD-00443,CUST-085,2023-03-06,2023-03-11,PROD-036,8,960.93,0.49,13.56,West,472.5804770225534,Second Class,Cash on Delivery,3,2023,Customer 85,Consumer,UK,Product 36,Technology,Chairs,Not Returned
+ORD-00444,CUST-026,2023-08-29,2023-08-30,PROD-027,8,531.03,0.13,41.96,West,412.41192049397085,First Class,UPI,8,2023,Customer 26,Consumer,India,Product 27,Technology,Tables,Not Returned
+ORD-00445,CUST-063,2023-07-14,2023-07-16,PROD-038,1,977.76,0.48,29.51,South,471.32156358783874,Standard Class,Credit Card,7,2023,Customer 63,Corporate,USA,Product 38,Furniture,Binders,Not Returned
+ORD-00446,CUST-089,2023-12-25,2023-12-30,PROD-007,5,762.16,0.22,8.5,East,582.0486841796699,Second Class,Net Banking,12,2023,Customer 89,Corporate,India,Product 7,Office Supplies,Storage,Not Returned
+ORD-00447,CUST-086,2023-09-26,2023-09-29,PROD-005,3,178.44,0.17,48.0,South,103.92953315692534,Same Day,Debit Card,9,2023,Customer 86,Corporate,Germany,Product 5,Furniture,Chairs,Not Returned
+ORD-00448,CUST-059,2023-08-02,2023-08-05,PROD-043,1,487.36,0.03,16.11,West,443.5075679880448,Second Class,UPI,8,2023,Customer 59,Home Office,Germany,Product 43,Technology,Phones,Not Returned
+ORD-00449,CUST-027,2023-05-06,2023-05-09,PROD-045,4,723.96,0.03,43.68,East,654.5900466843216,Same Day,Net Banking,5,2023,Customer 27,Consumer,USA,Product 45,Office Supplies,Storage,Returned
+ORD-00450,CUST-049,2023-08-18,2023-08-19,PROD-031,8,262.39,0.35,12.6,East,157.53878222000853,Standard Class,Debit Card,8,2023,Customer 49,Corporate,Germany,Product 31,Technology,Storage,Not Returned
+ORD-00451,CUST-077,2023-03-17,2023-03-18,PROD-023,3,647.8,0.23,43.43,West,444.38560775468136,Second Class,Net Banking,3,2023,Customer 77,Corporate,India,Product 23,Technology,Chairs,Not Returned
+ORD-00452,CUST-033,2023-08-03,2023-08-08,PROD-042,2,673.27,0.11,5.6,West,611.57695201675,First Class,UPI,8,2023,Customer 33,Corporate,UK,Product 42,Office Supplies,Binders,Not Returned
+ORD-00453,CUST-098,2023-08-11,2023-08-12,PROD-010,9,179.45,0.31,28.03,South,87.25554519938656,Standard Class,Net Banking,8,2023,Customer 98,Home Office,Germany,Product 10,Technology,Chairs,Not Returned
+ORD-00454,CUST-099,2023-11-15,2023-11-20,PROD-032,5,573.78,0.13,39.62,West,452.87423086366505,Second Class,Cash on Delivery,11,2023,Customer 99,Consumer,Canada,Product 32,Technology,Chairs,Not Returned
+ORD-00455,CUST-001,2023-08-13,2023-08-16,PROD-043,7,776.19,0.29,47.07,East,494.24182050177507,Second Class,UPI,8,2023,Customer 1,Home Office,Germany,Product 43,Technology,Phones,Not Returned
+ORD-00456,CUST-021,2023-07-11,2023-07-13,PROD-030,2,508.92,0.18,45.91,Central,389.3892008713812,Same Day,Net Banking,7,2023,Customer 21,Consumer,India,Product 30,Technology,Phones,Not Returned
+ORD-00457,CUST-055,2023-11-02,2023-11-03,PROD-039,9,31.86,0.41,41.88,West,-17.553547714005184,Standard Class,Credit Card,11,2023,Customer 55,Corporate,Germany,Product 39,Technology,Phones,Not Returned
+ORD-00458,CUST-006,2023-03-26,2023-03-30,PROD-031,9,28.86,0.41,44.97,West,-37.308520062436415,Standard Class,Net Banking,3,2023,Customer 6,Consumer,India,Product 31,Technology,Storage,Not Returned
+ORD-00459,CUST-092,2023-04-17,2023-04-21,PROD-018,4,369.89,0.24,13.96,South,278.2187155885997,Standard Class,Cash on Delivery,4,2023,Customer 92,Consumer,USA,Product 18,Office Supplies,Phones,Returned
+ORD-00460,CUST-081,2023-11-30,2023-12-01,PROD-036,4,927.67,0.18,17.79,South,744.9063869428888,Standard Class,Debit Card,11,2023,Customer 81,Home Office,USA,Product 36,Technology,Chairs,Not Returned
+ORD-00461,CUST-069,2023-04-04,2023-04-05,PROD-002,6,244.1,0.18,18.0,West,184.73453421111503,Same Day,Debit Card,4,2023,Customer 69,Corporate,Germany,Product 2,Technology,Binders,Returned
+ORD-00462,CUST-095,2023-03-04,2023-03-08,PROD-014,6,641.68,0.4,21.97,East,359.59322791247547,First Class,Debit Card,3,2023,Customer 95,Consumer,USA,Product 14,Office Supplies,Phones,Not Returned
+ORD-00463,CUST-005,2023-08-25,2023-08-27,PROD-013,1,237.63,0.16,22.7,East,169.41504013043027,Standard Class,Credit Card,8,2023,Customer 5,Consumer,India,Product 13,Technology,Phones,Not Returned
+ORD-00464,CUST-003,2023-12-05,2023-12-06,PROD-029,9,335.24,0.1,29.5,Central,275.593660990546,Same Day,Cash on Delivery,12,2023,Customer 3,Home Office,India,Product 29,Office Supplies,Tables,Returned
+ORD-00465,CUST-053,2023-01-21,2023-01-23,PROD-012,2,851.08,0.04,12.19,West,799.395927700044,First Class,UPI,1,2023,Customer 53,Corporate,USA,Product 12,Furniture,Phones,Returned
+ORD-00466,CUST-023,2023-12-26,2023-12-31,PROD-039,5,734.28,0.23,36.11,South,547.453156295751,First Class,Debit Card,12,2023,Customer 23,Corporate,USA,Product 39,Technology,Phones,Not Returned
+ORD-00467,CUST-053,2023-01-13,2023-01-17,PROD-002,9,113.49,0.24,12.54,East,61.01948894756896,Same Day,Cash on Delivery,1,2023,Customer 53,Corporate,USA,Product 2,Technology,Binders,Not Returned
+ORD-00468,CUST-037,2023-08-04,2023-08-09,PROD-032,4,440.13,0.42,18.96,Central,251.67696772854947,Standard Class,Net Banking,8,2023,Customer 37,Home Office,USA,Product 32,Technology,Chairs,Not Returned
+ORD-00469,CUST-074,2023-05-14,2023-05-15,PROD-013,3,48.59,0.11,27.65,West,14.481911512021995,First Class,Credit Card,5,2023,Customer 74,Corporate,USA,Product 13,Technology,Phones,Returned
+ORD-00470,CUST-074,2023-10-26,2023-10-27,PROD-046,7,491.27,0.19,40.84,East,360.07955734021107,Standard Class,Cash on Delivery,10,2023,Customer 74,Corporate,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00471,CUST-083,2023-05-21,2023-05-25,PROD-027,6,669.19,0.4,38.28,West,371.56557766629436,Standard Class,Cash on Delivery,5,2023,Customer 83,Corporate,USA,Product 27,Technology,Tables,Not Returned
+ORD-00472,CUST-017,2023-09-17,2023-09-20,PROD-049,8,136.13,0.41,34.05,West,39.964207049955654,Second Class,UPI,9,2023,Customer 17,Corporate,USA,Product 49,Office Supplies,Tables,Not Returned
+ORD-00473,CUST-085,2023-12-18,2023-12-21,PROD-041,3,303.11,0.19,12.01,East,242.1515838469864,Standard Class,Cash on Delivery,12,2023,Customer 85,Consumer,UK,Product 41,Furniture,Chairs,Not Returned
+ORD-00474,CUST-078,2023-05-30,2023-06-03,PROD-017,5,409.88,0.23,29.62,East,258.91216144618824,Second Class,UPI,5,2023,Customer 78,Home Office,UK,Product 17,Office Supplies,Binders,Not Returned
+ORD-00475,CUST-073,2023-10-09,2023-10-12,PROD-040,4,921.14,0.15,8.94,East,766.8291046677805,First Class,Credit Card,10,2023,Customer 73,Corporate,India,Product 40,Furniture,Chairs,Not Returned
+ORD-00476,CUST-001,2023-08-03,2023-08-07,PROD-031,4,993.39,0.47,21.98,West,495.27607192658934,Same Day,Credit Card,8,2023,Customer 1,Home Office,Germany,Product 31,Technology,Storage,Not Returned
+ORD-00477,CUST-051,2023-09-08,2023-09-11,PROD-034,4,64.01,0.06,23.61,West,24.024339876282387,Second Class,Net Banking,9,2023,Customer 51,Corporate,UK,Product 34,Furniture,Chairs,Not Returned
+ORD-00478,CUST-045,2023-11-25,2023-11-28,PROD-024,8,765.79,0.47,6.79,Central,396.9291516192105,Same Day,UPI,11,2023,Customer 45,Consumer,Germany,Product 24,Office Supplies,Phones,Not Returned
+ORD-00479,CUST-077,2023-04-17,2023-04-21,PROD-045,6,384.29,0.34,17.33,South,240.15889968181696,First Class,UPI,4,2023,Customer 77,Corporate,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00480,CUST-004,2023-05-07,2023-05-08,PROD-035,3,404.61,0.27,48.0,West,254.39189998499305,Standard Class,Debit Card,5,2023,Customer 4,Home Office,USA,Product 35,Furniture,Binders,Not Returned
+ORD-00481,CUST-062,2023-03-02,2023-03-07,PROD-048,5,759.18,0.02,47.91,South,698.4951675720041,First Class,Debit Card,3,2023,Customer 62,Consumer,Germany,Product 48,Technology,Phones,Not Returned
+ORD-00482,CUST-065,2023-12-02,2023-12-06,PROD-006,6,920.06,0.24,20.85,East,671.7386653510645,Same Day,Net Banking,12,2023,Customer 65,Corporate,USA,Product 6,Office Supplies,Binders,Not Returned
+ORD-00483,CUST-032,2023-06-18,2023-06-20,PROD-019,5,951.91,0.2,6.94,West,758.2781643782516,First Class,Credit Card,6,2023,Customer 32,Home Office,UK,Product 19,Technology,Chairs,Not Returned
+ORD-00484,CUST-034,2023-03-13,2023-03-14,PROD-030,6,585.58,0.08,13.06,Central,526.9164569485085,Standard Class,Debit Card,3,2023,Customer 34,Corporate,Germany,Product 30,Technology,Phones,Not Returned
+ORD-00485,CUST-092,2023-01-02,2023-01-03,PROD-007,8,369.98,0.33,22.65,Central,234.59716167936014,First Class,Cash on Delivery,1,2023,Customer 92,Consumer,USA,Product 7,Office Supplies,Storage,Not Returned
+ORD-00486,CUST-095,2023-04-11,2023-04-15,PROD-010,7,791.8,0.49,47.65,South,363.93736702931517,Standard Class,Credit Card,4,2023,Customer 95,Consumer,USA,Product 10,Technology,Chairs,Not Returned
+ORD-00487,CUST-072,2023-12-06,2023-12-09,PROD-041,5,265.98,0.28,11.35,East,180.46036413920632,Second Class,Cash on Delivery,12,2023,Customer 72,Corporate,India,Product 41,Furniture,Chairs,Returned
+ORD-00488,CUST-039,2023-01-09,2023-01-13,PROD-032,6,572.79,0.36,39.36,South,318.2530699383874,Same Day,UPI,1,2023,Customer 39,Consumer,Canada,Product 32,Technology,Chairs,Not Returned
+ORD-00489,CUST-026,2023-09-22,2023-09-25,PROD-034,4,371.41,0.03,9.89,East,343.8481984416792,Standard Class,Credit Card,9,2023,Customer 26,Consumer,India,Product 34,Furniture,Chairs,Not Returned
+ORD-00490,CUST-034,2023-03-17,2023-03-18,PROD-028,9,663.5,0.21,49.16,Central,469.5071064036198,Standard Class,Net Banking,3,2023,Customer 34,Corporate,Germany,Product 28,Technology,Tables,Not Returned
+ORD-00491,CUST-054,2023-02-12,2023-02-15,PROD-015,4,255.59,0.06,22.17,South,214.9319366608374,First Class,UPI,2,2023,Customer 54,Consumer,Canada,Product 15,Furniture,Binders,Not Returned
+ORD-00492,CUST-003,2023-09-01,2023-09-05,PROD-030,1,207.76,0.31,39.89,Central,106.1449042758975,Second Class,UPI,9,2023,Customer 3,Home Office,India,Product 30,Technology,Phones,Not Returned
+ORD-00493,CUST-050,2023-08-21,2023-08-24,PROD-037,7,919.87,0.47,20.42,Central,474.26284390128063,Standard Class,Cash on Delivery,8,2023,Customer 50,Corporate,UK,Product 37,Office Supplies,Storage,Not Returned
+ORD-00494,CUST-012,2023-09-04,2023-09-08,PROD-029,7,119.77,0.33,33.25,East,46.484713069846215,Second Class,UPI,9,2023,Customer 12,Home Office,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00495,CUST-065,2023-09-11,2023-09-12,PROD-022,4,515.84,0.04,13.64,South,481.7276478790048,Second Class,Debit Card,9,2023,Customer 65,Corporate,USA,Product 22,Furniture,Phones,Not Returned
+ORD-00496,CUST-054,2023-01-24,2023-01-27,PROD-004,3,236.44,0.18,11.57,South,183.74386305000007,First Class,Credit Card,1,2023,Customer 54,Consumer,Canada,Product 4,Office Supplies,Tables,Not Returned
+ORD-00497,CUST-005,2023-07-29,2023-07-30,PROD-020,8,58.15,0.28,47.21,Central,-10.501053131323406,Standard Class,Debit Card,7,2023,Customer 5,Consumer,India,Product 20,Technology,Binders,Not Returned
+ORD-00498,CUST-094,2023-05-07,2023-05-10,PROD-032,5,55.3,0.2,46.29,Central,-11.303922576429558,First Class,Cash on Delivery,5,2023,Customer 94,Home Office,India,Product 32,Technology,Chairs,Not Returned
+ORD-00499,CUST-094,2023-07-31,2023-08-04,PROD-036,7,191.72,0.42,44.94,East,48.70322102689291,Same Day,Cash on Delivery,7,2023,Customer 94,Home Office,India,Product 36,Technology,Chairs,Not Returned
+ORD-00500,CUST-057,2023-06-29,2023-06-30,PROD-050,4,869.43,0.41,33.14,West,472.8722064192313,Same Day,Credit Card,6,2023,Customer 57,Home Office,Germany,Product 50,Furniture,Storage,Not Returned
+ORD-00501,CUST-017,2023-02-06,2023-02-10,PROD-004,4,296.83,0.31,41.37,West,168.17415453267785,Standard Class,UPI,2,2023,Customer 17,Corporate,USA,Product 4,Office Supplies,Tables,Not Returned
+ORD-00502,CUST-047,2023-03-15,2023-03-18,PROD-027,8,951.45,0.19,8.11,Central,755.5353856196044,Second Class,Net Banking,3,2023,Customer 47,Corporate,India,Product 27,Technology,Tables,Not Returned
+ORD-00503,CUST-023,2023-02-28,2023-03-04,PROD-017,8,589.99,0.13,20.07,West,490.8432296257406,Standard Class,Cash on Delivery,2,2023,Customer 23,Corporate,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00504,CUST-079,2023-09-05,2023-09-10,PROD-012,2,447.88,0.05,19.12,West,411.0303128741232,Standard Class,Credit Card,9,2023,Customer 79,Home Office,Germany,Product 12,Furniture,Phones,Not Returned
+ORD-00505,CUST-085,2023-07-22,2023-07-25,PROD-022,2,588.49,0.18,33.6,West,454.16869496422675,Same Day,Net Banking,7,2023,Customer 85,Consumer,UK,Product 22,Furniture,Phones,Not Returned
+ORD-00506,CUST-014,2023-03-16,2023-03-18,PROD-017,3,526.36,0.21,21.02,West,384.00907147833965,Same Day,UPI,3,2023,Customer 14,Home Office,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00507,CUST-066,2023-05-02,2023-05-05,PROD-010,3,763.6,0.34,11.68,Central,502.2665935645364,Second Class,Cash on Delivery,5,2023,Customer 66,Corporate,USA,Product 10,Technology,Chairs,Not Returned
+ORD-00508,CUST-075,2023-06-24,2023-06-28,PROD-001,1,296.85,0.33,31.84,West,178.32300089355485,Second Class,Credit Card,6,2023,Customer 75,Corporate,Canada,Product 1,Furniture,Binders,Not Returned
+ORD-00509,CUST-051,2023-02-06,2023-02-09,PROD-022,3,365.99,0.04,41.65,West,298.4019014278144,Standard Class,Credit Card,2,2023,Customer 51,Corporate,UK,Product 22,Furniture,Phones,Returned
+ORD-00510,CUST-038,2023-03-14,2023-03-19,PROD-026,6,896.21,0.2,22.2,East,686.5296313035885,First Class,Credit Card,3,2023,Customer 38,Home Office,Germany,Product 26,Technology,Storage,Not Returned
+ORD-00511,CUST-064,2023-12-07,2023-12-10,PROD-018,8,947.53,0.09,10.95,Central,863.2132068314619,Standard Class,Cash on Delivery,12,2023,Customer 64,Corporate,USA,Product 18,Office Supplies,Phones,Returned
+ORD-00512,CUST-098,2023-08-29,2023-09-03,PROD-050,6,894.71,0.08,13.85,South,807.8146647874471,Second Class,Net Banking,8,2023,Customer 98,Home Office,Germany,Product 50,Furniture,Storage,Not Returned
+ORD-00513,CUST-038,2023-12-30,2024-01-04,PROD-014,5,431.06,0.41,15.69,South,216.43762052548152,First Class,Credit Card,12,2023,Customer 38,Home Office,Germany,Product 14,Office Supplies,Phones,Not Returned
+ORD-00514,CUST-050,2023-10-18,2023-10-19,PROD-047,4,784.76,0.02,18.5,East,736.5679849526731,Same Day,UPI,10,2023,Customer 50,Corporate,UK,Product 47,Technology,Phones,Not Returned
+ORD-00515,CUST-098,2023-02-16,2023-02-18,PROD-029,3,486.81,0.21,33.93,East,348.1562037482752,Second Class,Credit Card,2,2023,Customer 98,Home Office,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00516,CUST-082,2023-08-19,2023-08-20,PROD-012,4,507.59,0.08,32.04,Central,423.31237349715394,Second Class,Net Banking,8,2023,Customer 82,Consumer,Germany,Product 12,Furniture,Phones,Not Returned
+ORD-00517,CUST-030,2023-07-28,2023-07-31,PROD-036,7,220.59,0.44,36.32,South,83.0761622936356,First Class,Cash on Delivery,7,2023,Customer 30,Home Office,India,Product 36,Technology,Chairs,Not Returned
+ORD-00518,CUST-079,2023-01-09,2023-01-12,PROD-035,1,599.31,0.28,21.31,West,410.51716213683574,Second Class,Credit Card,1,2023,Customer 79,Home Office,Germany,Product 35,Furniture,Binders,Not Returned
+ORD-00519,CUST-091,2023-05-02,2023-05-04,PROD-012,7,202.41,0.12,42.08,East,150.66334604034728,Second Class,Credit Card,5,2023,Customer 91,Consumer,Canada,Product 12,Furniture,Phones,Not Returned
+ORD-00520,CUST-051,2023-11-20,2023-11-23,PROD-007,1,344.93,0.25,14.18,South,241.61296083772208,Second Class,UPI,11,2023,Customer 51,Corporate,UK,Product 7,Office Supplies,Storage,Not Returned
+ORD-00521,CUST-063,2023-08-12,2023-08-13,PROD-029,2,857.93,0.37,26.11,Central,525.1113179957276,Second Class,UPI,8,2023,Customer 63,Corporate,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00522,CUST-098,2023-10-03,2023-10-07,PROD-011,4,222.93,0.48,41.04,West,89.17120162036771,Second Class,Credit Card,10,2023,Customer 98,Home Office,Germany,Product 11,Technology,Chairs,Not Returned
+ORD-00523,CUST-052,2023-06-15,2023-06-20,PROD-033,1,89.74,0.11,13.11,Central,81.10169669352076,Second Class,Credit Card,6,2023,Customer 52,Consumer,Canada,Product 33,Technology,Binders,Not Returned
+ORD-00524,CUST-038,2023-04-30,2023-05-02,PROD-006,9,87.63,0.44,9.94,East,41.98034593385569,Second Class,UPI,4,2023,Customer 38,Home Office,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-00525,CUST-097,2023-01-03,2023-01-05,PROD-047,6,941.97,0.47,44.77,South,434.8412085216103,Second Class,Net Banking,1,2023,Customer 97,Consumer,UK,Product 47,Technology,Phones,Not Returned
+ORD-00526,CUST-088,2023-06-12,2023-06-15,PROD-015,1,516.78,0.46,20.43,South,263.23944865403865,Same Day,Debit Card,6,2023,Customer 88,Consumer,UK,Product 15,Furniture,Binders,Not Returned
+ORD-00527,CUST-079,2023-09-13,2023-09-14,PROD-032,1,421.22,0.32,35.77,South,261.1435988781354,Second Class,Debit Card,9,2023,Customer 79,Home Office,Germany,Product 32,Technology,Chairs,Not Returned
+ORD-00528,CUST-030,2023-05-09,2023-05-12,PROD-011,6,814.66,0.31,6.14,South,555.1647289456457,Same Day,Credit Card,5,2023,Customer 30,Home Office,India,Product 11,Technology,Chairs,Not Returned
+ORD-00529,CUST-051,2023-05-15,2023-05-19,PROD-023,4,839.11,0.2,36.05,West,652.6838387007525,Same Day,UPI,5,2023,Customer 51,Corporate,UK,Product 23,Technology,Chairs,Returned
+ORD-00530,CUST-081,2023-04-22,2023-04-25,PROD-026,4,345.55,0.38,19.22,West,203.61933561467458,Standard Class,Cash on Delivery,4,2023,Customer 81,Home Office,USA,Product 26,Technology,Storage,Not Returned
+ORD-00531,CUST-005,2023-12-13,2023-12-14,PROD-034,6,699.75,0.27,7.51,Central,508.99023377152787,Standard Class,Cash on Delivery,12,2023,Customer 5,Consumer,India,Product 34,Furniture,Chairs,Not Returned
+ORD-00532,CUST-029,2023-12-26,2023-12-27,PROD-046,7,775.7,0.34,32.44,West,490.3858071120584,Same Day,Debit Card,12,2023,Customer 29,Home Office,UK,Product 46,Office Supplies,Phones,Not Returned
+ORD-00533,CUST-004,2023-03-07,2023-03-10,PROD-034,9,661.56,0.21,15.84,East,510.1260985126088,Same Day,Net Banking,3,2023,Customer 4,Home Office,USA,Product 34,Furniture,Chairs,Not Returned
+ORD-00534,CUST-010,2023-05-15,2023-05-16,PROD-029,5,168.56,0.37,22.41,East,58.85469500604647,Second Class,Debit Card,5,2023,Customer 10,Home Office,UK,Product 29,Office Supplies,Tables,Not Returned
+ORD-00535,CUST-056,2023-07-23,2023-07-25,PROD-004,9,878.37,0.41,8.63,South,504.61691048529644,Standard Class,Credit Card,7,2023,Customer 56,Home Office,Germany,Product 4,Office Supplies,Tables,Not Returned
+ORD-00536,CUST-017,2023-02-12,2023-02-16,PROD-017,4,548.31,0.07,11.62,East,510.27998027247844,First Class,Net Banking,2,2023,Customer 17,Corporate,USA,Product 17,Office Supplies,Binders,Returned
+ORD-00537,CUST-074,2023-07-06,2023-07-11,PROD-035,2,296.82,0.42,18.41,Central,145.66968659901707,Standard Class,Cash on Delivery,7,2023,Customer 74,Corporate,USA,Product 35,Furniture,Binders,Not Returned
+ORD-00538,CUST-017,2023-11-17,2023-11-19,PROD-013,3,436.72,0.27,9.04,West,307.5308749476306,Same Day,UPI,11,2023,Customer 17,Corporate,USA,Product 13,Technology,Phones,Not Returned
+ORD-00539,CUST-084,2023-04-12,2023-04-13,PROD-041,1,56.82,0.42,45.99,West,-23.48276313903071,Same Day,UPI,4,2023,Customer 84,Consumer,USA,Product 41,Furniture,Chairs,Not Returned
+ORD-00540,CUST-088,2023-01-03,2023-01-05,PROD-039,6,145.31,0.22,5.27,West,125.9110259520177,Second Class,Credit Card,1,2023,Customer 88,Consumer,UK,Product 39,Technology,Phones,Not Returned
+ORD-00541,CUST-069,2023-03-30,2023-04-03,PROD-015,6,770.24,0.19,26.77,East,613.9393245741802,Second Class,Debit Card,3,2023,Customer 69,Corporate,Germany,Product 15,Furniture,Binders,Not Returned
+ORD-00542,CUST-034,2023-06-27,2023-07-01,PROD-029,1,20.01,0.46,10.55,West,-8.583288951407292,Standard Class,Credit Card,6,2023,Customer 34,Corporate,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00543,CUST-006,2023-12-05,2023-12-09,PROD-029,3,428.23,0.13,18.85,South,355.18308000389084,Second Class,UPI,12,2023,Customer 6,Consumer,India,Product 29,Office Supplies,Tables,Not Returned
+ORD-00544,CUST-053,2023-02-23,2023-02-26,PROD-011,5,532.06,0.42,46.67,South,255.11985952235952,First Class,Cash on Delivery,2,2023,Customer 53,Corporate,USA,Product 11,Technology,Chairs,Not Returned
+ORD-00545,CUST-066,2023-04-10,2023-04-13,PROD-032,3,73.54,0.24,12.28,South,49.75984639031378,First Class,UPI,4,2023,Customer 66,Corporate,USA,Product 32,Technology,Chairs,Not Returned
+ORD-00546,CUST-077,2023-08-05,2023-08-10,PROD-002,3,973.62,0.26,48.46,East,677.1156307724233,Second Class,Net Banking,8,2023,Customer 77,Corporate,India,Product 2,Technology,Binders,Not Returned
+ORD-00547,CUST-043,2023-05-15,2023-05-19,PROD-047,3,241.6,0.15,14.26,West,199.21705571613265,First Class,UPI,5,2023,Customer 43,Home Office,India,Product 47,Technology,Phones,Not Returned
+ORD-00548,CUST-075,2023-10-11,2023-10-13,PROD-014,5,318.11,0.29,38.37,East,190.80728447707887,First Class,UPI,10,2023,Customer 75,Corporate,Canada,Product 14,Office Supplies,Phones,Returned
+ORD-00549,CUST-023,2023-10-11,2023-10-12,PROD-020,5,317.86,0.16,29.6,West,266.7564620638847,Standard Class,Net Banking,10,2023,Customer 23,Corporate,USA,Product 20,Technology,Binders,Not Returned
+ORD-00550,CUST-055,2023-02-05,2023-02-10,PROD-022,4,245.81,0.02,44.8,Central,185.8145623498926,First Class,Debit Card,2,2023,Customer 55,Corporate,Germany,Product 22,Furniture,Phones,Not Returned
+ORD-00551,CUST-080,2023-12-23,2023-12-25,PROD-011,1,21.44,0.14,29.93,Central,-28.59763354436514,Same Day,UPI,12,2023,Customer 80,Corporate,India,Product 11,Technology,Chairs,Not Returned
+ORD-00552,CUST-095,2023-10-01,2023-10-06,PROD-027,5,734.76,0.0,29.06,East,701.7690979929854,Same Day,Credit Card,10,2023,Customer 95,Consumer,USA,Product 27,Technology,Tables,Not Returned
+ORD-00553,CUST-075,2023-05-31,2023-06-02,PROD-003,5,967.51,0.49,13.8,South,463.9502173443973,Standard Class,UPI,5,2023,Customer 75,Corporate,Canada,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00554,CUST-016,2023-03-25,2023-03-30,PROD-017,4,239.81,0.48,12.48,East,97.29657729994007,Second Class,Credit Card,3,2023,Customer 16,Consumer,UK,Product 17,Office Supplies,Binders,Not Returned
+ORD-00555,CUST-008,2023-08-20,2023-08-21,PROD-044,6,669.79,0.2,46.24,South,479.5788534580203,Standard Class,Net Banking,8,2023,Customer 8,Corporate,India,Product 44,Technology,Phones,Not Returned
+ORD-00556,CUST-004,2023-07-16,2023-07-21,PROD-028,4,747.06,0.36,19.75,West,449.1465109456837,Second Class,UPI,7,2023,Customer 4,Home Office,USA,Product 28,Technology,Tables,Not Returned
+ORD-00557,CUST-004,2023-03-26,2023-03-30,PROD-029,7,851.46,0.17,21.74,South,675.4256189804994,Second Class,Net Banking,3,2023,Customer 4,Home Office,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00558,CUST-056,2023-09-17,2023-09-22,PROD-021,7,434.18,0.34,39.19,South,252.5509895044541,Second Class,Net Banking,9,2023,Customer 56,Home Office,Germany,Product 21,Furniture,Binders,Not Returned
+ORD-00559,CUST-025,2023-07-05,2023-07-06,PROD-047,2,316.87,0.4,20.25,West,164.81010938914662,Second Class,Debit Card,7,2023,Customer 25,Consumer,Canada,Product 47,Technology,Phones,Returned
+ORD-00560,CUST-067,2023-04-21,2023-04-24,PROD-016,3,338.79,0.47,47.84,Central,129.92355425127522,Second Class,UPI,4,2023,Customer 67,Corporate,India,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00561,CUST-096,2023-07-28,2023-08-01,PROD-037,1,718.37,0.2,38.21,West,545.4283277450094,Standard Class,Credit Card,7,2023,Customer 96,Consumer,UK,Product 37,Office Supplies,Storage,Not Returned
+ORD-00562,CUST-067,2023-07-17,2023-07-18,PROD-020,8,820.44,0.39,31.88,East,460.9251747521858,Second Class,Credit Card,7,2023,Customer 67,Corporate,India,Product 20,Technology,Binders,Not Returned
+ORD-00563,CUST-027,2023-10-19,2023-10-23,PROD-006,9,197.98,0.13,44.64,East,124.95714101295276,First Class,UPI,10,2023,Customer 27,Consumer,USA,Product 6,Office Supplies,Binders,Not Returned
+ORD-00564,CUST-093,2023-02-02,2023-02-03,PROD-019,4,383.52,0.5,7.23,East,188.18759986092917,First Class,Debit Card,2,2023,Customer 93,Consumer,USA,Product 19,Technology,Chairs,Not Returned
+ORD-00565,CUST-032,2023-08-25,2023-08-28,PROD-005,6,903.9,0.01,16.57,East,858.8753219937977,Second Class,Debit Card,8,2023,Customer 32,Home Office,UK,Product 5,Furniture,Chairs,Returned
+ORD-00566,CUST-050,2023-10-21,2023-10-26,PROD-003,9,810.56,0.3,25.93,East,517.6129449104942,First Class,Debit Card,10,2023,Customer 50,Corporate,UK,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00567,CUST-061,2023-10-12,2023-10-15,PROD-001,6,985.16,0.33,15.21,Central,648.308373287977,Same Day,Credit Card,10,2023,Customer 61,Corporate,UK,Product 1,Furniture,Binders,Not Returned
+ORD-00568,CUST-051,2023-02-01,2023-02-05,PROD-038,9,759.16,0.34,38.48,Central,467.4857428056689,Standard Class,Net Banking,2,2023,Customer 51,Corporate,UK,Product 38,Furniture,Binders,Not Returned
+ORD-00569,CUST-019,2023-03-21,2023-03-23,PROD-015,4,405.33,0.06,46.36,South,355.29240134852404,Standard Class,Debit Card,3,2023,Customer 19,Corporate,India,Product 15,Furniture,Binders,Not Returned
+ORD-00570,CUST-021,2023-06-08,2023-06-10,PROD-034,8,598.83,0.47,24.07,East,294.89084875866814,Second Class,Credit Card,6,2023,Customer 21,Consumer,India,Product 34,Furniture,Chairs,Returned
+ORD-00571,CUST-005,2023-11-08,2023-11-13,PROD-035,9,667.79,0.09,20.4,West,595.486297172581,Second Class,Credit Card,11,2023,Customer 5,Consumer,India,Product 35,Furniture,Binders,Not Returned
+ORD-00572,CUST-082,2023-01-27,2023-02-01,PROD-049,4,96.89,0.31,48.27,East,16.62937356414025,Same Day,Net Banking,1,2023,Customer 82,Consumer,Germany,Product 49,Office Supplies,Tables,Not Returned
+ORD-00573,CUST-092,2023-04-02,2023-04-03,PROD-025,5,553.61,0.11,25.02,Central,470.66517221585093,Second Class,UPI,4,2023,Customer 92,Consumer,USA,Product 25,Furniture,Chairs,Returned
+ORD-00574,CUST-042,2023-06-11,2023-06-13,PROD-024,8,715.13,0.15,27.01,East,597.5230684174953,First Class,UPI,6,2023,Customer 42,Home Office,Canada,Product 24,Office Supplies,Phones,Returned
+ORD-00575,CUST-061,2023-08-25,2023-08-28,PROD-012,6,183.97,0.27,20.82,Central,92.23817181874365,Same Day,Debit Card,8,2023,Customer 61,Corporate,UK,Product 12,Furniture,Phones,Not Returned
+ORD-00576,CUST-022,2023-08-03,2023-08-08,PROD-018,7,785.02,0.21,45.93,South,578.3719625757168,First Class,Debit Card,8,2023,Customer 22,Consumer,India,Product 18,Office Supplies,Phones,Returned
+ORD-00577,CUST-021,2023-01-05,2023-01-09,PROD-015,3,592.1,0.08,30.6,South,535.4878673007737,Standard Class,Net Banking,1,2023,Customer 21,Consumer,India,Product 15,Furniture,Binders,Not Returned
+ORD-00578,CUST-070,2023-05-08,2023-05-13,PROD-044,7,953.18,0.09,39.3,South,830.9141421920934,First Class,Debit Card,5,2023,Customer 70,Consumer,Canada,Product 44,Technology,Phones,Not Returned
+ORD-00579,CUST-001,2023-04-12,2023-04-14,PROD-016,8,61.57,0.21,41.53,Central,23.61602963232848,Standard Class,Net Banking,4,2023,Customer 1,Home Office,Germany,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00580,CUST-005,2023-03-01,2023-03-06,PROD-027,6,280.02,0.38,20.38,East,146.94027850470556,First Class,Credit Card,3,2023,Customer 5,Consumer,India,Product 27,Technology,Tables,Not Returned
+ORD-00581,CUST-012,2023-05-19,2023-05-23,PROD-008,9,609.52,0.45,24.52,East,310.39552505836286,Standard Class,Debit Card,5,2023,Customer 12,Home Office,USA,Product 8,Technology,Storage,Not Returned
+ORD-00582,CUST-090,2023-08-13,2023-08-16,PROD-046,6,310.63,0.04,43.18,West,255.36004702388584,Second Class,Credit Card,8,2023,Customer 90,Consumer,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00583,CUST-046,2023-12-19,2023-12-24,PROD-025,9,720.14,0.2,21.35,Central,532.5860892064122,First Class,Cash on Delivery,12,2023,Customer 46,Home Office,Canada,Product 25,Furniture,Chairs,Not Returned
+ORD-00584,CUST-034,2023-06-07,2023-06-11,PROD-017,4,763.83,0.05,40.73,West,673.226721721498,Standard Class,Net Banking,6,2023,Customer 34,Corporate,Germany,Product 17,Office Supplies,Binders,Not Returned
+ORD-00585,CUST-049,2023-09-18,2023-09-22,PROD-029,8,120.47,0.01,47.34,South,60.95654920616013,First Class,Cash on Delivery,9,2023,Customer 49,Corporate,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00586,CUST-078,2023-08-07,2023-08-12,PROD-008,4,523.58,0.33,33.04,East,325.9792607803252,Same Day,Debit Card,8,2023,Customer 78,Home Office,UK,Product 8,Technology,Storage,Returned
+ORD-00587,CUST-090,2023-03-06,2023-03-10,PROD-015,2,518.71,0.3,38.37,Central,333.4485310568405,Second Class,Credit Card,3,2023,Customer 90,Consumer,USA,Product 15,Furniture,Binders,Not Returned
+ORD-00588,CUST-045,2023-03-02,2023-03-03,PROD-027,9,381.9,0.08,41.23,West,313.35836442706534,Standard Class,Debit Card,3,2023,Customer 45,Consumer,Germany,Product 27,Technology,Tables,Not Returned
+ORD-00589,CUST-027,2023-12-12,2023-12-14,PROD-046,5,934.27,0.12,43.03,West,787.3686289685571,Same Day,Cash on Delivery,12,2023,Customer 27,Consumer,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00590,CUST-073,2023-05-01,2023-05-05,PROD-050,4,830.96,0.01,22.78,West,798.2289058727823,First Class,Debit Card,5,2023,Customer 73,Corporate,India,Product 50,Furniture,Storage,Not Returned
+ORD-00591,CUST-026,2023-07-05,2023-07-08,PROD-007,2,703.27,0.42,7.31,East,412.6059166953955,Same Day,UPI,7,2023,Customer 26,Consumer,India,Product 7,Office Supplies,Storage,Not Returned
+ORD-00592,CUST-047,2023-10-23,2023-10-25,PROD-003,1,720.04,0.49,23.08,East,344.2282844263207,First Class,Cash on Delivery,10,2023,Customer 47,Corporate,India,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00593,CUST-086,2023-04-23,2023-04-26,PROD-029,7,472.48,0.07,35.32,East,404.6650404742675,Second Class,Debit Card,4,2023,Customer 86,Corporate,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00594,CUST-056,2023-06-14,2023-06-15,PROD-044,6,922.57,0.12,25.27,Central,783.935673667376,Same Day,Credit Card,6,2023,Customer 56,Home Office,Germany,Product 44,Technology,Phones,Not Returned
+ORD-00595,CUST-094,2023-04-29,2023-05-03,PROD-024,2,700.7,0.43,38.7,East,367.54350477636433,Second Class,Debit Card,4,2023,Customer 94,Home Office,India,Product 24,Office Supplies,Phones,Not Returned
+ORD-00596,CUST-063,2023-08-08,2023-08-13,PROD-003,8,734.4,0.46,21.06,Central,371.3040118338709,Standard Class,Credit Card,8,2023,Customer 63,Corporate,USA,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00597,CUST-048,2023-07-13,2023-07-18,PROD-020,4,864.46,0.21,33.56,West,659.1277137719807,First Class,UPI,7,2023,Customer 48,Consumer,India,Product 20,Technology,Binders,Not Returned
+ORD-00598,CUST-061,2023-02-09,2023-02-12,PROD-046,8,288.59,0.03,13.39,West,255.2208085928399,First Class,Debit Card,2,2023,Customer 61,Corporate,UK,Product 46,Office Supplies,Phones,Not Returned
+ORD-00599,CUST-081,2023-08-01,2023-08-02,PROD-015,7,810.93,0.02,38.72,South,745.002237452718,Second Class,UPI,8,2023,Customer 81,Home Office,USA,Product 15,Furniture,Binders,Not Returned
+ORD-00600,CUST-026,2023-08-12,2023-08-15,PROD-025,5,211.34,0.29,29.56,East,127.36566755126503,Second Class,Cash on Delivery,8,2023,Customer 26,Consumer,India,Product 25,Furniture,Chairs,Not Returned
+ORD-00601,CUST-036,2023-04-21,2023-04-22,PROD-030,8,358.44,0.2,14.18,West,271.68655785416985,Standard Class,Credit Card,4,2023,Customer 36,Corporate,India,Product 30,Technology,Phones,Not Returned
+ORD-00602,CUST-001,2023-10-06,2023-10-09,PROD-014,9,348.9,0.01,18.14,East,322.7320858384687,Same Day,Cash on Delivery,10,2023,Customer 1,Home Office,Germany,Product 14,Office Supplies,Phones,Not Returned
+ORD-00603,CUST-008,2023-12-14,2023-12-18,PROD-007,5,978.95,0.29,38.69,Central,665.2650773247545,First Class,Credit Card,12,2023,Customer 8,Corporate,India,Product 7,Office Supplies,Storage,Returned
+ORD-00604,CUST-099,2023-08-03,2023-08-07,PROD-017,5,859.41,0.01,26.72,West,818.023285859139,First Class,UPI,8,2023,Customer 99,Consumer,Canada,Product 17,Office Supplies,Binders,Not Returned
+ORD-00605,CUST-052,2023-06-23,2023-06-26,PROD-044,2,707.15,0.39,14.72,East,414.6394874569963,Standard Class,Net Banking,6,2023,Customer 52,Consumer,Canada,Product 44,Technology,Phones,Not Returned
+ORD-00606,CUST-079,2023-09-01,2023-09-06,PROD-020,5,732.52,0.15,48.53,West,588.1042795007115,Standard Class,Debit Card,9,2023,Customer 79,Home Office,Germany,Product 20,Technology,Binders,Not Returned
+ORD-00607,CUST-047,2023-02-04,2023-02-07,PROD-036,3,570.83,0.02,37.18,West,537.6248234581066,Second Class,UPI,2,2023,Customer 47,Corporate,India,Product 36,Technology,Chairs,Not Returned
+ORD-00608,CUST-056,2023-04-27,2023-05-02,PROD-009,7,948.15,0.29,48.07,East,640.8404821027032,Second Class,Credit Card,4,2023,Customer 56,Home Office,Germany,Product 9,Technology,Phones,Not Returned
+ORD-00609,CUST-086,2023-02-10,2023-02-13,PROD-038,5,506.33,0.2,24.22,West,378.0227422306609,Same Day,Credit Card,2,2023,Customer 86,Corporate,Germany,Product 38,Furniture,Binders,Not Returned
+ORD-00610,CUST-014,2023-11-06,2023-11-11,PROD-048,8,392.91,0.49,26.38,West,186.31112904984474,Standard Class,Credit Card,11,2023,Customer 14,Home Office,USA,Product 48,Technology,Phones,Not Returned
+ORD-00611,CUST-090,2023-02-05,2023-02-06,PROD-022,1,179.77,0.27,45.41,West,76.33257172231322,Same Day,Credit Card,2,2023,Customer 90,Consumer,USA,Product 22,Furniture,Phones,Not Returned
+ORD-00612,CUST-028,2023-10-02,2023-10-04,PROD-002,3,790.48,0.14,28.63,West,642.1137712527794,Standard Class,Debit Card,10,2023,Customer 28,Home Office,Canada,Product 2,Technology,Binders,Not Returned
+ORD-00613,CUST-087,2023-08-25,2023-08-29,PROD-024,3,739.76,0.35,36.83,Central,420.5094414737564,First Class,Cash on Delivery,8,2023,Customer 87,Home Office,Germany,Product 24,Office Supplies,Phones,Not Returned
+ORD-00614,CUST-078,2023-01-04,2023-01-07,PROD-008,9,396.67,0.14,16.35,West,341.5148820189853,Standard Class,Net Banking,1,2023,Customer 78,Home Office,UK,Product 8,Technology,Storage,Not Returned
+ORD-00615,CUST-088,2023-05-23,2023-05-24,PROD-011,5,44.69,0.45,25.1,South,-9.160298490760784,Standard Class,Debit Card,5,2023,Customer 88,Consumer,UK,Product 11,Technology,Chairs,Not Returned
+ORD-00616,CUST-002,2023-02-01,2023-02-05,PROD-013,9,842.22,0.19,10.56,West,670.3728742025295,First Class,Credit Card,2,2023,Customer 2,Consumer,India,Product 13,Technology,Phones,Not Returned
+ORD-00617,CUST-026,2023-10-24,2023-10-25,PROD-017,9,31.19,0.27,14.27,East,-0.6045434192828392,Standard Class,Debit Card,10,2023,Customer 26,Consumer,India,Product 17,Office Supplies,Binders,Not Returned
+ORD-00618,CUST-014,2023-09-07,2023-09-12,PROD-008,1,709.63,0.03,5.04,South,690.2527524833014,Same Day,UPI,9,2023,Customer 14,Home Office,USA,Product 8,Technology,Storage,Not Returned
+ORD-00619,CUST-059,2023-05-06,2023-05-11,PROD-021,2,970.85,0.21,6.77,Central,756.4451633928268,Second Class,Credit Card,5,2023,Customer 59,Home Office,Germany,Product 21,Furniture,Binders,Not Returned
+ORD-00620,CUST-056,2023-10-26,2023-10-29,PROD-018,5,448.91,0.42,48.98,South,198.33963109567057,Second Class,Net Banking,10,2023,Customer 56,Home Office,Germany,Product 18,Office Supplies,Phones,Not Returned
+ORD-00621,CUST-007,2023-04-25,2023-04-28,PROD-030,4,250.27,0.4,15.91,South,138.66862564186061,Same Day,Credit Card,4,2023,Customer 7,Home Office,USA,Product 30,Technology,Phones,Not Returned
+ORD-00622,CUST-003,2023-09-22,2023-09-23,PROD-018,9,710.77,0.11,34.85,South,583.3979997518976,First Class,Net Banking,9,2023,Customer 3,Home Office,India,Product 18,Office Supplies,Phones,Not Returned
+ORD-00623,CUST-023,2023-06-30,2023-07-01,PROD-046,7,820.79,0.11,42.76,East,679.3690427468451,Standard Class,Net Banking,6,2023,Customer 23,Corporate,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00624,CUST-018,2023-11-10,2023-11-12,PROD-047,6,555.5,0.41,29.78,East,276.89610885373924,Same Day,Cash on Delivery,11,2023,Customer 18,Corporate,Canada,Product 47,Technology,Phones,Returned
+ORD-00625,CUST-038,2023-08-28,2023-09-02,PROD-031,7,967.69,0.47,11.89,East,486.746118878024,Second Class,Cash on Delivery,8,2023,Customer 38,Home Office,Germany,Product 31,Technology,Storage,Returned
+ORD-00626,CUST-099,2023-01-05,2023-01-07,PROD-038,1,70.64,0.05,37.77,Central,31.12329169720478,Second Class,Debit Card,1,2023,Customer 99,Consumer,Canada,Product 38,Furniture,Binders,Not Returned
+ORD-00627,CUST-015,2023-09-21,2023-09-25,PROD-032,1,514.7,0.23,32.01,East,344.66363961897076,Same Day,Debit Card,9,2023,Customer 15,Corporate,Germany,Product 32,Technology,Chairs,Not Returned
+ORD-00628,CUST-064,2023-03-04,2023-03-07,PROD-011,8,724.08,0.17,37.91,East,548.2649427537829,Second Class,Net Banking,3,2023,Customer 64,Corporate,USA,Product 11,Technology,Chairs,Not Returned
+ORD-00629,CUST-089,2023-04-08,2023-04-11,PROD-045,2,865.39,0.44,39.64,South,444.954710838672,Same Day,Credit Card,4,2023,Customer 89,Corporate,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00630,CUST-028,2023-10-31,2023-11-02,PROD-025,9,195.67,0.04,48.89,East,133.51713103906945,Second Class,UPI,10,2023,Customer 28,Home Office,Canada,Product 25,Furniture,Chairs,Not Returned
+ORD-00631,CUST-074,2023-04-21,2023-04-26,PROD-033,7,804.0,0.11,30.81,West,704.6703663595932,Same Day,UPI,4,2023,Customer 74,Corporate,USA,Product 33,Technology,Binders,Not Returned
+ORD-00632,CUST-039,2023-01-29,2023-02-02,PROD-038,6,561.65,0.38,20.37,East,346.1919654602437,Standard Class,Credit Card,1,2023,Customer 39,Consumer,Canada,Product 38,Furniture,Binders,Not Returned
+ORD-00633,CUST-057,2023-02-12,2023-02-17,PROD-041,1,408.62,0.03,34.18,Central,353.50217537248847,Standard Class,Credit Card,2,2023,Customer 57,Home Office,Germany,Product 41,Furniture,Chairs,Not Returned
+ORD-00634,CUST-017,2023-07-17,2023-07-20,PROD-008,1,149.08,0.25,8.08,Central,109.30137618403482,Standard Class,Cash on Delivery,7,2023,Customer 17,Corporate,USA,Product 8,Technology,Storage,Not Returned
+ORD-00635,CUST-086,2023-12-07,2023-12-10,PROD-011,2,867.99,0.22,45.38,West,639.1450255687945,Standard Class,UPI,12,2023,Customer 86,Corporate,Germany,Product 11,Technology,Chairs,Not Returned
+ORD-00636,CUST-090,2023-09-15,2023-09-19,PROD-022,6,174.13,0.17,10.37,Central,128.18311141975596,Second Class,Net Banking,9,2023,Customer 90,Consumer,USA,Product 22,Furniture,Phones,Not Returned
+ORD-00637,CUST-044,2023-09-10,2023-09-13,PROD-024,6,323.59,0.2,19.75,Central,224.16658463501798,First Class,Debit Card,9,2023,Customer 44,Consumer,Canada,Product 24,Office Supplies,Phones,Not Returned
+ORD-00638,CUST-025,2023-10-13,2023-10-14,PROD-041,2,304.24,0.26,41.71,South,183.30461550691942,Same Day,Cash on Delivery,10,2023,Customer 25,Consumer,Canada,Product 41,Furniture,Chairs,Not Returned
+ORD-00639,CUST-017,2023-03-29,2023-03-31,PROD-017,1,873.99,0.08,31.88,West,770.462343251859,First Class,UPI,3,2023,Customer 17,Corporate,USA,Product 17,Office Supplies,Binders,Not Returned
+ORD-00640,CUST-013,2023-11-22,2023-11-24,PROD-012,5,679.25,0.29,22.71,South,455.1998550302938,Second Class,Credit Card,11,2023,Customer 13,Consumer,Germany,Product 12,Furniture,Phones,Not Returned
+ORD-00641,CUST-084,2023-08-28,2023-09-01,PROD-046,5,800.75,0.4,26.3,South,458.5731686816448,Second Class,UPI,8,2023,Customer 84,Consumer,USA,Product 46,Office Supplies,Phones,Returned
+ORD-00642,CUST-025,2023-06-02,2023-06-07,PROD-032,2,265.46,0.38,43.45,East,113.627903929944,First Class,Net Banking,6,2023,Customer 25,Consumer,Canada,Product 32,Technology,Chairs,Not Returned
+ORD-00643,CUST-068,2023-05-22,2023-05-24,PROD-015,6,632.38,0.08,20.3,West,549.9696245242087,First Class,Cash on Delivery,5,2023,Customer 68,Corporate,USA,Product 15,Furniture,Binders,Not Returned
+ORD-00644,CUST-010,2023-03-02,2023-03-07,PROD-016,9,580.31,0.07,44.13,East,496.64912970349826,Second Class,Credit Card,3,2023,Customer 10,Home Office,UK,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00645,CUST-067,2023-10-30,2023-10-31,PROD-022,2,836.17,0.13,8.97,East,722.3576009256888,Second Class,Net Banking,10,2023,Customer 67,Corporate,India,Product 22,Furniture,Phones,Not Returned
+ORD-00646,CUST-018,2023-11-15,2023-11-17,PROD-028,2,907.97,0.18,39.96,South,692.8089505609995,Same Day,Debit Card,11,2023,Customer 18,Corporate,Canada,Product 28,Technology,Tables,Not Returned
+ORD-00647,CUST-100,2023-08-10,2023-08-12,PROD-020,3,31.91,0.2,43.14,Central,-8.331093890089187,Standard Class,Cash on Delivery,8,2023,Customer 100,Consumer,USA,Product 20,Technology,Binders,Not Returned
+ORD-00648,CUST-086,2023-05-18,2023-05-19,PROD-033,7,680.54,0.34,13.18,West,418.2715886222391,Standard Class,Net Banking,5,2023,Customer 86,Corporate,Germany,Product 33,Technology,Binders,Not Returned
+ORD-00649,CUST-034,2023-09-02,2023-09-06,PROD-010,6,70.8,0.03,24.37,Central,38.52486541284357,Same Day,Net Banking,9,2023,Customer 34,Corporate,Germany,Product 10,Technology,Chairs,Not Returned
+ORD-00650,CUST-008,2023-04-20,2023-04-24,PROD-040,8,557.88,0.02,12.45,South,531.6923146380238,First Class,Credit Card,4,2023,Customer 8,Corporate,India,Product 40,Furniture,Chairs,Not Returned
+ORD-00651,CUST-040,2023-01-04,2023-01-08,PROD-032,8,301.88,0.2,36.8,South,198.34176287348072,Second Class,Debit Card,1,2023,Customer 40,Home Office,Germany,Product 32,Technology,Chairs,Not Returned
+ORD-00652,CUST-083,2023-02-18,2023-02-22,PROD-050,6,320.64,0.35,29.09,South,173.67539526448806,First Class,Net Banking,2,2023,Customer 83,Corporate,USA,Product 50,Furniture,Storage,Not Returned
+ORD-00653,CUST-042,2023-01-29,2023-02-02,PROD-033,3,365.9,0.1,33.59,South,314.43074482308117,Standard Class,Cash on Delivery,1,2023,Customer 42,Home Office,Canada,Product 33,Technology,Binders,Not Returned
+ORD-00654,CUST-041,2023-10-03,2023-10-06,PROD-002,3,628.87,0.32,13.84,South,405.28275910961105,Standard Class,Net Banking,10,2023,Customer 41,Consumer,Canada,Product 2,Technology,Binders,Not Returned
+ORD-00655,CUST-006,2023-09-24,2023-09-26,PROD-033,1,347.37,0.13,14.53,South,312.0941172247192,First Class,UPI,9,2023,Customer 6,Consumer,India,Product 33,Technology,Binders,Not Returned
+ORD-00656,CUST-052,2023-11-27,2023-11-29,PROD-033,7,738.05,0.44,6.87,Central,410.8092677973105,Standard Class,Cash on Delivery,11,2023,Customer 52,Consumer,Canada,Product 33,Technology,Binders,Returned
+ORD-00657,CUST-026,2023-01-30,2023-02-01,PROD-041,5,416.44,0.45,19.49,East,210.47255137311993,Second Class,Cash on Delivery,1,2023,Customer 26,Consumer,India,Product 41,Furniture,Chairs,Not Returned
+ORD-00658,CUST-064,2023-08-23,2023-08-28,PROD-013,4,86.99,0.15,30.19,Central,48.51390353387665,Same Day,Net Banking,8,2023,Customer 64,Corporate,USA,Product 13,Technology,Phones,Not Returned
+ORD-00659,CUST-098,2023-11-22,2023-11-25,PROD-030,4,788.08,0.11,43.61,West,683.0804774925195,First Class,Credit Card,11,2023,Customer 98,Home Office,Germany,Product 30,Technology,Phones,Not Returned
+ORD-00660,CUST-059,2023-04-23,2023-04-28,PROD-033,4,300.04,0.21,35.01,Central,192.08566996068555,Second Class,Cash on Delivery,4,2023,Customer 59,Home Office,Germany,Product 33,Technology,Binders,Not Returned
+ORD-00661,CUST-056,2023-12-10,2023-12-12,PROD-013,6,444.11,0.12,24.59,South,355.0226208106361,Second Class,UPI,12,2023,Customer 56,Home Office,Germany,Product 13,Technology,Phones,Not Returned
+ORD-00662,CUST-059,2023-06-17,2023-06-18,PROD-026,8,691.74,0.34,47.89,Central,401.1097380342808,Standard Class,Credit Card,6,2023,Customer 59,Home Office,Germany,Product 26,Technology,Storage,Not Returned
+ORD-00663,CUST-070,2023-07-10,2023-07-12,PROD-022,8,345.81,0.41,37.37,East,166.97933146964562,Second Class,Credit Card,7,2023,Customer 70,Consumer,Canada,Product 22,Furniture,Phones,Not Returned
+ORD-00664,CUST-033,2023-12-05,2023-12-06,PROD-039,5,75.45,0.34,46.86,West,-14.320711248125736,First Class,Credit Card,12,2023,Customer 33,Corporate,UK,Product 39,Technology,Phones,Not Returned
+ORD-00665,CUST-053,2023-06-27,2023-07-02,PROD-002,6,386.44,0.41,28.74,Central,199.48299239318612,Second Class,Cash on Delivery,6,2023,Customer 53,Corporate,USA,Product 2,Technology,Binders,Returned
+ORD-00666,CUST-022,2023-07-30,2023-08-02,PROD-038,4,945.56,0.2,16.65,East,756.7334713341368,Same Day,Credit Card,7,2023,Customer 22,Consumer,India,Product 38,Furniture,Binders,Not Returned
+ORD-00667,CUST-021,2023-01-15,2023-01-19,PROD-039,9,648.9,0.08,7.38,Central,591.1220739062478,Second Class,Net Banking,1,2023,Customer 21,Consumer,India,Product 39,Technology,Phones,Not Returned
+ORD-00668,CUST-070,2023-02-08,2023-02-09,PROD-026,8,678.05,0.37,37.67,West,386.5746454102472,Second Class,Credit Card,2,2023,Customer 70,Consumer,Canada,Product 26,Technology,Storage,Not Returned
+ORD-00669,CUST-070,2023-03-12,2023-03-15,PROD-046,1,639.64,0.18,10.46,Central,507.86319551316376,Same Day,UPI,3,2023,Customer 70,Consumer,Canada,Product 46,Office Supplies,Phones,Not Returned
+ORD-00670,CUST-004,2023-06-27,2023-07-01,PROD-050,2,215.01,0.34,18.62,South,132.2717170455156,Second Class,Debit Card,6,2023,Customer 4,Home Office,USA,Product 50,Furniture,Storage,Not Returned
+ORD-00671,CUST-094,2023-06-12,2023-06-14,PROD-015,9,429.97,0.14,28.96,Central,332.5558722676196,Second Class,UPI,6,2023,Customer 94,Home Office,India,Product 15,Furniture,Binders,Not Returned
+ORD-00672,CUST-075,2023-12-09,2023-12-11,PROD-034,8,755.92,0.04,30.4,East,713.7471592059925,Standard Class,Cash on Delivery,12,2023,Customer 75,Corporate,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00673,CUST-062,2023-04-15,2023-04-16,PROD-042,3,119.35,0.5,32.03,Central,46.978597477143566,First Class,Credit Card,4,2023,Customer 62,Consumer,Germany,Product 42,Office Supplies,Binders,Not Returned
+ORD-00674,CUST-062,2023-04-04,2023-04-06,PROD-044,8,292.3,0.08,12.48,East,259.0035079866179,Standard Class,Credit Card,4,2023,Customer 62,Consumer,Germany,Product 44,Technology,Phones,Not Returned
+ORD-00675,CUST-094,2023-09-06,2023-09-08,PROD-049,1,290.79,0.49,22.09,West,126.09774911923357,First Class,Net Banking,9,2023,Customer 94,Home Office,India,Product 49,Office Supplies,Tables,Not Returned
+ORD-00676,CUST-095,2023-05-25,2023-05-27,PROD-040,4,443.38,0.49,32.77,Central,203.66039808241558,Same Day,Credit Card,5,2023,Customer 95,Consumer,USA,Product 40,Furniture,Chairs,Not Returned
+ORD-00677,CUST-024,2023-06-24,2023-06-29,PROD-011,3,980.76,0.4,48.64,West,550.7639850222732,Same Day,UPI,6,2023,Customer 24,Corporate,India,Product 11,Technology,Chairs,Not Returned
+ORD-00678,CUST-055,2023-12-11,2023-12-16,PROD-003,6,86.15,0.33,37.74,West,11.920582689405837,Same Day,Cash on Delivery,12,2023,Customer 55,Corporate,Germany,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00679,CUST-009,2023-03-15,2023-03-20,PROD-006,7,528.33,0.29,46.52,Central,323.328748668633,First Class,Debit Card,3,2023,Customer 9,Home Office,Canada,Product 6,Office Supplies,Binders,Not Returned
+ORD-00680,CUST-003,2023-03-16,2023-03-20,PROD-009,4,195.78,0.43,39.3,East,59.07112565316706,First Class,Credit Card,3,2023,Customer 3,Home Office,India,Product 9,Technology,Phones,Not Returned
+ORD-00681,CUST-031,2023-06-25,2023-06-27,PROD-006,7,971.26,0.14,31.63,West,807.7442493833405,First Class,Debit Card,6,2023,Customer 31,Corporate,USA,Product 6,Office Supplies,Binders,Not Returned
+ORD-00682,CUST-040,2023-03-02,2023-03-07,PROD-009,9,131.04,0.23,13.64,West,93.9270788345689,Same Day,Credit Card,3,2023,Customer 40,Home Office,Germany,Product 9,Technology,Phones,Not Returned
+ORD-00683,CUST-036,2023-06-23,2023-06-26,PROD-039,2,415.53,0.31,35.0,Central,238.21644362138724,First Class,Cash on Delivery,6,2023,Customer 36,Corporate,India,Product 39,Technology,Phones,Not Returned
+ORD-00684,CUST-024,2023-10-24,2023-10-27,PROD-031,3,743.13,0.21,33.05,Central,549.4707109518386,Second Class,UPI,10,2023,Customer 24,Corporate,India,Product 31,Technology,Storage,Not Returned
+ORD-00685,CUST-095,2023-04-21,2023-04-26,PROD-032,5,710.46,0.21,32.11,Central,515.6808608241865,Standard Class,Cash on Delivery,4,2023,Customer 95,Consumer,USA,Product 32,Technology,Chairs,Not Returned
+ORD-00686,CUST-006,2023-08-19,2023-08-23,PROD-041,3,434.27,0.17,27.04,Central,324.4161018975616,Same Day,Debit Card,8,2023,Customer 6,Consumer,India,Product 41,Furniture,Chairs,Not Returned
+ORD-00687,CUST-066,2023-06-25,2023-06-30,PROD-050,8,359.59,0.28,28.79,Central,235.62497060226298,Standard Class,Credit Card,6,2023,Customer 66,Corporate,USA,Product 50,Furniture,Storage,Not Returned
+ORD-00688,CUST-084,2023-08-31,2023-09-05,PROD-012,8,409.66,0.43,20.05,South,206.12137933321722,Second Class,Debit Card,8,2023,Customer 84,Consumer,USA,Product 12,Furniture,Phones,Not Returned
+ORD-00689,CUST-092,2023-08-10,2023-08-13,PROD-008,8,278.99,0.1,28.37,Central,219.71274043967702,First Class,UPI,8,2023,Customer 92,Consumer,USA,Product 8,Technology,Storage,Not Returned
+ORD-00690,CUST-075,2023-03-07,2023-03-10,PROD-008,9,221.23,0.47,13.89,East,87.08878272052685,Standard Class,Cash on Delivery,3,2023,Customer 75,Corporate,Canada,Product 8,Technology,Storage,Not Returned
+ORD-00691,CUST-004,2023-08-11,2023-08-16,PROD-050,4,493.38,0.34,41.23,West,286.2707020972466,Second Class,Debit Card,8,2023,Customer 4,Home Office,USA,Product 50,Furniture,Storage,Not Returned
+ORD-00692,CUST-079,2023-01-29,2023-01-30,PROD-028,5,283.16,0.41,13.36,East,153.26166680155353,Second Class,Debit Card,1,2023,Customer 79,Home Office,Germany,Product 28,Technology,Tables,Not Returned
+ORD-00693,CUST-006,2023-11-10,2023-11-13,PROD-020,5,301.71,0.28,8.82,East,201.12160749966836,Standard Class,UPI,11,2023,Customer 6,Consumer,India,Product 20,Technology,Binders,Not Returned
+ORD-00694,CUST-094,2023-05-14,2023-05-16,PROD-047,8,663.62,0.39,24.63,South,378.28805702317527,Same Day,Credit Card,5,2023,Customer 94,Home Office,India,Product 47,Technology,Phones,Not Returned
+ORD-00695,CUST-051,2023-11-23,2023-11-25,PROD-007,7,969.17,0.01,34.62,Central,926.6612488050345,Standard Class,Debit Card,11,2023,Customer 51,Corporate,UK,Product 7,Office Supplies,Storage,Not Returned
+ORD-00696,CUST-062,2023-03-14,2023-03-16,PROD-011,9,611.56,0.41,24.7,West,327.97171851090656,Same Day,UPI,3,2023,Customer 62,Consumer,Germany,Product 11,Technology,Chairs,Not Returned
+ORD-00697,CUST-057,2023-11-07,2023-11-10,PROD-020,8,95.44,0.02,17.45,East,61.3185745599822,First Class,Credit Card,11,2023,Customer 57,Home Office,Germany,Product 20,Technology,Binders,Not Returned
+ORD-00698,CUST-066,2023-01-25,2023-01-30,PROD-016,2,94.07,0.44,30.12,Central,40.614944326868155,Same Day,Credit Card,1,2023,Customer 66,Corporate,USA,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00699,CUST-079,2023-02-19,2023-02-21,PROD-004,4,952.39,0.5,20.62,Central,449.2422729528973,First Class,Cash on Delivery,2,2023,Customer 79,Home Office,Germany,Product 4,Office Supplies,Tables,Not Returned
+ORD-00700,CUST-075,2023-08-10,2023-08-15,PROD-006,6,311.34,0.15,46.98,South,216.69139896813107,Standard Class,UPI,8,2023,Customer 75,Corporate,Canada,Product 6,Office Supplies,Binders,Not Returned
+ORD-00701,CUST-008,2023-08-23,2023-08-24,PROD-022,2,110.23,0.11,46.52,South,61.69309735020314,First Class,Credit Card,8,2023,Customer 8,Corporate,India,Product 22,Furniture,Phones,Not Returned
+ORD-00702,CUST-026,2023-05-29,2023-06-02,PROD-026,7,607.06,0.38,27.61,South,384.0577518757048,Second Class,Cash on Delivery,5,2023,Customer 26,Consumer,India,Product 26,Technology,Storage,Not Returned
+ORD-00703,CUST-051,2023-01-02,2023-01-06,PROD-003,3,631.18,0.13,19.75,West,516.9317355011112,First Class,Net Banking,1,2023,Customer 51,Corporate,UK,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00704,CUST-045,2023-01-09,2023-01-13,PROD-041,3,655.53,0.43,38.17,East,339.9803721372651,Same Day,UPI,1,2023,Customer 45,Consumer,Germany,Product 41,Furniture,Chairs,Not Returned
+ORD-00705,CUST-044,2023-05-18,2023-05-21,PROD-042,2,282.05,0.05,6.65,South,254.22197714705896,Same Day,Net Banking,5,2023,Customer 44,Consumer,Canada,Product 42,Office Supplies,Binders,Not Returned
+ORD-00706,CUST-005,2023-09-16,2023-09-21,PROD-014,8,34.81,0.06,26.36,South,0.9734969542328944,Same Day,Credit Card,9,2023,Customer 5,Consumer,India,Product 14,Office Supplies,Phones,Returned
+ORD-00707,CUST-070,2023-12-19,2023-12-23,PROD-011,6,965.72,0.49,20.13,South,465.1850797899321,First Class,UPI,12,2023,Customer 70,Consumer,Canada,Product 11,Technology,Chairs,Not Returned
+ORD-00708,CUST-026,2023-04-29,2023-04-30,PROD-018,1,265.88,0.34,46.42,East,117.80425032199412,Same Day,Cash on Delivery,4,2023,Customer 26,Consumer,India,Product 18,Office Supplies,Phones,Not Returned
+ORD-00709,CUST-068,2023-03-02,2023-03-07,PROD-012,1,682.51,0.42,5.54,East,389.9028863821534,Same Day,Credit Card,3,2023,Customer 68,Corporate,USA,Product 12,Furniture,Phones,Not Returned
+ORD-00710,CUST-019,2023-05-31,2023-06-04,PROD-023,7,712.5,0.16,29.88,South,553.8749731295177,Second Class,UPI,5,2023,Customer 19,Corporate,India,Product 23,Technology,Chairs,Not Returned
+ORD-00711,CUST-084,2023-12-17,2023-12-18,PROD-012,8,617.81,0.34,38.33,South,378.89267566511865,First Class,UPI,12,2023,Customer 84,Consumer,USA,Product 12,Furniture,Phones,Not Returned
+ORD-00712,CUST-097,2023-06-17,2023-06-22,PROD-013,5,326.65,0.3,26.83,Central,202.37502936033374,Second Class,Net Banking,6,2023,Customer 97,Consumer,UK,Product 13,Technology,Phones,Not Returned
+ORD-00713,CUST-020,2023-11-09,2023-11-10,PROD-025,5,285.67,0.3,8.84,South,195.35334972901438,Same Day,Credit Card,11,2023,Customer 20,Corporate,Germany,Product 25,Furniture,Chairs,Not Returned
+ORD-00714,CUST-012,2023-08-16,2023-08-19,PROD-045,4,605.71,0.34,48.76,West,346.3467138805378,Same Day,Cash on Delivery,8,2023,Customer 12,Home Office,USA,Product 45,Office Supplies,Storage,Returned
+ORD-00715,CUST-047,2023-04-09,2023-04-11,PROD-019,6,868.77,0.29,28.31,West,584.8446606578825,Same Day,Cash on Delivery,4,2023,Customer 47,Corporate,India,Product 19,Technology,Chairs,Not Returned
+ORD-00716,CUST-001,2023-11-06,2023-11-11,PROD-046,6,947.8,0.21,32.64,South,718.9976390516732,First Class,Credit Card,11,2023,Customer 1,Home Office,Germany,Product 46,Office Supplies,Phones,Not Returned
+ORD-00717,CUST-090,2023-05-26,2023-05-28,PROD-036,3,123.79,0.14,15.65,East,79.16889367594175,Standard Class,Credit Card,5,2023,Customer 90,Consumer,USA,Product 36,Technology,Chairs,Not Returned
+ORD-00718,CUST-014,2023-02-24,2023-02-26,PROD-045,9,171.73,0.38,26.76,Central,76.13269565586664,Same Day,Debit Card,2,2023,Customer 14,Home Office,USA,Product 45,Office Supplies,Storage,Not Returned
+ORD-00719,CUST-064,2023-03-14,2023-03-17,PROD-008,7,945.84,0.11,24.31,East,808.8914648612155,Same Day,Net Banking,3,2023,Customer 64,Corporate,USA,Product 8,Technology,Storage,Not Returned
+ORD-00720,CUST-038,2023-09-27,2023-09-29,PROD-029,1,741.8,0.35,8.37,South,464.8943118940898,Same Day,Credit Card,9,2023,Customer 38,Home Office,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00721,CUST-037,2023-08-05,2023-08-08,PROD-032,7,885.33,0.12,9.78,West,748.2120175937437,Same Day,Credit Card,8,2023,Customer 37,Home Office,USA,Product 32,Technology,Chairs,Not Returned
+ORD-00722,CUST-011,2023-01-03,2023-01-06,PROD-044,5,218.58,0.31,42.69,Central,121.5234658948,First Class,Debit Card,1,2023,Customer 11,Home Office,UK,Product 44,Technology,Phones,Not Returned
+ORD-00723,CUST-100,2023-12-25,2023-12-28,PROD-018,5,595.83,0.37,15.79,East,352.7175124684623,Standard Class,Debit Card,12,2023,Customer 100,Consumer,USA,Product 18,Office Supplies,Phones,Not Returned
+ORD-00724,CUST-077,2023-09-01,2023-09-04,PROD-006,2,707.12,0.11,13.77,East,627.2005605516356,Standard Class,UPI,9,2023,Customer 77,Corporate,India,Product 6,Office Supplies,Binders,Not Returned
+ORD-00725,CUST-003,2023-06-04,2023-06-09,PROD-018,4,686.51,0.03,27.72,South,648.8826232139428,Standard Class,Cash on Delivery,6,2023,Customer 3,Home Office,India,Product 18,Office Supplies,Phones,Not Returned
+ORD-00726,CUST-033,2023-10-08,2023-10-10,PROD-019,6,419.99,0.07,39.59,Central,338.140702934835,Same Day,Net Banking,10,2023,Customer 33,Corporate,UK,Product 19,Technology,Chairs,Not Returned
+ORD-00727,CUST-006,2023-06-06,2023-06-08,PROD-022,7,35.09,0.3,7.79,West,5.888887643271547,Same Day,UPI,6,2023,Customer 6,Consumer,India,Product 22,Furniture,Phones,Returned
+ORD-00728,CUST-050,2023-12-24,2023-12-28,PROD-037,5,591.27,0.42,30.96,South,337.5816295935569,Standard Class,Credit Card,12,2023,Customer 50,Corporate,UK,Product 37,Office Supplies,Storage,Not Returned
+ORD-00729,CUST-010,2023-10-09,2023-10-14,PROD-032,9,268.04,0.02,10.36,Central,269.82845941927144,Standard Class,Debit Card,10,2023,Customer 10,Home Office,UK,Product 32,Technology,Chairs,Returned
+ORD-00730,CUST-005,2023-02-04,2023-02-09,PROD-041,3,461.25,0.37,6.64,East,283.63231486671896,Same Day,Cash on Delivery,2,2023,Customer 5,Consumer,India,Product 41,Furniture,Chairs,Not Returned
+ORD-00731,CUST-023,2023-07-17,2023-07-21,PROD-003,1,958.43,0.17,7.37,South,790.7006310641733,Same Day,UPI,7,2023,Customer 23,Corporate,USA,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00732,CUST-010,2023-08-09,2023-08-12,PROD-028,4,411.05,0.24,42.54,East,263.5495359705281,Second Class,Cash on Delivery,8,2023,Customer 10,Home Office,UK,Product 28,Technology,Tables,Not Returned
+ORD-00733,CUST-044,2023-07-11,2023-07-15,PROD-010,9,843.01,0.46,10.31,East,449.23892714200343,Second Class,Debit Card,7,2023,Customer 44,Consumer,Canada,Product 10,Technology,Chairs,Returned
+ORD-00734,CUST-002,2023-09-19,2023-09-21,PROD-035,4,204.77,0.17,7.03,South,155.7572809927753,Second Class,UPI,9,2023,Customer 2,Consumer,India,Product 35,Furniture,Binders,Not Returned
+ORD-00735,CUST-013,2023-12-08,2023-12-13,PROD-029,2,679.01,0.23,24.71,South,477.8041623570162,Standard Class,UPI,12,2023,Customer 13,Consumer,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00736,CUST-040,2023-08-31,2023-09-01,PROD-015,5,977.47,0.01,42.98,South,911.4997421348894,First Class,Cash on Delivery,8,2023,Customer 40,Home Office,Germany,Product 15,Furniture,Binders,Not Returned
+ORD-00737,CUST-002,2023-02-27,2023-03-03,PROD-033,3,119.86,0.04,16.81,South,98.46652747850585,Same Day,Debit Card,2,2023,Customer 2,Consumer,India,Product 33,Technology,Binders,Not Returned
+ORD-00738,CUST-084,2023-08-09,2023-08-12,PROD-007,9,28.15,0.13,23.98,South,-10.80017235502588,Second Class,Credit Card,8,2023,Customer 84,Consumer,USA,Product 7,Office Supplies,Storage,Returned
+ORD-00739,CUST-065,2023-04-25,2023-04-30,PROD-012,4,444.91,0.01,6.8,East,432.98812535086466,First Class,UPI,4,2023,Customer 65,Corporate,USA,Product 12,Furniture,Phones,Not Returned
+ORD-00740,CUST-063,2023-11-19,2023-11-22,PROD-049,6,110.77,0.32,25.21,West,39.36698960567135,Same Day,Credit Card,11,2023,Customer 63,Corporate,USA,Product 49,Office Supplies,Tables,Not Returned
+ORD-00741,CUST-073,2023-09-10,2023-09-14,PROD-030,2,753.42,0.21,30.99,West,556.3882607749802,First Class,Debit Card,9,2023,Customer 73,Corporate,India,Product 30,Technology,Phones,Not Returned
+ORD-00742,CUST-017,2023-11-26,2023-11-30,PROD-021,6,916.26,0.27,30.69,South,646.7114530641318,Standard Class,UPI,11,2023,Customer 17,Corporate,USA,Product 21,Furniture,Binders,Not Returned
+ORD-00743,CUST-009,2023-03-10,2023-03-12,PROD-031,3,445.34,0.09,19.96,East,387.77420547640105,Standard Class,UPI,3,2023,Customer 9,Home Office,Canada,Product 31,Technology,Storage,Not Returned
+ORD-00744,CUST-075,2023-12-17,2023-12-22,PROD-024,9,273.54,0.15,19.2,West,213.21235578686657,Standard Class,Credit Card,12,2023,Customer 75,Corporate,Canada,Product 24,Office Supplies,Phones,Not Returned
+ORD-00745,CUST-015,2023-11-15,2023-11-18,PROD-020,2,445.72,0.33,9.8,West,297.62203973070643,Second Class,Net Banking,11,2023,Customer 15,Corporate,Germany,Product 20,Technology,Binders,Returned
+ORD-00746,CUST-024,2023-06-04,2023-06-06,PROD-037,9,728.98,0.48,21.51,West,362.3656859334735,Same Day,Credit Card,6,2023,Customer 24,Corporate,India,Product 37,Office Supplies,Storage,Not Returned
+ORD-00747,CUST-038,2023-11-18,2023-11-23,PROD-004,5,28.87,0.03,9.48,East,32.989532912513674,Standard Class,Credit Card,11,2023,Customer 38,Home Office,Germany,Product 4,Office Supplies,Tables,Not Returned
+ORD-00748,CUST-035,2023-09-30,2023-10-05,PROD-028,8,597.66,0.45,39.5,South,284.61440737684865,Second Class,Net Banking,9,2023,Customer 35,Home Office,Canada,Product 28,Technology,Tables,Not Returned
+ORD-00749,CUST-094,2023-07-07,2023-07-08,PROD-044,2,621.03,0.29,48.48,South,388.15495021472486,Second Class,Debit Card,7,2023,Customer 94,Home Office,India,Product 44,Technology,Phones,Not Returned
+ORD-00750,CUST-095,2023-04-08,2023-04-13,PROD-020,6,644.93,0.28,48.65,South,402.6885073360865,Second Class,Debit Card,4,2023,Customer 95,Consumer,USA,Product 20,Technology,Binders,Not Returned
+ORD-00751,CUST-049,2023-01-21,2023-01-25,PROD-024,3,257.18,0.25,43.93,Central,144.66519282627578,Second Class,UPI,1,2023,Customer 49,Corporate,Germany,Product 24,Office Supplies,Phones,Not Returned
+ORD-00752,CUST-069,2023-05-23,2023-05-26,PROD-050,5,719.77,0.03,32.04,Central,675.7845989430244,Standard Class,Cash on Delivery,5,2023,Customer 69,Corporate,Germany,Product 50,Furniture,Storage,Not Returned
+ORD-00753,CUST-062,2023-11-04,2023-11-09,PROD-049,8,109.56,0.04,36.54,Central,81.63747372262134,Second Class,Cash on Delivery,11,2023,Customer 62,Consumer,Germany,Product 49,Office Supplies,Tables,Not Returned
+ORD-00754,CUST-060,2023-09-30,2023-10-02,PROD-032,1,215.28,0.3,17.83,East,142.46905168086667,Standard Class,UPI,9,2023,Customer 60,Home Office,India,Product 32,Technology,Chairs,Not Returned
+ORD-00755,CUST-050,2023-11-06,2023-11-09,PROD-041,5,879.92,0.17,33.38,West,679.0116813345056,Standard Class,Cash on Delivery,11,2023,Customer 50,Corporate,UK,Product 41,Furniture,Chairs,Not Returned
+ORD-00756,CUST-078,2023-03-27,2023-03-30,PROD-036,3,743.95,0.46,25.5,West,387.0644521266074,Second Class,Credit Card,3,2023,Customer 78,Home Office,UK,Product 36,Technology,Chairs,Not Returned
+ORD-00757,CUST-075,2023-02-23,2023-02-28,PROD-034,4,33.47,0.2,26.69,East,-18.299186232720707,Standard Class,Credit Card,2,2023,Customer 75,Corporate,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00758,CUST-009,2023-05-25,2023-05-27,PROD-036,2,263.41,0.07,39.1,East,214.8524732412235,Same Day,Net Banking,5,2023,Customer 9,Home Office,Canada,Product 36,Technology,Chairs,Not Returned
+ORD-00759,CUST-034,2023-04-17,2023-04-21,PROD-002,9,230.12,0.36,17.69,South,125.90895473428947,Same Day,Net Banking,4,2023,Customer 34,Corporate,Germany,Product 2,Technology,Binders,Not Returned
+ORD-00760,CUST-076,2023-09-22,2023-09-27,PROD-015,3,285.39,0.15,19.31,South,230.29683313933853,First Class,UPI,9,2023,Customer 76,Corporate,USA,Product 15,Furniture,Binders,Not Returned
+ORD-00761,CUST-099,2023-09-29,2023-09-30,PROD-034,2,262.61,0.26,46.61,Central,134.39691652105435,Same Day,UPI,9,2023,Customer 99,Consumer,Canada,Product 34,Furniture,Chairs,Not Returned
+ORD-00762,CUST-035,2023-09-28,2023-09-29,PROD-036,9,81.28,0.35,7.53,Central,57.01367632706147,Standard Class,UPI,9,2023,Customer 35,Home Office,Canada,Product 36,Technology,Chairs,Not Returned
+ORD-00763,CUST-001,2023-05-29,2023-06-03,PROD-006,7,469.76,0.45,26.85,East,216.8682525389511,Standard Class,Credit Card,5,2023,Customer 1,Home Office,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-00764,CUST-040,2023-05-25,2023-05-29,PROD-039,6,738.08,0.4,46.08,Central,390.08345089146826,Same Day,Cash on Delivery,5,2023,Customer 40,Home Office,Germany,Product 39,Technology,Phones,Not Returned
+ORD-00765,CUST-064,2023-04-10,2023-04-12,PROD-042,1,614.6,0.34,32.47,West,363.1850537223096,Second Class,UPI,4,2023,Customer 64,Corporate,USA,Product 42,Office Supplies,Binders,Not Returned
+ORD-00766,CUST-022,2023-02-09,2023-02-12,PROD-012,5,679.41,0.34,29.59,East,401.277751471775,Second Class,UPI,2,2023,Customer 22,Consumer,India,Product 12,Furniture,Phones,Not Returned
+ORD-00767,CUST-060,2023-08-08,2023-08-09,PROD-003,3,99.53,0.47,16.24,East,37.45617567588469,Standard Class,Credit Card,8,2023,Customer 60,Home Office,India,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00768,CUST-064,2023-11-23,2023-11-25,PROD-045,1,952.46,0.15,20.45,West,807.2018911783696,Second Class,Credit Card,11,2023,Customer 64,Corporate,USA,Product 45,Office Supplies,Storage,Not Returned
+ORD-00769,CUST-093,2023-09-20,2023-09-21,PROD-018,4,841.72,0.0,43.34,South,825.0490522232001,First Class,Credit Card,9,2023,Customer 93,Consumer,USA,Product 18,Office Supplies,Phones,Not Returned
+ORD-00770,CUST-072,2023-05-03,2023-05-06,PROD-040,2,808.99,0.14,30.16,South,666.5429578708626,First Class,Cash on Delivery,5,2023,Customer 72,Corporate,India,Product 40,Furniture,Chairs,Not Returned
+ORD-00771,CUST-011,2023-10-24,2023-10-27,PROD-021,2,826.52,0.11,28.16,West,718.6096127506753,Same Day,UPI,10,2023,Customer 11,Home Office,UK,Product 21,Furniture,Binders,Not Returned
+ORD-00772,CUST-014,2023-03-09,2023-03-11,PROD-015,3,934.06,0.33,9.48,West,618.6611463792852,Same Day,Debit Card,3,2023,Customer 14,Home Office,USA,Product 15,Furniture,Binders,Not Returned
+ORD-00773,CUST-060,2023-01-09,2023-01-12,PROD-033,8,553.37,0.32,5.72,Central,375.56043194768205,Second Class,Debit Card,1,2023,Customer 60,Home Office,India,Product 33,Technology,Binders,Not Returned
+ORD-00774,CUST-030,2023-08-26,2023-08-28,PROD-035,8,216.28,0.3,48.37,East,99.60451348872759,Standard Class,UPI,8,2023,Customer 30,Home Office,India,Product 35,Furniture,Binders,Not Returned
+ORD-00775,CUST-035,2023-02-01,2023-02-04,PROD-026,7,624.45,0.01,21.96,Central,598.196269254226,Same Day,UPI,2,2023,Customer 35,Home Office,Canada,Product 26,Technology,Storage,Not Returned
+ORD-00776,CUST-085,2023-07-12,2023-07-14,PROD-008,6,748.02,0.36,32.14,West,451.9675870460643,First Class,UPI,7,2023,Customer 85,Consumer,UK,Product 8,Technology,Storage,Not Returned
+ORD-00777,CUST-037,2023-10-22,2023-10-25,PROD-036,9,743.16,0.16,8.59,Central,609.8798027112366,Same Day,UPI,10,2023,Customer 37,Home Office,USA,Product 36,Technology,Chairs,Returned
+ORD-00778,CUST-005,2023-09-05,2023-09-08,PROD-048,4,531.02,0.33,35.74,West,319.2684570010701,Same Day,Cash on Delivery,9,2023,Customer 5,Consumer,India,Product 48,Technology,Phones,Not Returned
+ORD-00779,CUST-083,2023-07-21,2023-07-26,PROD-030,1,87.09,0.28,46.97,Central,15.150498810025118,First Class,Debit Card,7,2023,Customer 83,Corporate,USA,Product 30,Technology,Phones,Not Returned
+ORD-00780,CUST-078,2023-10-10,2023-10-12,PROD-023,8,383.69,0.17,30.9,Central,295.82673317330523,Standard Class,Net Banking,10,2023,Customer 78,Home Office,UK,Product 23,Technology,Chairs,Not Returned
+ORD-00781,CUST-026,2023-10-31,2023-11-04,PROD-042,7,922.35,0.07,10.68,South,836.4451782837232,Same Day,Debit Card,10,2023,Customer 26,Consumer,India,Product 42,Office Supplies,Binders,Not Returned
+ORD-00782,CUST-062,2023-08-03,2023-08-04,PROD-044,7,592.76,0.05,31.18,West,531.4265779139234,Same Day,Debit Card,8,2023,Customer 62,Consumer,Germany,Product 44,Technology,Phones,Not Returned
+ORD-00783,CUST-004,2023-03-24,2023-03-26,PROD-014,3,547.57,0.42,39.49,Central,297.220654690527,Same Day,Credit Card,3,2023,Customer 4,Home Office,USA,Product 14,Office Supplies,Phones,Returned
+ORD-00784,CUST-089,2023-05-13,2023-05-15,PROD-014,4,283.48,0.46,23.29,East,141.4298015258594,Second Class,UPI,5,2023,Customer 89,Corporate,India,Product 14,Office Supplies,Phones,Not Returned
+ORD-00785,CUST-042,2023-09-24,2023-09-25,PROD-002,9,381.08,0.32,44.59,Central,228.03619048888703,Same Day,UPI,9,2023,Customer 42,Home Office,Canada,Product 2,Technology,Binders,Not Returned
+ORD-00786,CUST-089,2023-06-27,2023-06-29,PROD-037,6,897.44,0.05,34.19,Central,818.6223184017803,First Class,UPI,6,2023,Customer 89,Corporate,India,Product 37,Office Supplies,Storage,Returned
+ORD-00787,CUST-018,2023-02-28,2023-03-01,PROD-005,5,673.13,0.2,45.47,East,496.2439756368602,Standard Class,Credit Card,2,2023,Customer 18,Corporate,Canada,Product 5,Furniture,Chairs,Not Returned
+ORD-00788,CUST-040,2023-07-09,2023-07-14,PROD-038,3,791.64,0.36,33.06,West,483.6119616670293,Standard Class,Cash on Delivery,7,2023,Customer 40,Home Office,Germany,Product 38,Furniture,Binders,Not Returned
+ORD-00789,CUST-072,2023-05-26,2023-05-31,PROD-045,9,465.26,0.39,10.91,South,288.5011552953093,First Class,Cash on Delivery,5,2023,Customer 72,Corporate,India,Product 45,Office Supplies,Storage,Returned
+ORD-00790,CUST-039,2023-07-29,2023-08-02,PROD-041,5,637.64,0.06,18.94,South,560.925570871171,Second Class,Net Banking,7,2023,Customer 39,Consumer,Canada,Product 41,Furniture,Chairs,Not Returned
+ORD-00791,CUST-014,2023-04-17,2023-04-20,PROD-047,5,263.42,0.0,14.08,South,236.18558692950154,First Class,Cash on Delivery,4,2023,Customer 14,Home Office,USA,Product 47,Technology,Phones,Not Returned
+ORD-00792,CUST-032,2023-09-05,2023-09-06,PROD-014,4,711.35,0.36,45.9,East,422.4584410140265,Standard Class,Cash on Delivery,9,2023,Customer 32,Home Office,UK,Product 14,Office Supplies,Phones,Not Returned
+ORD-00793,CUST-051,2023-06-14,2023-06-18,PROD-039,4,439.05,0.18,39.22,Central,318.032106442312,First Class,UPI,6,2023,Customer 51,Corporate,UK,Product 39,Technology,Phones,Not Returned
+ORD-00794,CUST-038,2023-12-27,2024-01-01,PROD-025,1,453.69,0.13,35.44,West,352.5530921074193,Second Class,Debit Card,12,2023,Customer 38,Home Office,Germany,Product 25,Furniture,Chairs,Not Returned
+ORD-00795,CUST-097,2023-12-10,2023-12-13,PROD-020,7,656.34,0.01,18.54,Central,618.6949901300441,Standard Class,Cash on Delivery,12,2023,Customer 97,Consumer,UK,Product 20,Technology,Binders,Returned
+ORD-00796,CUST-023,2023-08-21,2023-08-22,PROD-002,9,937.56,0.27,13.28,South,665.5886329845589,Second Class,Cash on Delivery,8,2023,Customer 23,Corporate,USA,Product 2,Technology,Binders,Not Returned
+ORD-00797,CUST-063,2023-06-26,2023-06-30,PROD-039,3,82.73,0.43,39.04,Central,-5.907592834238239,First Class,Credit Card,6,2023,Customer 63,Corporate,USA,Product 39,Technology,Phones,Not Returned
+ORD-00798,CUST-015,2023-03-12,2023-03-14,PROD-006,2,828.25,0.48,26.34,East,425.2609427273248,Same Day,Net Banking,3,2023,Customer 15,Corporate,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-00799,CUST-097,2023-09-25,2023-09-28,PROD-017,3,306.54,0.28,15.16,East,205.32443948019426,First Class,Credit Card,9,2023,Customer 97,Consumer,UK,Product 17,Office Supplies,Binders,Not Returned
+ORD-00800,CUST-025,2023-11-12,2023-11-13,PROD-025,1,455.04,0.26,32.75,West,303.40009458237284,Second Class,UPI,11,2023,Customer 25,Consumer,Canada,Product 25,Furniture,Chairs,Not Returned
+ORD-00801,CUST-017,2023-01-15,2023-01-16,PROD-028,6,41.48,0.04,6.82,West,38.881566751678314,First Class,Debit Card,1,2023,Customer 17,Corporate,USA,Product 28,Technology,Tables,Not Returned
+ORD-00802,CUST-097,2023-09-17,2023-09-20,PROD-002,7,315.03,0.27,19.68,South,219.91535169266567,Same Day,Net Banking,9,2023,Customer 97,Consumer,UK,Product 2,Technology,Binders,Returned
+ORD-00803,CUST-066,2023-07-27,2023-07-31,PROD-035,2,512.58,0.19,26.09,West,398.55868156554646,Second Class,Credit Card,7,2023,Customer 66,Corporate,USA,Product 35,Furniture,Binders,Not Returned
+ORD-00804,CUST-078,2023-04-17,2023-04-22,PROD-037,8,75.05,0.3,11.66,Central,51.61121943907572,First Class,Cash on Delivery,4,2023,Customer 78,Home Office,UK,Product 37,Office Supplies,Storage,Not Returned
+ORD-00805,CUST-053,2023-07-08,2023-07-13,PROD-005,6,501.27,0.19,49.31,East,350.41024449209146,Second Class,Cash on Delivery,7,2023,Customer 53,Corporate,USA,Product 5,Furniture,Chairs,Not Returned
+ORD-00806,CUST-051,2023-02-08,2023-02-10,PROD-001,4,928.57,0.12,14.41,East,799.7529319504315,Second Class,Net Banking,2,2023,Customer 51,Corporate,UK,Product 1,Furniture,Binders,Not Returned
+ORD-00807,CUST-039,2023-10-24,2023-10-29,PROD-040,5,123.29,0.05,10.87,East,113.94581655442275,Standard Class,Cash on Delivery,10,2023,Customer 39,Consumer,Canada,Product 40,Furniture,Chairs,Not Returned
+ORD-00808,CUST-051,2023-12-20,2023-12-21,PROD-012,8,769.15,0.16,14.16,West,626.6521093836038,Standard Class,Credit Card,12,2023,Customer 51,Corporate,UK,Product 12,Furniture,Phones,Not Returned
+ORD-00809,CUST-070,2023-08-24,2023-08-26,PROD-036,3,421.48,0.05,39.61,East,360.74493367972775,Second Class,Credit Card,8,2023,Customer 70,Consumer,Canada,Product 36,Technology,Chairs,Returned
+ORD-00810,CUST-006,2023-03-28,2023-03-31,PROD-045,3,662.07,0.09,24.15,East,582.3213376442483,First Class,Cash on Delivery,3,2023,Customer 6,Consumer,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00811,CUST-067,2023-07-12,2023-07-17,PROD-023,4,275.03,0.49,30.44,East,117.67715082310376,First Class,Cash on Delivery,7,2023,Customer 67,Corporate,India,Product 23,Technology,Chairs,Not Returned
+ORD-00812,CUST-007,2023-10-19,2023-10-21,PROD-047,1,176.3,0.22,5.95,South,113.78719037629801,First Class,UPI,10,2023,Customer 7,Home Office,USA,Product 47,Technology,Phones,Not Returned
+ORD-00813,CUST-051,2023-05-22,2023-05-26,PROD-031,9,177.25,0.27,6.55,South,129.98995649888943,Same Day,Debit Card,5,2023,Customer 51,Corporate,UK,Product 31,Technology,Storage,Returned
+ORD-00814,CUST-072,2023-05-19,2023-05-21,PROD-011,8,89.08,0.44,25.06,West,22.487559421482754,Second Class,Net Banking,5,2023,Customer 72,Corporate,India,Product 11,Technology,Chairs,Not Returned
+ORD-00815,CUST-042,2023-06-03,2023-06-07,PROD-010,8,201.93,0.5,41.75,East,66.28957710864381,Second Class,Credit Card,6,2023,Customer 42,Home Office,Canada,Product 10,Technology,Chairs,Not Returned
+ORD-00816,CUST-064,2023-07-18,2023-07-23,PROD-003,6,670.93,0.29,44.84,West,439.2896169235482,Same Day,Net Banking,7,2023,Customer 64,Corporate,USA,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00817,CUST-015,2023-01-01,2023-01-04,PROD-014,7,884.06,0.41,8.9,East,528.7745506111917,Second Class,UPI,1,2023,Customer 15,Corporate,Germany,Product 14,Office Supplies,Phones,Not Returned
+ORD-00818,CUST-029,2023-07-22,2023-07-24,PROD-016,6,817.84,0.16,29.23,East,671.290136476212,Second Class,Credit Card,7,2023,Customer 29,Home Office,UK,Product 16,Office Supplies,Chairs,Returned
+ORD-00819,CUST-033,2023-09-20,2023-09-22,PROD-010,9,691.43,0.15,46.1,East,555.0812166261029,Same Day,UPI,9,2023,Customer 33,Corporate,UK,Product 10,Technology,Chairs,Not Returned
+ORD-00820,CUST-094,2023-09-25,2023-09-27,PROD-029,3,128.22,0.2,22.46,West,94.5527031916624,Standard Class,UPI,9,2023,Customer 94,Home Office,India,Product 29,Office Supplies,Tables,Not Returned
+ORD-00821,CUST-027,2023-01-02,2023-01-07,PROD-010,3,303.4,0.34,42.33,West,160.82778984815945,Second Class,Cash on Delivery,1,2023,Customer 27,Consumer,USA,Product 10,Technology,Chairs,Not Returned
+ORD-00822,CUST-036,2023-09-01,2023-09-05,PROD-012,3,323.61,0.34,11.02,East,202.88445087036837,Same Day,Net Banking,9,2023,Customer 36,Corporate,India,Product 12,Furniture,Phones,Not Returned
+ORD-00823,CUST-029,2023-07-10,2023-07-12,PROD-030,3,264.96,0.16,47.09,Central,184.20457083178331,First Class,Net Banking,7,2023,Customer 29,Home Office,UK,Product 30,Technology,Phones,Not Returned
+ORD-00824,CUST-038,2023-01-08,2023-01-12,PROD-041,9,524.71,0.07,38.81,West,456.4911095143302,Standard Class,Cash on Delivery,1,2023,Customer 38,Home Office,Germany,Product 41,Furniture,Chairs,Not Returned
+ORD-00825,CUST-057,2023-12-24,2023-12-26,PROD-001,4,544.84,0.32,47.36,South,320.0405376326174,First Class,Net Banking,12,2023,Customer 57,Home Office,Germany,Product 1,Furniture,Binders,Not Returned
+ORD-00826,CUST-097,2023-01-04,2023-01-09,PROD-005,7,369.75,0.06,35.45,West,316.1632340880827,Second Class,Cash on Delivery,1,2023,Customer 97,Consumer,UK,Product 5,Furniture,Chairs,Not Returned
+ORD-00827,CUST-027,2023-11-20,2023-11-22,PROD-020,9,366.71,0.29,21.35,East,238.663135332154,Standard Class,Credit Card,11,2023,Customer 27,Consumer,USA,Product 20,Technology,Binders,Not Returned
+ORD-00828,CUST-055,2023-03-21,2023-03-26,PROD-008,7,831.98,0.35,47.22,Central,485.0276709153994,Same Day,UPI,3,2023,Customer 55,Corporate,Germany,Product 8,Technology,Storage,Not Returned
+ORD-00829,CUST-033,2023-10-25,2023-10-27,PROD-043,9,793.51,0.35,17.4,East,511.28610741376355,Second Class,UPI,10,2023,Customer 33,Corporate,UK,Product 43,Technology,Phones,Not Returned
+ORD-00830,CUST-068,2023-10-01,2023-10-04,PROD-012,3,321.64,0.38,19.95,South,180.0187924253009,Same Day,Net Banking,10,2023,Customer 68,Corporate,USA,Product 12,Furniture,Phones,Not Returned
+ORD-00831,CUST-086,2023-04-08,2023-04-11,PROD-001,4,915.51,0.44,36.54,West,496.6326825769885,Standard Class,Debit Card,4,2023,Customer 86,Corporate,Germany,Product 1,Furniture,Binders,Not Returned
+ORD-00832,CUST-066,2023-05-01,2023-05-03,PROD-020,8,953.76,0.25,39.44,West,659.6250772980015,First Class,UPI,5,2023,Customer 66,Corporate,USA,Product 20,Technology,Binders,Not Returned
+ORD-00833,CUST-010,2023-01-06,2023-01-09,PROD-028,6,340.21,0.37,46.82,East,161.9445122715663,Second Class,Cash on Delivery,1,2023,Customer 10,Home Office,UK,Product 28,Technology,Tables,Not Returned
+ORD-00834,CUST-005,2023-08-12,2023-08-15,PROD-043,5,367.34,0.31,14.22,East,239.57098836690867,Second Class,Debit Card,8,2023,Customer 5,Consumer,India,Product 43,Technology,Phones,Not Returned
+ORD-00835,CUST-074,2023-09-21,2023-09-24,PROD-037,4,515.52,0.09,40.91,South,439.58701097628915,Same Day,Debit Card,9,2023,Customer 74,Corporate,USA,Product 37,Office Supplies,Storage,Not Returned
+ORD-00836,CUST-097,2023-11-09,2023-11-12,PROD-047,8,942.3,0.01,38.23,Central,898.6416937260218,Standard Class,UPI,11,2023,Customer 97,Consumer,UK,Product 47,Technology,Phones,Not Returned
+ORD-00837,CUST-038,2023-07-12,2023-07-13,PROD-037,1,878.79,0.14,7.87,South,750.9941275418074,Same Day,UPI,7,2023,Customer 38,Home Office,Germany,Product 37,Office Supplies,Storage,Not Returned
+ORD-00838,CUST-013,2023-10-27,2023-11-01,PROD-012,9,120.52,0.22,22.43,Central,60.302962074458534,Standard Class,UPI,10,2023,Customer 13,Consumer,Germany,Product 12,Furniture,Phones,Not Returned
+ORD-00839,CUST-031,2023-04-17,2023-04-22,PROD-037,1,404.88,0.31,17.72,West,250.0777860277053,Second Class,Cash on Delivery,4,2023,Customer 31,Corporate,USA,Product 37,Office Supplies,Storage,Not Returned
+ORD-00840,CUST-047,2023-11-13,2023-11-15,PROD-049,8,562.3,0.42,18.7,Central,310.6590466028991,Standard Class,Debit Card,11,2023,Customer 47,Corporate,India,Product 49,Office Supplies,Tables,Not Returned
+ORD-00841,CUST-100,2023-08-26,2023-08-28,PROD-049,4,513.07,0.1,49.23,Central,398.89194006181646,Second Class,Net Banking,8,2023,Customer 100,Consumer,USA,Product 49,Office Supplies,Tables,Not Returned
+ORD-00842,CUST-088,2023-07-12,2023-07-17,PROD-044,9,209.99,0.06,33.92,West,158.1518224971067,Standard Class,Cash on Delivery,7,2023,Customer 88,Consumer,UK,Product 44,Technology,Phones,Not Returned
+ORD-00843,CUST-052,2023-04-05,2023-04-07,PROD-028,5,861.64,0.48,37.3,West,415.7619732908586,First Class,Credit Card,4,2023,Customer 52,Consumer,Canada,Product 28,Technology,Tables,Returned
+ORD-00844,CUST-056,2023-03-26,2023-03-29,PROD-047,3,683.4,0.05,48.95,West,590.4567572772321,Standard Class,UPI,3,2023,Customer 56,Home Office,Germany,Product 47,Technology,Phones,Not Returned
+ORD-00845,CUST-015,2023-10-16,2023-10-19,PROD-015,9,841.15,0.24,21.97,South,633.357559623618,First Class,Debit Card,10,2023,Customer 15,Corporate,Germany,Product 15,Furniture,Binders,Not Returned
+ORD-00846,CUST-029,2023-09-17,2023-09-22,PROD-006,9,861.59,0.29,41.08,West,582.8882634423788,Standard Class,Cash on Delivery,9,2023,Customer 29,Home Office,UK,Product 6,Office Supplies,Binders,Not Returned
+ORD-00847,CUST-008,2023-04-12,2023-04-16,PROD-044,4,753.39,0.27,24.55,East,509.710500016617,Standard Class,Credit Card,4,2023,Customer 8,Corporate,India,Product 44,Technology,Phones,Not Returned
+ORD-00848,CUST-005,2023-01-08,2023-01-13,PROD-020,4,450.43,0.04,44.13,West,378.95908756818017,Same Day,Cash on Delivery,1,2023,Customer 5,Consumer,India,Product 20,Technology,Binders,Not Returned
+ORD-00849,CUST-029,2023-07-25,2023-07-30,PROD-050,8,618.34,0.03,13.13,West,563.8020275550505,Same Day,Cash on Delivery,7,2023,Customer 29,Home Office,UK,Product 50,Furniture,Storage,Not Returned
+ORD-00850,CUST-047,2023-08-05,2023-08-08,PROD-014,2,177.16,0.05,47.65,West,112.82608637451865,Second Class,Net Banking,8,2023,Customer 47,Corporate,India,Product 14,Office Supplies,Phones,Not Returned
+ORD-00851,CUST-068,2023-04-25,2023-04-29,PROD-002,9,680.17,0.29,14.84,Central,475.74458476572397,Same Day,Net Banking,4,2023,Customer 68,Corporate,USA,Product 2,Technology,Binders,Not Returned
+ORD-00852,CUST-076,2023-07-29,2023-07-31,PROD-009,6,195.67,0.27,19.68,South,119.0201505772514,Standard Class,Cash on Delivery,7,2023,Customer 76,Corporate,USA,Product 9,Technology,Phones,Not Returned
+ORD-00853,CUST-045,2023-04-05,2023-04-07,PROD-037,9,700.07,0.12,39.03,West,581.6395724361597,Same Day,Credit Card,4,2023,Customer 45,Consumer,Germany,Product 37,Office Supplies,Storage,Not Returned
+ORD-00854,CUST-002,2023-10-18,2023-10-21,PROD-020,8,245.01,0.32,22.72,South,128.66345681718255,Standard Class,Debit Card,10,2023,Customer 2,Consumer,India,Product 20,Technology,Binders,Not Returned
+ORD-00855,CUST-027,2023-03-05,2023-03-08,PROD-026,7,135.2,0.41,32.37,East,55.37775254581906,First Class,Debit Card,3,2023,Customer 27,Consumer,USA,Product 26,Technology,Storage,Returned
+ORD-00856,CUST-095,2023-03-30,2023-04-04,PROD-029,1,181.98,0.02,25.01,East,147.7793077207165,Standard Class,UPI,3,2023,Customer 95,Consumer,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00857,CUST-036,2023-05-08,2023-05-09,PROD-001,3,21.95,0.25,38.41,West,-21.825803177170947,Second Class,UPI,5,2023,Customer 36,Corporate,India,Product 1,Furniture,Binders,Not Returned
+ORD-00858,CUST-036,2023-01-27,2023-01-29,PROD-035,2,724.36,0.34,15.27,East,461.8788549860694,First Class,Debit Card,1,2023,Customer 36,Corporate,India,Product 35,Furniture,Binders,Not Returned
+ORD-00859,CUST-026,2023-05-25,2023-05-28,PROD-006,5,737.75,0.13,7.63,South,621.4970147910772,Second Class,Cash on Delivery,5,2023,Customer 26,Consumer,India,Product 6,Office Supplies,Binders,Returned
+ORD-00860,CUST-043,2023-09-13,2023-09-16,PROD-037,5,524.63,0.15,18.5,Central,415.9046566826022,Second Class,Cash on Delivery,9,2023,Customer 43,Home Office,India,Product 37,Office Supplies,Storage,Not Returned
+ORD-00861,CUST-027,2023-07-07,2023-07-09,PROD-005,5,178.14,0.31,26.34,West,106.25454469003424,Second Class,Net Banking,7,2023,Customer 27,Consumer,USA,Product 5,Furniture,Chairs,Not Returned
+ORD-00862,CUST-069,2023-05-20,2023-05-24,PROD-033,4,101.88,0.45,12.56,East,47.463921575016954,Same Day,Net Banking,5,2023,Customer 69,Corporate,Germany,Product 33,Technology,Binders,Not Returned
+ORD-00863,CUST-020,2023-06-10,2023-06-14,PROD-049,5,38.75,0.4,20.97,South,12.780490415534269,Second Class,UPI,6,2023,Customer 20,Corporate,Germany,Product 49,Office Supplies,Tables,Not Returned
+ORD-00864,CUST-011,2023-10-22,2023-10-25,PROD-014,3,182.43,0.29,23.0,South,109.77188235502517,First Class,Debit Card,10,2023,Customer 11,Home Office,UK,Product 14,Office Supplies,Phones,Not Returned
+ORD-00865,CUST-074,2023-10-12,2023-10-15,PROD-012,1,893.04,0.37,7.58,East,556.465106348092,Standard Class,Cash on Delivery,10,2023,Customer 74,Corporate,USA,Product 12,Furniture,Phones,Not Returned
+ORD-00866,CUST-038,2023-09-15,2023-09-19,PROD-042,5,256.71,0.18,31.25,South,161.99209381333233,Second Class,Debit Card,9,2023,Customer 38,Home Office,Germany,Product 42,Office Supplies,Binders,Not Returned
+ORD-00867,CUST-006,2023-03-02,2023-03-03,PROD-020,9,367.19,0.32,44.8,South,202.18553303238826,First Class,Credit Card,3,2023,Customer 6,Consumer,India,Product 20,Technology,Binders,Not Returned
+ORD-00868,CUST-072,2023-12-24,2023-12-26,PROD-050,9,123.24,0.23,11.83,West,82.79095679596257,Second Class,Debit Card,12,2023,Customer 72,Corporate,India,Product 50,Furniture,Storage,Not Returned
+ORD-00869,CUST-023,2023-08-18,2023-08-20,PROD-024,4,237.91,0.09,31.9,South,204.12917198272572,Standard Class,Credit Card,8,2023,Customer 23,Corporate,USA,Product 24,Office Supplies,Phones,Not Returned
+ORD-00870,CUST-047,2023-10-03,2023-10-05,PROD-043,3,528.84,0.35,34.91,East,315.7055663209868,First Class,Net Banking,10,2023,Customer 47,Corporate,India,Product 43,Technology,Phones,Not Returned
+ORD-00871,CUST-090,2023-09-10,2023-09-13,PROD-034,1,615.6,0.28,23.87,West,434.7226118170953,First Class,Net Banking,9,2023,Customer 90,Consumer,USA,Product 34,Furniture,Chairs,Not Returned
+ORD-00872,CUST-046,2023-12-30,2024-01-01,PROD-025,2,260.45,0.18,36.55,East,182.9943770589473,Standard Class,UPI,12,2023,Customer 46,Home Office,Canada,Product 25,Furniture,Chairs,Not Returned
+ORD-00873,CUST-012,2023-12-05,2023-12-08,PROD-050,8,76.58,0.46,23.48,Central,10.760167730505207,First Class,Debit Card,12,2023,Customer 12,Home Office,USA,Product 50,Furniture,Storage,Returned
+ORD-00874,CUST-090,2023-03-16,2023-03-21,PROD-029,1,403.21,0.01,27.71,East,372.6391421614985,Standard Class,Debit Card,3,2023,Customer 90,Consumer,USA,Product 29,Office Supplies,Tables,Not Returned
+ORD-00875,CUST-013,2023-09-28,2023-10-02,PROD-039,8,249.52,0.16,5.33,East,206.62903646264232,First Class,Credit Card,9,2023,Customer 13,Consumer,Germany,Product 39,Technology,Phones,Not Returned
+ORD-00876,CUST-062,2023-05-29,2023-05-30,PROD-031,7,235.16,0.03,36.13,West,182.58364430229318,First Class,Net Banking,5,2023,Customer 62,Consumer,Germany,Product 31,Technology,Storage,Not Returned
+ORD-00877,CUST-082,2023-01-11,2023-01-12,PROD-047,8,960.67,0.38,34.76,South,557.0115262340709,Standard Class,Credit Card,1,2023,Customer 82,Consumer,Germany,Product 47,Technology,Phones,Not Returned
+ORD-00878,CUST-089,2023-08-26,2023-08-27,PROD-043,6,623.97,0.35,6.73,East,396.7928300632283,Standard Class,Net Banking,8,2023,Customer 89,Corporate,India,Product 43,Technology,Phones,Not Returned
+ORD-00879,CUST-097,2023-02-05,2023-02-09,PROD-050,9,565.74,0.17,21.57,West,464.05039832565114,First Class,Credit Card,2,2023,Customer 97,Consumer,UK,Product 50,Furniture,Storage,Not Returned
+ORD-00880,CUST-060,2023-06-13,2023-06-18,PROD-023,3,427.46,0.34,49.06,Central,212.25619474609016,First Class,Net Banking,6,2023,Customer 60,Home Office,India,Product 23,Technology,Chairs,Returned
+ORD-00881,CUST-043,2023-07-08,2023-07-10,PROD-044,4,440.37,0.2,23.93,West,340.42418420716047,Standard Class,Credit Card,7,2023,Customer 43,Home Office,India,Product 44,Technology,Phones,Returned
+ORD-00882,CUST-076,2023-05-18,2023-05-21,PROD-038,6,550.09,0.38,27.59,West,304.0978476504062,Same Day,Net Banking,5,2023,Customer 76,Corporate,USA,Product 38,Furniture,Binders,Not Returned
+ORD-00883,CUST-100,2023-07-10,2023-07-13,PROD-020,8,702.5,0.23,45.95,South,481.2542081273039,Standard Class,Credit Card,7,2023,Customer 100,Consumer,USA,Product 20,Technology,Binders,Not Returned
+ORD-00884,CUST-068,2023-09-12,2023-09-13,PROD-023,5,708.1,0.21,37.28,East,533.9184213003847,First Class,Debit Card,9,2023,Customer 68,Corporate,USA,Product 23,Technology,Chairs,Not Returned
+ORD-00885,CUST-005,2023-11-24,2023-11-26,PROD-045,3,188.26,0.47,31.19,Central,75.90678069234382,First Class,UPI,11,2023,Customer 5,Consumer,India,Product 45,Office Supplies,Storage,Not Returned
+ORD-00886,CUST-037,2023-07-09,2023-07-11,PROD-016,6,510.11,0.13,40.9,West,415.4408870238119,First Class,Credit Card,7,2023,Customer 37,Home Office,USA,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00887,CUST-072,2023-07-19,2023-07-20,PROD-050,4,423.72,0.06,43.9,East,362.4038194754558,Standard Class,UPI,7,2023,Customer 72,Corporate,India,Product 50,Furniture,Storage,Not Returned
+ORD-00888,CUST-092,2023-08-07,2023-08-11,PROD-042,9,873.12,0.29,25.56,East,614.9536500173741,First Class,Debit Card,8,2023,Customer 92,Consumer,USA,Product 42,Office Supplies,Binders,Not Returned
+ORD-00889,CUST-031,2023-02-18,2023-02-20,PROD-008,3,638.79,0.48,26.38,West,311.3780383694448,Same Day,Debit Card,2,2023,Customer 31,Corporate,USA,Product 8,Technology,Storage,Not Returned
+ORD-00890,CUST-009,2023-07-22,2023-07-27,PROD-050,4,541.85,0.19,22.37,East,414.96372623876846,Second Class,Net Banking,7,2023,Customer 9,Home Office,Canada,Product 50,Furniture,Storage,Not Returned
+ORD-00891,CUST-051,2023-05-02,2023-05-04,PROD-021,7,133.09,0.03,48.5,West,84.02656377321341,Same Day,UPI,5,2023,Customer 51,Corporate,UK,Product 21,Furniture,Binders,Not Returned
+ORD-00892,CUST-029,2023-09-05,2023-09-09,PROD-001,7,613.53,0.17,36.37,West,485.29459128345957,Standard Class,Cash on Delivery,9,2023,Customer 29,Home Office,UK,Product 1,Furniture,Binders,Not Returned
+ORD-00893,CUST-078,2023-03-24,2023-03-25,PROD-008,4,134.86,0.25,8.75,West,84.60124674739885,First Class,Net Banking,3,2023,Customer 78,Home Office,UK,Product 8,Technology,Storage,Not Returned
+ORD-00894,CUST-040,2023-09-18,2023-09-23,PROD-029,6,350.46,0.08,43.83,Central,272.0743141746862,Standard Class,UPI,9,2023,Customer 40,Home Office,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00895,CUST-041,2023-05-07,2023-05-12,PROD-032,3,159.99,0.33,26.63,West,77.47369985402092,Second Class,Credit Card,5,2023,Customer 41,Consumer,Canada,Product 32,Technology,Chairs,Not Returned
+ORD-00896,CUST-086,2023-03-02,2023-03-03,PROD-038,6,698.23,0.5,8.09,South,319.97917201234674,Standard Class,Credit Card,3,2023,Customer 86,Corporate,Germany,Product 38,Furniture,Binders,Not Returned
+ORD-00897,CUST-011,2023-09-11,2023-09-14,PROD-005,2,222.13,0.23,29.74,East,142.68088408417546,First Class,Debit Card,9,2023,Customer 11,Home Office,UK,Product 5,Furniture,Chairs,Not Returned
+ORD-00898,CUST-023,2023-12-02,2023-12-06,PROD-047,8,404.02,0.18,23.77,Central,288.66511296048975,Second Class,Cash on Delivery,12,2023,Customer 23,Corporate,USA,Product 47,Technology,Phones,Not Returned
+ORD-00899,CUST-001,2023-02-22,2023-02-25,PROD-022,2,897.76,0.2,44.5,East,674.2385931293263,Second Class,Credit Card,2,2023,Customer 1,Home Office,Germany,Product 22,Furniture,Phones,Not Returned
+ORD-00900,CUST-046,2023-09-24,2023-09-27,PROD-047,7,220.23,0.06,14.18,Central,201.48909756135245,First Class,UPI,9,2023,Customer 46,Home Office,Canada,Product 47,Technology,Phones,Not Returned
+ORD-00901,CUST-021,2023-10-21,2023-10-26,PROD-034,9,517.65,0.44,42.19,South,242.92523539356165,First Class,UPI,10,2023,Customer 21,Consumer,India,Product 34,Furniture,Chairs,Not Returned
+ORD-00902,CUST-090,2023-12-29,2024-01-03,PROD-001,1,430.89,0.21,30.1,Central,327.0742587018687,First Class,Credit Card,12,2023,Customer 90,Consumer,USA,Product 1,Furniture,Binders,Not Returned
+ORD-00903,CUST-036,2023-01-01,2023-01-02,PROD-026,8,37.76,0.19,7.46,Central,8.52059100581512,Standard Class,UPI,1,2023,Customer 36,Corporate,India,Product 26,Technology,Storage,Not Returned
+ORD-00904,CUST-054,2023-11-02,2023-11-07,PROD-043,7,796.9,0.33,48.73,Central,497.1056068163182,Same Day,UPI,11,2023,Customer 54,Consumer,Canada,Product 43,Technology,Phones,Not Returned
+ORD-00905,CUST-087,2023-09-21,2023-09-26,PROD-010,6,87.66,0.22,28.07,East,47.0561705640692,Standard Class,Debit Card,9,2023,Customer 87,Home Office,Germany,Product 10,Technology,Chairs,Not Returned
+ORD-00906,CUST-057,2023-05-23,2023-05-28,PROD-030,6,484.77,0.32,18.09,West,294.39326751689305,Standard Class,Cash on Delivery,5,2023,Customer 57,Home Office,Germany,Product 30,Technology,Phones,Returned
+ORD-00907,CUST-001,2023-06-22,2023-06-26,PROD-050,6,569.46,0.03,26.12,East,553.3641429904054,Same Day,Debit Card,6,2023,Customer 1,Home Office,Germany,Product 50,Furniture,Storage,Not Returned
+ORD-00908,CUST-063,2023-02-21,2023-02-25,PROD-018,9,635.86,0.41,43.6,West,330.91994714496036,First Class,Cash on Delivery,2,2023,Customer 63,Corporate,USA,Product 18,Office Supplies,Phones,Not Returned
+ORD-00909,CUST-054,2023-03-31,2023-04-03,PROD-017,2,694.86,0.47,18.72,East,340.7809597784437,First Class,UPI,3,2023,Customer 54,Consumer,Canada,Product 17,Office Supplies,Binders,Not Returned
+ORD-00910,CUST-055,2023-10-22,2023-10-26,PROD-026,1,268.21,0.32,13.67,South,154.6419280521598,Same Day,Cash on Delivery,10,2023,Customer 55,Corporate,Germany,Product 26,Technology,Storage,Not Returned
+ORD-00911,CUST-040,2023-02-14,2023-02-17,PROD-008,6,29.78,0.48,10.81,South,2.4754197234032604,Same Day,UPI,2,2023,Customer 40,Home Office,Germany,Product 8,Technology,Storage,Not Returned
+ORD-00912,CUST-015,2023-11-25,2023-11-28,PROD-047,8,728.97,0.08,18.4,Central,650.9783312761004,Standard Class,UPI,11,2023,Customer 15,Corporate,Germany,Product 47,Technology,Phones,Not Returned
+ORD-00913,CUST-021,2023-01-14,2023-01-16,PROD-040,3,544.94,0.24,40.1,South,375.0808552853967,Second Class,Debit Card,1,2023,Customer 21,Consumer,India,Product 40,Furniture,Chairs,Not Returned
+ORD-00914,CUST-047,2023-02-17,2023-02-19,PROD-049,1,839.4,0.3,26.22,Central,558.3820384377603,Same Day,Debit Card,2,2023,Customer 47,Corporate,India,Product 49,Office Supplies,Tables,Not Returned
+ORD-00915,CUST-073,2023-04-12,2023-04-14,PROD-012,9,824.96,0.29,15.24,West,576.8138531011509,Standard Class,Net Banking,4,2023,Customer 73,Corporate,India,Product 12,Furniture,Phones,Not Returned
+ORD-00916,CUST-053,2023-11-20,2023-11-23,PROD-027,1,846.46,0.2,12.48,South,660.8117016733677,Second Class,Credit Card,11,2023,Customer 53,Corporate,USA,Product 27,Technology,Tables,Not Returned
+ORD-00917,CUST-009,2023-08-16,2023-08-18,PROD-008,3,495.39,0.17,19.97,West,371.85405882759534,First Class,Net Banking,8,2023,Customer 9,Home Office,Canada,Product 8,Technology,Storage,Not Returned
+ORD-00918,CUST-074,2023-01-21,2023-01-23,PROD-025,8,346.96,0.06,47.3,East,277.34878504350354,First Class,Net Banking,1,2023,Customer 74,Corporate,USA,Product 25,Furniture,Chairs,Not Returned
+ORD-00919,CUST-052,2023-10-26,2023-10-31,PROD-046,3,795.73,0.2,20.44,West,592.4692234662672,Standard Class,Cash on Delivery,10,2023,Customer 52,Consumer,Canada,Product 46,Office Supplies,Phones,Returned
+ORD-00920,CUST-057,2023-09-26,2023-09-28,PROD-004,4,462.27,0.08,49.47,East,379.35610630891387,Standard Class,UPI,9,2023,Customer 57,Home Office,Germany,Product 4,Office Supplies,Tables,Not Returned
+ORD-00921,CUST-026,2023-06-19,2023-06-24,PROD-033,8,199.77,0.37,26.84,West,89.22209769717365,Same Day,UPI,6,2023,Customer 26,Consumer,India,Product 33,Technology,Binders,Not Returned
+ORD-00922,CUST-041,2023-08-26,2023-08-31,PROD-001,1,857.87,0.1,13.06,West,760.656603549158,First Class,UPI,8,2023,Customer 41,Consumer,Canada,Product 1,Furniture,Binders,Not Returned
+ORD-00923,CUST-035,2023-02-04,2023-02-09,PROD-019,6,884.91,0.03,45.1,South,826.403449815246,Standard Class,Credit Card,2,2023,Customer 35,Home Office,Canada,Product 19,Technology,Chairs,Not Returned
+ORD-00924,CUST-063,2023-08-04,2023-08-05,PROD-031,1,476.98,0.28,25.72,West,308.21811304732,First Class,Cash on Delivery,8,2023,Customer 63,Corporate,USA,Product 31,Technology,Storage,Not Returned
+ORD-00925,CUST-025,2023-09-20,2023-09-21,PROD-016,1,94.19,0.3,36.94,South,39.60556258512118,First Class,Cash on Delivery,9,2023,Customer 25,Consumer,Canada,Product 16,Office Supplies,Chairs,Not Returned
+ORD-00926,CUST-090,2023-06-07,2023-06-10,PROD-014,8,400.07,0.44,49.27,South,170.43530433313848,Same Day,UPI,6,2023,Customer 90,Consumer,USA,Product 14,Office Supplies,Phones,Not Returned
+ORD-00927,CUST-075,2023-08-03,2023-08-06,PROD-048,4,807.47,0.29,7.26,Central,583.5756480206558,Second Class,Net Banking,8,2023,Customer 75,Corporate,Canada,Product 48,Technology,Phones,Not Returned
+ORD-00928,CUST-038,2023-01-02,2023-01-04,PROD-005,1,903.74,0.17,9.35,Central,737.1026738680179,Same Day,Credit Card,1,2023,Customer 38,Home Office,Germany,Product 5,Furniture,Chairs,Not Returned
+ORD-00929,CUST-002,2023-01-29,2023-01-31,PROD-041,7,219.4,0.4,37.42,East,85.81507014493307,Standard Class,Net Banking,1,2023,Customer 2,Consumer,India,Product 41,Furniture,Chairs,Not Returned
+ORD-00930,CUST-007,2023-10-06,2023-10-10,PROD-026,5,85.63,0.27,17.68,West,51.70228450395288,Same Day,Debit Card,10,2023,Customer 7,Home Office,USA,Product 26,Technology,Storage,Not Returned
+ORD-00931,CUST-082,2023-07-24,2023-07-27,PROD-028,5,879.8,0.04,13.29,East,826.9601027037636,Same Day,Cash on Delivery,7,2023,Customer 82,Consumer,Germany,Product 28,Technology,Tables,Not Returned
+ORD-00932,CUST-091,2023-08-16,2023-08-17,PROD-002,1,401.62,0.28,6.77,West,273.9819048587099,First Class,Cash on Delivery,8,2023,Customer 91,Consumer,Canada,Product 2,Technology,Binders,Returned
+ORD-00933,CUST-034,2023-01-28,2023-01-30,PROD-050,6,550.93,0.45,5.98,Central,292.25310149296206,Same Day,Net Banking,1,2023,Customer 34,Corporate,Germany,Product 50,Furniture,Storage,Not Returned
+ORD-00934,CUST-091,2023-08-15,2023-08-20,PROD-006,9,968.7,0.2,39.85,Central,734.66393467817,Standard Class,Credit Card,8,2023,Customer 91,Consumer,Canada,Product 6,Office Supplies,Binders,Not Returned
+ORD-00935,CUST-017,2023-07-01,2023-07-02,PROD-009,9,85.23,0.15,11.05,West,74.81730131244854,Second Class,Cash on Delivery,7,2023,Customer 17,Corporate,USA,Product 9,Technology,Phones,Not Returned
+ORD-00936,CUST-043,2023-04-16,2023-04-20,PROD-033,8,655.35,0.07,26.05,West,564.0846225454043,Same Day,Net Banking,4,2023,Customer 43,Home Office,India,Product 33,Technology,Binders,Not Returned
+ORD-00937,CUST-059,2023-06-18,2023-06-23,PROD-041,5,92.62,0.08,32.27,Central,53.17120658950421,Same Day,Credit Card,6,2023,Customer 59,Home Office,Germany,Product 41,Furniture,Chairs,Not Returned
+ORD-00938,CUST-051,2023-05-18,2023-05-23,PROD-025,1,387.96,0.22,24.28,Central,284.5778359465404,Second Class,Net Banking,5,2023,Customer 51,Corporate,UK,Product 25,Furniture,Chairs,Not Returned
+ORD-00939,CUST-054,2023-12-20,2023-12-25,PROD-048,9,807.74,0.3,6.22,East,561.1324857499179,Standard Class,Credit Card,12,2023,Customer 54,Consumer,Canada,Product 48,Technology,Phones,Not Returned
+ORD-00940,CUST-024,2023-10-15,2023-10-16,PROD-013,1,444.8,0.04,40.26,Central,399.8466516943353,Standard Class,UPI,10,2023,Customer 24,Corporate,India,Product 13,Technology,Phones,Not Returned
+ORD-00941,CUST-025,2023-10-26,2023-10-29,PROD-009,8,997.24,0.47,5.47,West,522.3237467024147,Same Day,Credit Card,10,2023,Customer 25,Consumer,Canada,Product 9,Technology,Phones,Not Returned
+ORD-00942,CUST-071,2023-11-25,2023-11-27,PROD-013,5,567.88,0.38,39.29,East,310.95008557814054,First Class,Debit Card,11,2023,Customer 71,Home Office,USA,Product 13,Technology,Phones,Not Returned
+ORD-00943,CUST-052,2023-06-29,2023-07-02,PROD-031,3,334.74,0.29,45.2,West,198.38869547013343,Same Day,UPI,6,2023,Customer 52,Consumer,Canada,Product 31,Technology,Storage,Returned
+ORD-00944,CUST-070,2023-08-01,2023-08-03,PROD-041,7,235.71,0.41,24.48,South,115.58203814951351,Second Class,Net Banking,8,2023,Customer 70,Consumer,Canada,Product 41,Furniture,Chairs,Not Returned
+ORD-00945,CUST-088,2023-10-18,2023-10-19,PROD-011,7,363.51,0.04,29.1,East,315.9655126171952,Second Class,UPI,10,2023,Customer 88,Consumer,UK,Product 11,Technology,Chairs,Not Returned
+ORD-00946,CUST-033,2023-02-04,2023-02-09,PROD-004,9,385.08,0.24,26.46,West,271.3622403958638,Second Class,UPI,2,2023,Customer 33,Corporate,UK,Product 4,Office Supplies,Tables,Not Returned
+ORD-00947,CUST-049,2023-05-21,2023-05-25,PROD-034,7,87.34,0.32,22.51,Central,30.35591706783354,Same Day,Net Banking,5,2023,Customer 49,Corporate,Germany,Product 34,Furniture,Chairs,Returned
+ORD-00948,CUST-029,2023-02-04,2023-02-07,PROD-038,3,382.18,0.41,44.93,South,174.44442847980676,Same Day,Net Banking,2,2023,Customer 29,Home Office,UK,Product 38,Furniture,Binders,Not Returned
+ORD-00949,CUST-063,2023-04-04,2023-04-09,PROD-046,1,474.95,0.39,45.23,West,239.20955978234386,Standard Class,Debit Card,4,2023,Customer 63,Corporate,USA,Product 46,Office Supplies,Phones,Not Returned
+ORD-00950,CUST-022,2023-12-04,2023-12-06,PROD-004,8,728.28,0.14,20.11,East,619.741491601664,First Class,Net Banking,12,2023,Customer 22,Consumer,India,Product 4,Office Supplies,Tables,Returned
+ORD-00951,CUST-026,2023-12-11,2023-12-16,PROD-038,3,663.59,0.47,32.68,West,286.81253644014294,Same Day,Cash on Delivery,12,2023,Customer 26,Consumer,India,Product 38,Furniture,Binders,Not Returned
+ORD-00952,CUST-028,2023-03-25,2023-03-27,PROD-019,8,714.59,0.06,46.71,South,628.9605883476294,Standard Class,Cash on Delivery,3,2023,Customer 28,Home Office,Canada,Product 19,Technology,Chairs,Not Returned
+ORD-00953,CUST-085,2023-01-09,2023-01-14,PROD-006,8,28.2,0.44,48.29,East,-32.15528185799778,Same Day,Debit Card,1,2023,Customer 85,Consumer,UK,Product 6,Office Supplies,Binders,Not Returned
+ORD-00954,CUST-049,2023-05-27,2023-05-29,PROD-034,5,233.31,0.49,27.9,South,74.2793954076188,Standard Class,Credit Card,5,2023,Customer 49,Corporate,Germany,Product 34,Furniture,Chairs,Not Returned
+ORD-00955,CUST-071,2023-08-01,2023-08-02,PROD-018,1,668.45,0.09,25.38,West,586.0067677913601,Standard Class,Credit Card,8,2023,Customer 71,Home Office,USA,Product 18,Office Supplies,Phones,Not Returned
+ORD-00956,CUST-081,2023-09-05,2023-09-10,PROD-013,7,494.31,0.36,17.54,Central,303.5759199183153,First Class,Cash on Delivery,9,2023,Customer 81,Home Office,USA,Product 13,Technology,Phones,Not Returned
+ORD-00957,CUST-084,2023-03-13,2023-03-14,PROD-041,5,25.21,0.02,48.15,Central,-17.547807686425998,Same Day,Net Banking,3,2023,Customer 84,Consumer,USA,Product 41,Furniture,Chairs,Not Returned
+ORD-00958,CUST-049,2023-12-27,2023-12-28,PROD-023,8,808.4,0.2,11.43,West,608.7717193695506,Standard Class,Debit Card,12,2023,Customer 49,Corporate,Germany,Product 23,Technology,Chairs,Not Returned
+ORD-00959,CUST-020,2023-11-29,2023-12-02,PROD-019,9,777.35,0.26,31.09,West,557.8128941185444,Second Class,Credit Card,11,2023,Customer 20,Corporate,Germany,Product 19,Technology,Chairs,Not Returned
+ORD-00960,CUST-086,2023-08-17,2023-08-20,PROD-045,7,557.45,0.29,17.71,West,370.70213295315165,Second Class,Credit Card,8,2023,Customer 86,Corporate,Germany,Product 45,Office Supplies,Storage,Not Returned
+ORD-00961,CUST-092,2023-02-23,2023-02-27,PROD-011,7,85.13,0.47,17.56,East,34.42457746753176,Second Class,UPI,2,2023,Customer 92,Consumer,USA,Product 11,Technology,Chairs,Not Returned
+ORD-00962,CUST-063,2023-05-08,2023-05-13,PROD-001,1,771.18,0.34,23.22,South,493.1695378068228,First Class,Cash on Delivery,5,2023,Customer 63,Corporate,USA,Product 1,Furniture,Binders,Returned
+ORD-00963,CUST-061,2023-05-14,2023-05-18,PROD-024,4,592.04,0.24,49.95,South,391.2334291438071,Standard Class,Net Banking,5,2023,Customer 61,Corporate,UK,Product 24,Office Supplies,Phones,Not Returned
+ORD-00964,CUST-049,2023-03-29,2023-04-03,PROD-007,2,786.32,0.4,7.47,South,470.9265995235155,First Class,Debit Card,3,2023,Customer 49,Corporate,Germany,Product 7,Office Supplies,Storage,Not Returned
+ORD-00965,CUST-071,2023-02-25,2023-03-02,PROD-025,2,756.71,0.48,31.03,West,358.6042675908764,Same Day,Credit Card,2,2023,Customer 71,Home Office,USA,Product 25,Furniture,Chairs,Not Returned
+ORD-00966,CUST-001,2023-12-10,2023-12-11,PROD-021,2,806.94,0.01,8.72,South,769.4368282066184,Same Day,UPI,12,2023,Customer 1,Home Office,Germany,Product 21,Furniture,Binders,Not Returned
+ORD-00967,CUST-096,2023-12-08,2023-12-09,PROD-015,4,527.65,0.49,11.95,West,268.8289192552778,Standard Class,Cash on Delivery,12,2023,Customer 96,Consumer,UK,Product 15,Furniture,Binders,Not Returned
+ORD-00968,CUST-013,2023-07-04,2023-07-07,PROD-001,1,157.52,0.04,24.78,East,118.6887503698376,Second Class,Cash on Delivery,7,2023,Customer 13,Consumer,Germany,Product 1,Furniture,Binders,Not Returned
+ORD-00969,CUST-094,2023-05-11,2023-05-16,PROD-012,4,677.73,0.41,27.97,Central,363.3457653726195,Standard Class,Debit Card,5,2023,Customer 94,Home Office,India,Product 12,Furniture,Phones,Not Returned
+ORD-00970,CUST-087,2023-09-29,2023-09-30,PROD-007,2,628.06,0.14,16.65,West,519.4509413196328,Standard Class,Credit Card,9,2023,Customer 87,Home Office,Germany,Product 7,Office Supplies,Storage,Not Returned
+ORD-00971,CUST-051,2023-09-24,2023-09-29,PROD-015,5,747.41,0.07,19.24,West,678.5736672532738,Standard Class,Debit Card,9,2023,Customer 51,Corporate,UK,Product 15,Furniture,Binders,Returned
+ORD-00972,CUST-056,2023-04-14,2023-04-15,PROD-021,3,186.48,0.22,8.91,Central,135.97169589177898,First Class,Debit Card,4,2023,Customer 56,Home Office,Germany,Product 21,Furniture,Binders,Not Returned
+ORD-00973,CUST-083,2023-01-28,2023-02-01,PROD-019,8,211.08,0.32,18.64,Central,130.3750692470717,Same Day,UPI,1,2023,Customer 83,Corporate,USA,Product 19,Technology,Chairs,Not Returned
+ORD-00974,CUST-062,2023-07-18,2023-07-20,PROD-029,4,892.6,0.19,48.5,East,661.1111063347134,Standard Class,Cash on Delivery,7,2023,Customer 62,Consumer,Germany,Product 29,Office Supplies,Tables,Not Returned
+ORD-00975,CUST-032,2023-02-05,2023-02-06,PROD-025,1,754.98,0.03,47.51,South,677.3967362956927,Standard Class,Net Banking,2,2023,Customer 32,Home Office,UK,Product 25,Furniture,Chairs,Not Returned
+ORD-00976,CUST-030,2023-08-15,2023-08-20,PROD-033,1,910.06,0.3,20.07,West,615.8120292767845,Standard Class,Cash on Delivery,8,2023,Customer 30,Home Office,India,Product 33,Technology,Binders,Not Returned
+ORD-00977,CUST-029,2023-06-05,2023-06-10,PROD-049,3,763.54,0.45,30.69,South,408.23587292658704,First Class,Cash on Delivery,6,2023,Customer 29,Home Office,UK,Product 49,Office Supplies,Tables,Not Returned
+ORD-00978,CUST-049,2023-02-03,2023-02-08,PROD-032,9,605.21,0.19,45.93,West,443.15197461586246,First Class,UPI,2,2023,Customer 49,Corporate,Germany,Product 32,Technology,Chairs,Not Returned
+ORD-00979,CUST-045,2023-02-24,2023-02-25,PROD-049,7,661.05,0.11,5.28,East,593.9067226366162,First Class,Net Banking,2,2023,Customer 45,Consumer,Germany,Product 49,Office Supplies,Tables,Not Returned
+ORD-00980,CUST-093,2023-09-14,2023-09-15,PROD-035,2,891.35,0.22,41.48,Central,654.1585516878432,Standard Class,Credit Card,9,2023,Customer 93,Consumer,USA,Product 35,Furniture,Binders,Not Returned
+ORD-00981,CUST-030,2023-03-07,2023-03-11,PROD-044,9,587.23,0.02,47.68,East,522.9688136256244,Second Class,Net Banking,3,2023,Customer 30,Home Office,India,Product 44,Technology,Phones,Not Returned
+ORD-00982,CUST-016,2023-12-22,2023-12-27,PROD-038,2,639.74,0.41,9.11,Central,365.86935575885565,Second Class,Credit Card,12,2023,Customer 16,Consumer,UK,Product 38,Furniture,Binders,Not Returned
+ORD-00983,CUST-040,2023-11-13,2023-11-17,PROD-026,3,173.35,0.41,12.27,South,88.3223028797112,Second Class,Net Banking,11,2023,Customer 40,Home Office,Germany,Product 26,Technology,Storage,Not Returned
+ORD-00984,CUST-019,2023-07-14,2023-07-16,PROD-011,2,484.44,0.29,48.23,South,301.75885738960733,Same Day,Debit Card,7,2023,Customer 19,Corporate,India,Product 11,Technology,Chairs,Not Returned
+ORD-00985,CUST-018,2023-12-27,2023-12-30,PROD-035,3,722.07,0.18,29.19,East,576.6535126757656,Standard Class,Net Banking,12,2023,Customer 18,Corporate,Canada,Product 35,Furniture,Binders,Not Returned
+ORD-00986,CUST-001,2023-05-11,2023-05-14,PROD-008,6,285.52,0.4,5.64,Central,169.2688084768632,Second Class,UPI,5,2023,Customer 1,Home Office,Germany,Product 8,Technology,Storage,Not Returned
+ORD-00987,CUST-078,2023-07-01,2023-07-02,PROD-046,9,218.21,0.28,16.59,East,152.39197678741755,Second Class,Credit Card,7,2023,Customer 78,Home Office,UK,Product 46,Office Supplies,Phones,Not Returned
+ORD-00988,CUST-047,2023-03-23,2023-03-26,PROD-014,9,327.55,0.41,25.25,Central,158.35660262370317,Second Class,Cash on Delivery,3,2023,Customer 47,Corporate,India,Product 14,Office Supplies,Phones,Not Returned
+ORD-00989,CUST-066,2023-03-21,2023-03-22,PROD-010,7,256.67,0.32,36.18,Central,134.20929491185967,Standard Class,UPI,3,2023,Customer 66,Corporate,USA,Product 10,Technology,Chairs,Not Returned
+ORD-00990,CUST-092,2023-03-29,2023-04-02,PROD-002,3,230.61,0.39,37.99,South,95.43907465792333,Second Class,Credit Card,3,2023,Customer 92,Consumer,USA,Product 2,Technology,Binders,Not Returned
+ORD-00991,CUST-094,2023-04-25,2023-04-27,PROD-046,4,436.35,0.3,49.79,South,258.7994459087485,Second Class,Credit Card,4,2023,Customer 94,Home Office,India,Product 46,Office Supplies,Phones,Not Returned
+ORD-00992,CUST-038,2023-07-20,2023-07-23,PROD-009,6,909.68,0.21,17.94,Central,697.1176161482058,Standard Class,Cash on Delivery,7,2023,Customer 38,Home Office,Germany,Product 9,Technology,Phones,Not Returned
+ORD-00993,CUST-051,2023-07-05,2023-07-07,PROD-003,5,516.92,0.48,29.22,Central,246.87612937034197,Same Day,Debit Card,7,2023,Customer 51,Corporate,UK,Product 3,Office Supplies,Chairs,Not Returned
+ORD-00994,CUST-063,2023-08-18,2023-08-21,PROD-021,2,204.16,0.27,29.0,Central,110.72678288367558,First Class,UPI,8,2023,Customer 63,Corporate,USA,Product 21,Furniture,Binders,Not Returned
+ORD-00995,CUST-004,2023-05-23,2023-05-26,PROD-026,6,95.43,0.3,23.25,South,43.98130973321282,Second Class,Cash on Delivery,5,2023,Customer 4,Home Office,USA,Product 26,Technology,Storage,Not Returned
+ORD-00996,CUST-001,2023-02-07,2023-02-10,PROD-008,3,702.23,0.11,12.61,South,619.2432791101226,First Class,Cash on Delivery,2,2023,Customer 1,Home Office,Germany,Product 8,Technology,Storage,Not Returned
+ORD-00997,CUST-008,2023-04-01,2023-04-04,PROD-048,8,395.14,0.31,48.99,West,203.00357224959387,Same Day,Debit Card,4,2023,Customer 8,Corporate,India,Product 48,Technology,Phones,Not Returned
+ORD-00998,CUST-029,2023-01-16,2023-01-21,PROD-002,2,825.39,0.29,43.4,Central,563.843213073302,Same Day,UPI,1,2023,Customer 29,Home Office,UK,Product 2,Technology,Binders,Returned
+ORD-00999,CUST-055,2023-04-06,2023-04-10,PROD-006,1,666.32,0.09,27.42,West,576.0996811512014,Second Class,Cash on Delivery,4,2023,Customer 55,Corporate,Germany,Product 6,Office Supplies,Binders,Not Returned
+ORD-01000,CUST-003,2023-05-30,2023-06-03,PROD-028,9,800.32,0.03,32.15,Central,723.9100008632383,Standard Class,Debit Card,5,2023,Customer 3,Home Office,India,Product 28,Technology,Tables,Not Returned
